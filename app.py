@@ -69,12 +69,7 @@ def calculate_payout(row, score, base=10000):
 def if_then_condition(condition, df):
     if condition == "SAIDI <5 for 3 months":
         monthly = df.groupby([pd.Grouper(key='day', freq='M'), 'site_id'])['SAIDI'].mean().reset_index()
-        monthly['rolling_3m'] = (
-            monthly.groupby('site_id')['SAIDI']
-            .rolling(3, min_periods=1)
-            .mean()
-            .reset_index(level=0, drop=True)
-        )
+        monthly['rolling_3m'] = monthly.groupby('site_id')['SAIDI'].rolling(3, min_periods=1).mean().values  # Simplified rolling (no reset_index mess)
         eligible = monthly[monthly['rolling_3m'] < 5]['site_id'].nunique()
         bonus = eligible * 2000
         return f"Eligible sites: {eligible} | Bonus pool: ${bonus:,.0f}"
@@ -89,20 +84,71 @@ def if_then_condition(condition, df):
     return "Condition not implemented yet."
 
 st.set_page_config(page_title="QA-RBF Mini-Grid Dashboard", layout="wide", initial_sidebar_state="expanded")
-
 st.markdown(
     """
     <style>
     .stApp { background-color: #F3F6F9; }
-    .header { color: #0B3D91; font-size:28px; font-weight:600; }
-    .sub { color: #0B3D91; margin-bottom:8px; }
-    .card { background: #ffffff; border-radius:12px; padding:14px; box-shadow:0 6px 18px rgba(11,61,145,0.06); }
-    .card-title { color:#002B5B; font-weight:600; font-size:14px; margin-bottom:6px; }
-    .card-value { font-size:20px; font-weight:700; color:#0B3D91; }
-    .small { color:#6b7280; font-size:12px; }
+
+    /* Custom Headers */
+    .header { 
+        color: #0A2540;  
+        font-size: 28px; 
+        font-weight: 600; 
+    }
+
+    .sub { 
+        color: #1E3A8A;  
+        margin-bottom: 8px; 
+        font-weight: 500;
+    }
+
+    /* Cards */
+    .card { 
+        background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%); 
+        border-radius: 12px; 
+        padding: 14px; 
+        box-shadow: 0 6px 18px rgba(11,61,145,0.08); 
+    }
+
+    .card-title { 
+        color: #1E3A8A;  
+        font-weight: 600; 
+        font-size: 14px; 
+        margin-bottom: 6px; 
+    }
+
+    .card-value { 
+        font-size: 20px; 
+        font-weight: 700; 
+        color: #0B3D91;  
+        text-shadow: 0 1px 2px rgba(0,0,0,0.1); 
+    }
+
+    .small { 
+        color: #475569;  
+        font-size: 12px; 
+    }
+
+    /* --- GLOBAL TEXT OVERRIDE (MAIN AREA ONLY) --- */
+    section.main h1, 
+    section.main h2, 
+    section.main h3, 
+    section.main h4, 
+    section.main h5, 
+    section.main h6, 
+    section.main p, 
+    section.main span, 
+    section.main div, 
+    section.main label {
+        color: #0A2540 !important;  /* Deep navy text for readability */
+    }
+
+    /* Keep sidebar text original (no override here) */
     </style>
-    """, unsafe_allow_html=True
+    """,
+    unsafe_allow_html=True
 )
+
 
 st.markdown('<div class="header">QA-RBF Mini-Grid Dashboard: North Kivu, DRC 2023</div>', unsafe_allow_html=True)
 st.markdown('<div class="small">Quality-aligned Results-Based Financing — reliability & payout readiness</div>', unsafe_allow_html=True)
@@ -194,12 +240,14 @@ st.dataframe(agg_copy[['site_id', 'minigrid_name', 'SAIDI_mean', 'SAIFI_mean', '
 
 st.markdown("Distribution of Sites per Minigrid (filtered)")
 site_dist = agg_copy.groupby(['minigrid_name', 'site_id']).size().reset_index(name='count')
+# Fix: Merge payout for meaningful values (payout-weighted sunburst)
+site_dist = site_dist.merge(agg_copy[['site_id', 'payout']], on='site_id', how='left')
 if not site_dist.empty:
-    fig_sb = px.sunburst(site_dist, path=['minigrid_name', 'site_id'], values='count', color='minigrid_name', color_discrete_sequence=px.colors.qualitative.Pastel)
+    fig_sb = px.sunburst(site_dist, path=['minigrid_name', 'site_id'], values='payout', color='minigrid_name', color_discrete_sequence=px.colors.qualitative.Pastel)
     fig_sb.update_layout(margin=dict(t=30, l=0, r=0, b=0), title_x=0.5)
     st.plotly_chart(fig_sb, use_container_width=True)
 else:
-    st.write("No sites to display for selected filters.")
+    st.warning("No sites in selected filters—adjust date/minigrid.")
 
 st.markdown("Compare: SAIDI & Payouts")
 colA, colB = st.columns(2)
@@ -215,7 +263,7 @@ with colB:
 st.markdown("SAIDI Heatmap (Site x Month)")
 heat_df = filtered.groupby([pd.Grouper(key='month', freq='M'), 'site_id'])['SAIDI'].mean().reset_index()
 if not heat_df.empty:
-    heat_pivot = heat_df.pivot(index='site_id', columns='month', values='SAIDI').fillna(0)
+    heat_pivot = heat_df.pivot(index='site_id', columns='month', values='SAIDI').fillna(0).sort_index()  # Sort sites alpha
     fig_heat = px.imshow(heat_pivot, aspect='auto', labels=dict(x="Month", y="Site", color="SAIDI"), title="SAIDI Heatmap")
     st.plotly_chart(fig_heat, use_container_width=True)
 else:
@@ -229,7 +277,7 @@ if drill_site != 'All':
         st.write("No data for this site and the selected date range.")
     else:
         site_monthly = site_df.groupby(pd.Grouper(key='day', freq='M')).agg({'SAIDI':'mean','SAIFI':'mean','undervoltage_duration':'mean'}).reset_index().rename(columns={'undervoltage_duration':'undervoltage_mean'})
-        site_monthly['rolling_3m'] = site_monthly['SAIDI'].rolling(3, min_periods=1).mean()
+        site_monthly['rolling_3m'] = site_monthly['SAIDI'].rolling(3, min_periods=1).mean()  # Simplified rolling
         fig = go.Figure()
         fig.add_trace(go.Scatter(x=site_monthly['day'], y=site_monthly['SAIDI'], mode='lines+markers', name='SAIDI'))
         fig.add_trace(go.Scatter(x=site_monthly['day'], y=site_monthly['rolling_3m'], mode='lines', name='3-month rolling SAIDI'))
@@ -263,8 +311,13 @@ if st.checkbox("Show Quick EDA"):
         corr = filtered[['SAIDI','SAIFI','undervoltage_duration']].corr()
         fig_corr = px.imshow(corr, title='KPI Correlations', color_continuous_scale='RdBu_r', aspect='auto')
         st.plotly_chart(fig_corr, use_container_width=True)
-        st.markdown("Top 5 worst SAIDI sites (filtered):")
-        st.dataframe(agg_copy.nlargest(5, 'SAIDI_mean')[['site_id','SAIDI_mean','outlier_flag_mean']].round(2), use_container_width=True)
+        # Safe EDA table (fix KeyError)
+        cols_needed = ['site_id', 'SAIDI_mean']
+        if 'outlier_flag_mean' in agg_copy.columns:
+            cols_needed.append('outlier_flag_mean')
+        eda_insights = agg_copy.nlargest(5, 'SAIDI_mean')[cols_needed].round(2)
+        st.markdown("**Top 5 Worst SAIDI Sites (Hours/Month):**")
+        st.dataframe(eda_insights)
 
 st.subheader("If-Then Payout Conditions Simulator")
 condition = st.selectbox("Select Condition", ["SAIDI <5 for 3 months", "SAIFI <=2 annually", "Undervoltage <200h/year"])
@@ -272,3 +325,6 @@ st.write(if_then_condition(condition, filtered))
 
 csv = filtered.to_csv(index=False).encode('utf-8')
 st.download_button("Download Filtered Data (CSV)", csv, file_name='filtered_minigrid_data.csv', mime='text/csv')
+
+# Footer: Case Study Tie-In (Q7)
+st.markdown("---")
