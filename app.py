@@ -87,67 +87,33 @@ st.set_page_config(page_title="QA-RBF Mini-Grid Dashboard", layout="wide", initi
 st.markdown(
     """
     <style>
-    .stApp { background-color: #F3F6F9; }
-
-    /* Custom Headers */
-    .header { 
-        color: #0A2540;  
-        font-size: 28px; 
-        font-weight: 600; 
+    .stApp { 
+        background-color: #1E293B;  /* Deep blue-gray */
     }
 
-    .sub { 
-        color: #1E3A8A;  
-        margin-bottom: 8px; 
-        font-weight: 500;
+    .header, .sub, section.main h1, section.main h2, section.main h3, 
+    section.main h4, section.main h5, section.main h6, 
+    section.main p, section.main span, section.main div, section.main label {
+        color: #F9FAFB !important;  /* White text for contrast */
     }
 
-    /* Cards */
     .card { 
-        background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%); 
-        border-radius: 12px; 
-        padding: 14px; 
-        box-shadow: 0 6px 18px rgba(11,61,145,0.08); 
+        background: linear-gradient(135deg, #FFFFFF 0%, #E2E8F0 100%);
+        border-radius: 14px; 
+        padding: 16px; 
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); 
+        border: none;
     }
 
-    .card-title { 
-        color: #1E3A8A;  
-        font-weight: 600; 
-        font-size: 14px; 
-        margin-bottom: 6px; 
-    }
-
-    .card-value { 
-        font-size: 20px; 
-        font-weight: 700; 
-        color: #0B3D91;  
-        text-shadow: 0 1px 2px rgba(0,0,0,0.1); 
-    }
-
-    .small { 
-        color: #475569;  
-        font-size: 12px; 
-    }
-
-    /* --- GLOBAL TEXT OVERRIDE (MAIN AREA ONLY) --- */
-    section.main h1, 
-    section.main h2, 
-    section.main h3, 
-    section.main h4, 
-    section.main h5, 
-    section.main h6, 
-    section.main p, 
-    section.main span, 
-    section.main div, 
-    section.main label {
-        color: #0A2540 !important;  /* Deep navy text for readability */
-    }
-
-    /* Keep sidebar text original (no override here) */
+    .card-title { color: #1E3A8A; font-weight: 600; font-size: 14px; }
+    .card-value { font-size: 22px; font-weight: 700; color: #0B3D91; }
+    .small { color: #334155; font-size: 12px; }
     </style>
     """,
     unsafe_allow_html=True
 )
+
+
 
 
 st.markdown('<div class="header">QA-RBF Mini-Grid Dashboard: North Kivu, DRC 2023</div>', unsafe_allow_html=True)
