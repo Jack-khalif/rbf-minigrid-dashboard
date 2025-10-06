@@ -162,24 +162,54 @@ st.subheader("Site Performance & QA-RBF Payouts")
 st.dataframe(agg_df_copy[['site_id', 'SAIDI_mean', 'SAIFI_mean', 'undervoltage_mean', 'outlier_flag_mean', 'score', 'payout', 'tier']].round(2), 
              use_container_width=True)
 
-# Visualizations
-st.subheader("Visualizations: Compare Sites & Time")
+# Visualizations (Q6b: Comparisons & Trends - Now Balanced Across Metrics)
+st.subheader("📈 Visualizations: Compare Metrics Across Sites & Time")
 
-col_viz1, col_viz2 = st.columns(2)
-
-with col_viz1:
+# 2x2 Grid for All KPIs
+col1, col2 = st.columns(2)
+with col1:
+    # SAIDI Bar (existing, orange for duration pain)
+    color_map = {'Gold 🏆': '#FFD700', 'Silver 🥈': '#C0C0C0', 'Bronze 🥉': '#CD7F32'}
     fig_saidi = px.bar(agg_df_copy, x='site_id', y='SAIDI_mean', 
-                       title='Avg SAIDI by Site (Hours/Month)',
-                       color='tier')
+                       title='Avg SAIDI by Site (Hours/Month - Duration Pain)',
+                       color='tier', color_discrete_map=color_map)
     fig_saidi.update_layout(xaxis_tickangle=45, showlegend=False)
     st.plotly_chart(fig_saidi, use_container_width=True)
 
-with col_viz2:
+with col2:
+    # NEW: SAIFI Bar (red-orange for frequency frustration)
+    fig_saifi = px.bar(agg_df_copy, x='site_id', y='SAIFI_mean', 
+                       title='Avg SAIFI by Site (Outages/Month - Frequency Frustration)',
+                       color='tier', color_discrete_map={'Gold 🏆': '#FF6B6B', 'Silver 🥈': '#FF8E53', 'Bronze 🥉': '#FF6347'})
+    fig_saifi.update_layout(xaxis_tickangle=45, showlegend=False)
+    st.plotly_chart(fig_saifi, use_container_width=True)
+
+col3, col4 = st.columns(2)
+with col3:
+    # NEW: Undervoltage Scatter (bubble size by mean, blue-green for subtle issues)
+    fig_und = px.scatter(agg_df_copy, x='site_id', y='undervoltage_mean', size='undervoltage_mean', 
+                         title='Undervoltage by Site (Hours/Month - Bubble Size = Severity)',
+                         color='tier', color_discrete_map={'Gold 🏆': '#4ECDC4', 'Silver 🥈': '#45B7D1', 'Bronze 🥉': '#96CEB4'},
+                         size_max=20)
+    fig_und.update_layout(xaxis_tickangle=45)
+    st.plotly_chart(fig_und, use_container_width=True)
+
+with col4:
+    # Payouts Bar (existing, gold/silver/bronze for vibrancy)
     fig_payout = px.bar(agg_df_copy, x='site_id', y='payout', 
                         title='QA-RBF Payouts by Site ($)',
-                        color='tier')
+                        color='tier', color_discrete_map=color_map)
     fig_payout.update_layout(xaxis_tickangle=45, showlegend=False)
     st.plotly_chart(fig_payout, use_container_width=True)
+
+# Time Trends (existing, but add SAIFI line option)
+st.markdown("### ⏱️ Monthly Trends Over Time")
+metric_choice = st.selectbox("Select Metric for Trend", ['SAIDI', 'SAIFI', 'undervoltage_duration'])
+monthly_df = df_merged.groupby([pd.Grouper(key='day', freq='M'), 'site_id'])[metric_choice].mean().reset_index()
+fig_trend = px.line(monthly_df, x='day', y=metric_choice, color='site_id', 
+                    title=f'Monthly {metric_choice} Trends: Sites Over 2023',
+                    color_discrete_sequence=px.colors.qualitative.Set3)
+st.plotly_chart(fig_trend, use_container_width=True)
 
 # Time Trends
 st.markdown("### Monthly SAIDI Trends Over Time")
