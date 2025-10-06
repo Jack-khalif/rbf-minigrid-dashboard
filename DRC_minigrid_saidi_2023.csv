@@ -1,0 +1,5052 @@
+day,site_id,minigrid_name,SAIDI
+2023-01-01,hgr kitatumba,enk,0.0
+2023-01-01,hgr lubero,virunga,0.0
+2023-01-02,csr bakhita,nuru,0.0
+2023-01-02,heal africa,snel,0.317639
+2023-01-02,hgr lubero,virunga,0.155466
+2023-01-03,ch matanda,enk,1.210833
+2023-01-03,cs murara,snel,0.0
+2023-01-03,hgr beni,enk,0.0
+2023-01-03,hgr panzi,snel,0.0
+2023-01-04,ch matanda,enk,5.478333
+2023-01-04,heal africa,snel,0.158333
+2023-01-04,hgr kitatumba,enk,2.114028
+2023-01-04,hgr panzi,snel,0.0
+2023-01-05,ch matanda,enk,1.532222
+2023-01-05,csr bakhita,nuru,0.0
+2023-01-05,csr kiziba,nuru,0.0
+2023-01-05,heal africa,snel,0.3575
+2023-01-05,hgr panzi,snel,0.0
+2023-01-05,hopital provincial,snel,0.0
+2023-01-06,csr kiziba,nuru,0.0
+2023-01-06,heal africa,snel,0.102778
+2023-01-06,hgr katwa,enk,0.115833
+2023-01-06,hopital provincial,snel,0.01375
+2023-01-07,hgr beni,enk,0.0
+2023-01-07,hgr katwa,enk,0.0
+2023-01-08,cclk,nuru,0.0
+2023-01-08,heal africa,snel,0.116667
+2023-01-08,hgr katwa,enk,0.0
+2023-01-08,hgr kitatumba,enk,0.0
+2023-01-08,hgr panzi,snel,0.0
+2023-01-09,csr bakhita,nuru,0.0
+2023-01-10,csr bakhita,nuru,0.0
+2023-01-10,heal africa,snel,0.198333
+2023-01-11,cclk,nuru,0.0
+2023-01-11,hgr beni,enk,0.0
+2023-01-11,hopital provincial,snel,0.016806
+2023-01-12,ch cbca bethesda ndosho,virunga,0.00125
+2023-01-12,ch matanda,enk,0.912222
+2023-01-12,cs murara,snel,0.0
+2023-01-12,hgr beni,enk,0.070833
+2023-01-13,csr bakhita,nuru,0.0
+2023-01-13,hgr beni,enk,0.161389
+2023-01-13,hgr katwa,enk,0.095
+2023-01-13,ngangi 3,virunga,8.681082
+2023-01-14,ch cbca bethesda ndosho,virunga,0.0
+2023-01-14,hgr katwa,enk,0.205
+2023-01-14,hgr lubero,virunga,0.0
+2023-01-15,cs murara,snel,0.0
+2023-01-15,csr bakhita,nuru,0.0
+2023-01-16,cclk,nuru,20.259354
+2023-01-16,heal africa,snel,0.038889
+2023-01-16,hgr katwa,enk,0.231389
+2023-01-16,hgr lubero,virunga,0.0
+2023-01-16,hopital provincial,snel,0.0
+2023-01-17,cclk,nuru,0.0
+2023-01-17,ch matanda,enk,0.401111
+2023-01-17,csr bakhita,nuru,0.0
+2023-01-17,csr kiziba,nuru,0.0
+2023-01-17,hgr katwa,enk,0.030833
+2023-01-17,hgr lubero,virunga,0.0
+2023-01-18,csr bakhita,nuru,0.0
+2023-01-18,heal africa,snel,0.094444
+2023-01-18,hgr kitatumba,enk,0.157766
+2023-01-18,hgr panzi,snel,0.0
+2023-01-19,heal africa,snel,0.186944
+2023-01-19,hgr lubero,virunga,0.0
+2023-01-19,ngangi 3,virunga,20.044444
+2023-01-20,hgr beni,enk,0.044167
+2023-01-20,hgr katwa,enk,0.031389
+2023-01-20,hgr kitatumba,enk,0.235694
+2023-01-20,hopital provincial,snel,0.004722
+2023-01-20,ngangi 3,virunga,19.26375
+2023-01-21,cclk,nuru,0.0
+2023-01-21,ch cbca bethesda ndosho,virunga,0.0
+2023-01-21,ch matanda,enk,0.471389
+2023-01-21,heal africa,snel,0.002917
+2023-01-21,hgr beni,enk,0.028056
+2023-01-21,hgr katwa,enk,0.109167
+2023-01-21,hopital provincial,snel,0.005833
+2023-01-22,ch matanda,enk,0.222778
+2023-01-22,heal africa,snel,0.0
+2023-01-22,hgr beni,enk,0.125556
+2023-01-22,hgr katwa,enk,0.050278
+2023-01-22,hgr kitatumba,enk,0.087778
+2023-01-22,hgr lubero,virunga,1.626111
+2023-01-22,hgr panzi,snel,0.0
+2023-01-23,hgr katwa,enk,0.185833
+2023-01-23,hgr kitatumba,enk,0.179861
+2023-01-23,hopital provincial,snel,0.0
+2023-01-24,ch cbca bethesda ndosho,virunga,0.0
+2023-01-24,csr bakhita,nuru,0.0
+2023-01-24,csr kiziba,nuru,0.0
+2023-01-24,hgr beni,enk,0.235833
+2023-01-25,ch cbca bethesda ndosho,virunga,0.0
+2023-01-25,heal africa,snel,0.135833
+2023-01-25,hgr katwa,enk,0.138333
+2023-01-25,hgr kitatumba,enk,0.42875
+2023-01-25,hgr lubero,virunga,0.0
+2023-01-25,hopital provincial,snel,0.0
+2023-01-25,ngangi 3,virunga,6.655972
+2023-01-26,hgr kitatumba,enk,0.0
+2023-01-26,hgr panzi,snel,0.016944
+2023-01-27,ch cbca bethesda ndosho,virunga,0.032917
+2023-01-28,cs murara,snel,0.0
+2023-01-29,csr bakhita,nuru,0.0
+2023-01-29,csr kiziba,nuru,0.0
+2023-01-30,cclk,nuru,0.0
+2023-01-30,heal africa,snel,0.107222
+2023-01-30,hgr katwa,enk,0.039444
+2023-01-30,hgr kitatumba,enk,0.089444
+2023-01-30,hopital provincial,snel,0.004583
+2023-01-31,ch matanda,enk,0.535
+2023-01-31,hgr katwa,enk,0.63
+2023-01-31,hopital provincial,snel,0.0
+2023-01-31,ngangi 3,virunga,10.680972
+2023-02-01,cclk,nuru,16.516528
+2023-02-01,heal africa,snel,0.145833
+2023-02-01,hgr panzi,snel,0.010833
+2023-02-02,cs murara,snel,0.0
+2023-02-02,csr kiziba,nuru,0.0
+2023-02-02,hgr beni,enk,0.092778
+2023-02-02,hgr katwa,enk,0.078889
+2023-02-02,hgr lubero,virunga,0.0
+2023-02-02,hopital provincial,snel,0.005278
+2023-02-02,ngangi 3,virunga,0.76
+2023-02-03,heal africa,snel,0.074167
+2023-02-03,hgr katwa,enk,0.286111
+2023-02-03,hgr lubero,virunga,0.6075
+2023-02-04,ch cbca bethesda ndosho,virunga,0.0
+2023-02-04,ch matanda,enk,1.956667
+2023-02-04,cs murara,snel,0.0
+2023-02-04,csr kiziba,nuru,0.0
+2023-02-04,hopital provincial,snel,0.004722
+2023-02-05,cclk,nuru,0.0
+2023-02-05,ch matanda,enk,0.735417
+2023-02-05,hgr beni,enk,0.092778
+2023-02-05,hgr lubero,virunga,0.0
+2023-02-05,ngangi 3,virunga,0.810534
+2023-02-06,cclk,nuru,0.0
+2023-02-06,ch cbca bethesda ndosho,virunga,0.0
+2023-02-06,hgr beni,enk,0.06873
+2023-02-06,hgr katwa,enk,1.342778
+2023-02-06,hgr panzi,snel,0.0
+2023-02-06,ngangi 3,virunga,0.0
+2023-02-07,cs murara,snel,0.0
+2023-02-07,hgr katwa,enk,0.416111
+2023-02-07,hgr kitatumba,enk,0.243889
+2023-02-08,cs murara,snel,0.085278
+2023-02-08,csr kiziba,nuru,0.0
+2023-02-08,heal africa,snel,0.059306
+2023-02-08,hgr kitatumba,enk,0.262222
+2023-02-08,hopital provincial,snel,0.0
+2023-02-09,csr kiziba,nuru,0.0
+2023-02-09,hgr kitatumba,enk,0.107222
+2023-02-09,hgr lubero,virunga,0.151667
+2023-02-09,ngangi 3,virunga,0.0
+2023-02-10,ch matanda,enk,0.256528
+2023-02-10,csr kiziba,nuru,0.0
+2023-02-10,hgr lubero,virunga,0.0
+2023-02-10,hopital provincial,snel,0.0
+2023-02-10,ngangi 3,virunga,0.0
+2023-02-11,hgr lubero,virunga,0.0
+2023-02-11,hgr panzi,snel,0.0
+2023-02-12,cs murara,snel,0.0
+2023-02-12,hgr kitatumba,enk,0.358889
+2023-02-12,hgr lubero,virunga,0.0
+2023-02-12,hopital provincial,snel,0.0
+2023-02-12,ngangi 3,virunga,24.0
+2023-02-13,cs murara,snel,0.282778
+2023-02-13,hgr katwa,enk,0.632222
+2023-02-13,hgr panzi,snel,0.012222
+2023-02-14,csr bakhita,nuru,0.0
+2023-02-14,hgr beni,enk,0.064167
+2023-02-15,heal africa,snel,0.095
+2023-02-16,cclk,nuru,6.778056
+2023-02-16,ch cbca bethesda ndosho,virunga,0.279167
+2023-02-16,ch matanda,enk,1.200556
+2023-02-16,cs murara,snel,1.3775
+2023-02-16,csr bakhita,nuru,0.0
+2023-02-16,csr kiziba,nuru,0.0
+2023-02-16,hgr katwa,enk,0.094444
+2023-02-16,hgr kitatumba,enk,0.488056
+2023-02-16,hgr lubero,virunga,0.0
+2023-02-17,cclk,nuru,0.0
+2023-02-17,ch cbca bethesda ndosho,virunga,0.0
+2023-02-17,ch matanda,enk,0.0
+2023-02-17,hgr lubero,virunga,0.0
+2023-02-17,hgr panzi,snel,0.253889
+2023-02-17,ngangi 3,virunga,0.0
+2023-02-18,cclk,nuru,0.0
+2023-02-18,ch matanda,enk,0.03375
+2023-02-19,ch cbca bethesda ndosho,virunga,0.0
+2023-02-19,csr bakhita,nuru,0.0
+2023-02-19,hgr kitatumba,enk,0.0
+2023-02-19,ngangi 3,virunga,0.0
+2023-02-20,hgr katwa,enk,0.0
+2023-02-20,hgr lubero,virunga,0.0
+2023-02-20,hgr panzi,snel,0.007222
+2023-02-21,cclk,nuru,0.0
+2023-02-21,hgr beni,enk,0.022778
+2023-02-21,hgr katwa,enk,0.0
+2023-02-21,hopital provincial,snel,0.0
+2023-02-22,cclk,nuru,0.0
+2023-02-22,ch cbca bethesda ndosho,virunga,0.0
+2023-02-22,ch matanda,enk,0.412222
+2023-02-22,csr kiziba,nuru,0.579167
+2023-02-22,hgr katwa,enk,0.0525
+2023-02-22,ngangi 3,virunga,9.104722
+2023-02-23,cs murara,snel,0.010833
+2023-02-23,csr kiziba,nuru,1.935278
+2023-02-23,heal africa,snel,0.057778
+2023-02-23,hgr beni,enk,0.16
+2023-02-23,hgr lubero,virunga,0.0
+2023-02-23,hopital provincial,snel,0.009306
+2023-02-23,ngangi 3,virunga,24.0
+2023-02-24,csr bakhita,nuru,0.0
+2023-02-24,hgr panzi,snel,0.005833
+2023-02-24,hopital provincial,snel,0.0
+2023-02-25,cs murara,snel,0.0
+2023-02-25,csr kiziba,nuru,1.252222
+2023-02-25,hgr panzi,snel,0.011111
+2023-02-25,hopital provincial,snel,0.0
+2023-02-26,cclk,nuru,16.080833
+2023-02-26,csr kiziba,nuru,0.774444
+2023-02-26,hgr beni,enk,0.0
+2023-02-26,hgr lubero,virunga,0.0
+2023-02-26,ngangi 3,virunga,0.0
+2023-02-27,cs murara,snel,0.0
+2023-02-27,hgr lubero,virunga,0.0
+2023-02-28,csr bakhita,nuru,0.0
+2023-02-28,csr kiziba,nuru,0.354346
+2023-02-28,hgr katwa,enk,0.048611
+2023-02-28,hgr kitatumba,enk,0.268611
+2023-03-01,ch cbca bethesda ndosho,virunga,0.412778
+2023-03-01,ch matanda,enk,0.145833
+2023-03-01,hgr kitatumba,enk,0.078056
+2023-03-01,hgr panzi,snel,0.0
+2023-03-02,cclk,nuru,24.0
+2023-03-02,hgr katwa,enk,0.0
+2023-03-02,hgr lubero,virunga,0.136111
+2023-03-03,cclk,nuru,24.0
+2023-03-03,ch matanda,enk,5.1575
+2023-03-03,cs murara,snel,0.0
+2023-03-03,ngangi 3,virunga,9.955972
+2023-03-04,csr bakhita,nuru,0.0
+2023-03-04,hgr beni,enk,0.291944
+2023-03-04,hgr kitatumba,enk,0.222917
+2023-03-04,hopital provincial,snel,0.0
+2023-03-05,cs murara,snel,2.685278
+2023-03-05,hgr beni,enk,0.021944
+2023-03-05,hgr katwa,enk,0.0
+2023-03-05,hgr kitatumba,enk,0.0
+2023-03-05,hgr lubero,virunga,0.0
+2023-03-05,ngangi 3,virunga,24.0
+2023-03-06,cclk,nuru,0.0
+2023-03-06,csr bakhita,nuru,0.0
+2023-03-06,csr kiziba,nuru,0.175556
+2023-03-06,heal africa,snel,0.0
+2023-03-06,hgr katwa,enk,0.0
+2023-03-06,hgr panzi,snel,0.0
+2023-03-07,cclk,nuru,0.0
+2023-03-07,ch cbca bethesda ndosho,virunga,0.220833
+2023-03-07,cs murara,snel,11.295268
+2023-03-07,csr bakhita,nuru,0.0
+2023-03-07,hgr katwa,enk,0.046944
+2023-03-07,hgr kitatumba,enk,0.0
+2023-03-08,csr kiziba,nuru,0.0
+2023-03-08,hgr beni,enk,0.059167
+2023-03-08,ngangi 3,virunga,1.113056
+2023-03-09,cclk,nuru,0.0
+2023-03-09,ch cbca bethesda ndosho,virunga,0.0
+2023-03-09,ch matanda,enk,0.258056
+2023-03-09,heal africa,snel,0.0
+2023-03-09,hgr katwa,enk,0.0
+2023-03-09,hgr panzi,snel,0.0
+2023-03-10,heal africa,snel,0.0
+2023-03-10,hgr katwa,enk,0.095556
+2023-03-10,hgr panzi,snel,0.0
+2023-03-11,ch cbca bethesda ndosho,virunga,0.131111
+2023-03-11,hgr katwa,enk,0.039722
+2023-03-11,hgr panzi,snel,0.025296
+2023-03-11,ngangi 3,virunga,10.935556
+2023-03-12,cclk,nuru,0.0
+2023-03-12,csr kiziba,nuru,0.0
+2023-03-12,hgr kitatumba,enk,0.0
+2023-03-12,hgr lubero,virunga,0.711111
+2023-03-12,hgr panzi,snel,0.006111
+2023-03-12,hopital provincial,snel,0.0
+2023-03-13,cclk,nuru,0.0
+2023-03-13,ch cbca bethesda ndosho,virunga,0.038056
+2023-03-13,hgr kitatumba,enk,0.166916
+2023-03-13,ngangi 3,virunga,10.315833
+2023-03-14,cclk,nuru,0.0
+2023-03-14,csr bakhita,nuru,0.0
+2023-03-14,hgr katwa,enk,0.031389
+2023-03-15,ch cbca bethesda ndosho,virunga,0.0
+2023-03-15,ch matanda,enk,0.0
+2023-03-15,cs murara,snel,5.585139
+2023-03-15,hgr lubero,virunga,0.0
+2023-03-15,hopital provincial,snel,0.254167
+2023-03-16,cclk,nuru,0.0
+2023-03-16,hgr lubero,virunga,0.0
+2023-03-16,ngangi 3,virunga,0.0
+2023-03-17,ch cbca bethesda ndosho,virunga,0.0
+2023-03-17,hgr katwa,enk,0.0
+2023-03-17,hgr lubero,virunga,0.0
+2023-03-17,hgr panzi,snel,0.008333
+2023-03-18,cclk,nuru,0.0
+2023-03-18,ch cbca bethesda ndosho,virunga,0.0
+2023-03-18,hgr kitatumba,enk,0.0
+2023-03-18,hgr panzi,snel,0.009444
+2023-03-18,hopital provincial,snel,0.0
+2023-03-19,cclk,nuru,0.0
+2023-03-19,hgr katwa,enk,0.1675
+2023-03-19,hgr kitatumba,enk,0.002222
+2023-03-19,hopital provincial,snel,0.019444
+2023-03-19,ngangi 3,virunga,0.0
+2023-03-20,heal africa,snel,0.045
+2023-03-20,hgr kitatumba,enk,0.120278
+2023-03-20,ngangi 3,virunga,0.0
+2023-03-21,ch matanda,enk,0.0
+2023-03-21,cs murara,snel,0.0
+2023-03-21,hgr katwa,enk,0.0
+2023-03-21,ngangi 3,virunga,0.0
+2023-03-22,ch matanda,enk,0.0
+2023-03-23,ch cbca bethesda ndosho,virunga,0.0
+2023-03-23,heal africa,snel,0.065278
+2023-03-23,hgr beni,enk,0.0
+2023-03-23,hgr kitatumba,enk,0.213611
+2023-03-23,hgr lubero,virunga,0.0
+2023-03-23,hgr panzi,snel,0.006667
+2023-03-23,hopital provincial,snel,0.024722
+2023-03-24,ch cbca bethesda ndosho,virunga,0.0
+2023-03-24,cs murara,snel,0.322222
+2023-03-24,csr kiziba,nuru,0.0
+2023-03-24,hgr lubero,virunga,0.0
+2023-03-25,cs murara,snel,3.596944
+2023-03-25,heal africa,snel,0.0
+2023-03-25,hgr katwa,enk,0.037696
+2023-03-25,hgr kitatumba,enk,0.503889
+2023-03-26,cclk,nuru,0.0
+2023-03-26,cs murara,snel,11.585278
+2023-03-26,csr bakhita,nuru,0.0
+2023-03-26,csr kiziba,nuru,4.521667
+2023-03-26,hopital provincial,snel,0.063194
+2023-03-27,ch cbca bethesda ndosho,virunga,0.0
+2023-03-27,hopital provincial,snel,0.036389
+2023-03-27,ngangi 3,virunga,11.254228
+2023-03-28,heal africa,snel,0.0
+2023-03-28,hgr katwa,enk,0.329444
+2023-03-29,ch matanda,enk,0.961389
+2023-03-29,csr bakhita,nuru,0.0
+2023-03-29,hgr kitatumba,enk,0.0
+2023-03-29,ngangi 3,virunga,10.156009
+2023-03-30,cclk,nuru,0.0
+2023-03-30,cs murara,snel,0.0
+2023-03-30,hgr beni,enk,0.0
+2023-03-30,hgr katwa,enk,0.0
+2023-03-30,ngangi 3,virunga,18.898333
+2023-03-31,hgr kitatumba,enk,0.0
+2023-03-31,hgr lubero,virunga,0.363056
+2023-04-01,cs murara,snel,0.0
+2023-04-01,csr bakhita,nuru,0.0
+2023-04-01,hgr beni,enk,0.0
+2023-04-01,ngangi 3,virunga,9.916667
+2023-04-02,cs murara,snel,0.0
+2023-04-02,hopital provincial,snel,0.0
+2023-04-03,heal africa,snel,0.0
+2023-04-03,hgr katwa,enk,0.0
+2023-04-03,hopital provincial,snel,0.0
+2023-04-04,ch matanda,enk,0.256944
+2023-04-04,cs murara,snel,0.413611
+2023-04-04,heal africa,snel,0.087222
+2023-04-04,hgr beni,enk,0.014722
+2023-04-04,hgr katwa,enk,0.135556
+2023-04-04,hgr kirotshe,snel,0.0
+2023-04-04,hgr panzi,snel,0.008889
+2023-04-05,cclk,nuru,0.0
+2023-04-05,cs murara,snel,0.014722
+2023-04-05,heal africa,snel,0.1
+2023-04-05,hgr kitatumba,enk,0.0
+2023-04-05,hgr lubero,virunga,0.399167
+2023-04-06,hgr beni,enk,0.0
+2023-04-06,hgr kitatumba,enk,0.0
+2023-04-06,hgr lubero,virunga,0.0
+2023-04-06,hgr panzi,snel,0.028611
+2023-04-07,ch matanda,enk,0.1375
+2023-04-07,heal africa,snel,0.066667
+2023-04-07,hgr beni,enk,0.0
+2023-04-07,ngangi 3,virunga,18.215139
+2023-04-08,hgr beni,enk,0.0
+2023-04-08,hgr katwa,enk,0.0
+2023-04-08,hgr kirotshe,snel,0.0
+2023-04-08,hgr panzi,snel,0.020278
+2023-04-08,hopital provincial,snel,0.004583
+2023-04-08,ngangi 3,virunga,19.284861
+2023-04-09,ch matanda,enk,3.506111
+2023-04-09,hgr katwa,enk,0.430278
+2023-04-09,ngangi 3,virunga,17.145694
+2023-04-10,csr kiziba,nuru,0.908056
+2023-04-10,hgr panzi,snel,0.0
+2023-04-11,ch cbca bethesda ndosho,virunga,0.150556
+2023-04-11,csr bakhita,nuru,0.0
+2023-04-11,csr kiziba,nuru,1.616667
+2023-04-11,hgr kirotshe,snel,0.0
+2023-04-11,hgr panzi,snel,0.022817
+2023-04-12,ch cbca bethesda ndosho,virunga,0.0
+2023-04-12,ch matanda,enk,0.0
+2023-04-12,csr kiziba,nuru,2.004722
+2023-04-12,hgr lubero,virunga,0.0
+2023-04-12,hgr panzi,snel,0.008889
+2023-04-12,hopital provincial,snel,0.0
+2023-04-12,ngangi 3,virunga,9.780011
+2023-04-13,hgr lubero,virunga,0.0
+2023-04-13,hopital provincial,snel,0.0
+2023-04-14,cclk,nuru,0.0
+2023-04-14,ch matanda,enk,0.0
+2023-04-14,cs murara,snel,0.0
+2023-04-14,heal africa,snel,0.0
+2023-04-14,hgr lubero,virunga,0.0
+2023-04-14,hopital provincial,snel,0.0
+2023-04-15,ch matanda,enk,0.826667
+2023-04-15,hopital provincial,snel,0.0
+2023-04-16,ch cbca bethesda ndosho,virunga,0.094444
+2023-04-16,cs murara,snel,20.472222
+2023-04-16,hgr beni,enk,0.0
+2023-04-16,hgr kirotshe,snel,0.0
+2023-04-16,hgr lubero,virunga,0.389444
+2023-04-17,csr bakhita,nuru,0.0
+2023-04-17,hgr beni,enk,0.0
+2023-04-17,hgr katwa,enk,0.0
+2023-04-17,hgr lubero,virunga,0.0
+2023-04-17,ngangi 3,virunga,11.385139
+2023-04-18,hgr beni,enk,0.0
+2023-04-18,hgr lubero,virunga,0.0
+2023-04-18,hgr panzi,snel,0.127222
+2023-04-18,ngangi 3,virunga,0.0
+2023-04-19,cs murara,snel,0.0
+2023-04-19,csr kiziba,nuru,0.041111
+2023-04-19,hopital provincial,snel,0.031944
+2023-04-20,cclk,nuru,0.0
+2023-04-20,hgr katwa,enk,0.0
+2023-04-20,hgr kitatumba,enk,0.0
+2023-04-20,hgr panzi,snel,0.0
+2023-04-21,ch cbca bethesda ndosho,virunga,0.0
+2023-04-21,ch matanda,enk,0.182222
+2023-04-21,csr kiziba,nuru,1.410286
+2023-04-21,hgr katwa,enk,0.308889
+2023-04-21,hgr kitatumba,enk,0.0
+2023-04-21,hgr panzi,snel,0.0
+2023-04-21,hopital provincial,snel,0.0
+2023-04-22,heal africa,snel,0.203056
+2023-04-22,hgr beni,enk,0.0
+2023-04-22,hgr kirotshe,snel,0.0
+2023-04-22,hgr kitatumba,enk,0.102778
+2023-04-23,csr bakhita,nuru,0.0
+2023-04-23,hgr beni,enk,0.0
+2023-04-23,hgr katwa,enk,0.0
+2023-04-23,hgr lubero,virunga,0.0
+2023-04-23,hgr panzi,snel,0.0
+2023-04-24,cclk,nuru,0.0
+2023-04-24,csr kiziba,nuru,1.412619
+2023-04-24,hgr katwa,enk,0.0
+2023-04-24,hgr kitatumba,enk,0.0
+2023-04-24,hgr lubero,virunga,0.0
+2023-04-25,ch cbca bethesda ndosho,virunga,0.0
+2023-04-25,ch matanda,enk,0.0
+2023-04-25,cs murara,snel,0.024542
+2023-04-25,heal africa,snel,0.097778
+2023-04-25,hgr beni,enk,0.0
+2023-04-25,hgr lubero,virunga,0.0
+2023-04-25,hopital provincial,snel,0.0
+2023-04-26,ch cbca bethesda ndosho,virunga,0.150833
+2023-04-26,ch matanda,enk,2.36
+2023-04-26,csr kiziba,nuru,0.0
+2023-04-27,ch matanda,enk,0.468056
+2023-04-27,cs murara,snel,0.218056
+2023-04-27,hgr beni,enk,0.0
+2023-04-27,hgr kirotshe,snel,0.0
+2023-04-27,hopital provincial,snel,0.0
+2023-04-27,ngangi 3,virunga,11.187917
+2023-04-28,cclk,nuru,0.0
+2023-04-28,cs murara,snel,0.03125
+2023-04-28,heal africa,snel,0.166944
+2023-04-28,hgr beni,enk,0.0
+2023-04-29,cclk,nuru,0.0
+2023-04-29,csr bakhita,nuru,0.0
+2023-04-29,csr kiziba,nuru,0.0
+2023-04-29,hgr katwa,enk,0.071944
+2023-04-30,hgr kirotshe,snel,0.0
+2023-04-30,hopital provincial,snel,0.004583
+2023-05-01,ch matanda,enk,0.810972
+2023-05-01,hgr beni,enk,0.0
+2023-05-01,hopital provincial,snel,0.0
+2023-05-01,ngangi 3,virunga,22.553624
+2023-05-02,ch cbca bethesda ndosho,virunga,0.0
+2023-05-02,cs murara,snel,0.0
+2023-05-02,hgr kitatumba,enk,0.0
+2023-05-02,hgr lubero,virunga,0.0
+2023-05-03,ch matanda,enk,0.0
+2023-05-03,cs murara,snel,0.0
+2023-05-03,csr bakhita,nuru,0.0
+2023-05-03,hgr panzi,snel,0.0
+2023-05-03,ngangi 3,virunga,0.0
+2023-05-04,ch matanda,enk,0.43125
+2023-05-04,ngangi 3,virunga,0.0
+2023-05-05,hgr katwa,enk,0.0
+2023-05-05,hgr kirotshe,snel,0.0
+2023-05-05,hgr lubero,virunga,0.0
+2023-05-05,hgr panzi,snel,0.0
+2023-05-05,ngangi 3,virunga,0.0
+2023-05-06,csr bakhita,nuru,0.0
+2023-05-06,csr kiziba,nuru,0.0
+2023-05-06,heal africa,snel,0.042222
+2023-05-06,hgr kirotshe,snel,0.0
+2023-05-06,hgr kitatumba,enk,0.0
+2023-05-07,ch cbca bethesda ndosho,virunga,0.0
+2023-05-07,csr bakhita,nuru,0.0
+2023-05-07,hgr katwa,enk,0.0
+2023-05-07,hgr kirotshe,snel,0.0
+2023-05-07,ngangi 3,virunga,0.0
+2023-05-08,cclk,nuru,0.0
+2023-05-08,ch cbca bethesda ndosho,virunga,0.0
+2023-05-08,ch matanda,enk,0.0
+2023-05-08,cs murara,snel,0.0
+2023-05-08,hgr katwa,enk,0.0
+2023-05-08,hgr kitatumba,enk,0.0
+2023-05-08,ngangi 3,virunga,0.0
+2023-05-09,cclk,nuru,0.0
+2023-05-09,ch matanda,enk,0.225556
+2023-05-09,hgr kirotshe,snel,0.0
+2023-05-09,hgr lubero,virunga,0.0
+2023-05-09,hopital provincial,snel,0.0
+2023-05-09,ngangi 3,virunga,0.0
+2023-05-10,cclk,nuru,0.0
+2023-05-10,cs murara,snel,0.0
+2023-05-10,heal africa,snel,0.0
+2023-05-10,hgr kirotshe,snel,0.0
+2023-05-10,hgr panzi,snel,0.0
+2023-05-11,cs murara,snel,0.09996
+2023-05-11,heal africa,snel,0.108333
+2023-05-12,heal africa,snel,0.0
+2023-05-12,hgr kitatumba,enk,0.0
+2023-05-12,hgr lubero,virunga,0.0
+2023-05-12,ngangi 3,virunga,0.0
+2023-05-13,cclk,nuru,0.0
+2023-05-13,ch matanda,enk,2.73875
+2023-05-13,hgr kitatumba,enk,0.0
+2023-05-13,hopital provincial,snel,0.0
+2023-05-14,ch cbca bethesda ndosho,virunga,0.0
+2023-05-14,csr bakhita,nuru,0.0
+2023-05-14,hgr kirotshe,snel,0.0
+2023-05-14,hgr kitatumba,enk,0.633611
+2023-05-14,hgr lubero,virunga,0.0
+2023-05-14,hgr panzi,snel,0.0
+2023-05-15,ch cbca bethesda ndosho,virunga,0.0
+2023-05-15,cs murara,snel,0.0
+2023-05-15,csr bakhita,nuru,0.0
+2023-05-15,hgr katwa,enk,0.0
+2023-05-16,cclk,nuru,0.0
+2023-05-16,hgr katwa,enk,0.17865
+2023-05-16,hgr lubero,virunga,0.0
+2023-05-16,hgr panzi,snel,0.0
+2023-05-16,hopital provincial,snel,0.0
+2023-05-16,ngangi 3,virunga,0.0
+2023-05-17,cclk,nuru,0.0
+2023-05-17,cs murara,snel,0.119861
+2023-05-17,hgr katwa,enk,0.0
+2023-05-18,cclk,nuru,0.0
+2023-05-18,csr kiziba,nuru,0.0
+2023-05-18,hgr beni,enk,0.0
+2023-05-18,hgr lubero,virunga,0.0
+2023-05-18,hgr panzi,snel,0.0
+2023-05-19,ch matanda,enk,1.924028
+2023-05-19,csr bakhita,nuru,0.0
+2023-05-19,heal africa,snel,0.0
+2023-05-19,hgr beni,enk,0.0
+2023-05-19,hgr katwa,enk,0.400833
+2023-05-19,hgr lubero,virunga,0.0
+2023-05-19,ngangi 3,virunga,0.0
+2023-05-20,heal africa,snel,0.0
+2023-05-20,hgr kirotshe,snel,0.0
+2023-05-20,hgr kitatumba,enk,0.0
+2023-05-20,hgr lubero,virunga,0.0
+2023-05-20,hgr panzi,snel,0.0
+2023-05-21,cs murara,snel,0.0
+2023-05-21,csr bakhita,nuru,0.0
+2023-05-21,hgr beni,enk,0.0
+2023-05-21,hgr kitatumba,enk,0.0
+2023-05-21,hopital provincial,snel,0.0
+2023-05-21,ngangi 3,virunga,0.0
+2023-05-22,cclk,nuru,0.0
+2023-05-22,cs murara,snel,0.036861
+2023-05-22,csr kiziba,nuru,0.0
+2023-05-22,hgr beni,enk,0.0
+2023-05-22,hgr katwa,enk,0.044444
+2023-05-22,hgr lubero,virunga,0.0
+2023-05-22,ngangi 3,virunga,0.0
+2023-05-23,cclk,nuru,0.0
+2023-05-23,cs murara,snel,0.0
+2023-05-24,cclk,nuru,0.0
+2023-05-24,ch cbca bethesda ndosho,virunga,0.0
+2023-05-24,ch matanda,enk,0.911667
+2023-05-24,hgr beni,enk,0.0
+2023-05-24,hgr kirotshe,snel,0.0
+2023-05-24,hgr lubero,virunga,0.13
+2023-05-25,hgr beni,enk,0.0
+2023-05-25,hgr katwa,enk,0.171389
+2023-05-25,hgr kitatumba,enk,0.0
+2023-05-26,ch cbca bethesda ndosho,virunga,0.0
+2023-05-26,csr bakhita,nuru,0.0
+2023-05-26,csr kiziba,nuru,0.0
+2023-05-26,heal africa,snel,0.0
+2023-05-26,hgr panzi,snel,0.0
+2023-05-26,hopital provincial,snel,0.0
+2023-05-27,ch cbca bethesda ndosho,virunga,0.071111
+2023-05-27,csr bakhita,nuru,0.0
+2023-05-27,heal africa,snel,0.0
+2023-05-27,ngangi 3,virunga,9.146389
+2023-05-28,ch cbca bethesda ndosho,virunga,0.0
+2023-05-28,hgr beni,enk,0.0
+2023-05-28,hgr lubero,virunga,0.0
+2023-05-28,hopital provincial,snel,0.0
+2023-05-29,hgr beni,enk,0.0
+2023-05-29,hgr katwa,enk,0.0
+2023-05-29,hgr kirotshe,snel,0.0
+2023-05-29,hopital provincial,snel,0.0
+2023-05-30,csr bakhita,nuru,0.0
+2023-05-30,csr kiziba,nuru,0.0
+2023-05-30,hgr katwa,enk,0.0
+2023-05-31,hgr katwa,enk,0.0
+2023-05-31,hgr kirotshe,snel,0.0
+2023-05-31,hgr kitatumba,enk,0.0
+2023-06-01,ch cbca bethesda ndosho,virunga,0.0
+2023-06-01,ch matanda,enk,0.366667
+2023-06-01,hgr katwa,enk,0.0
+2023-06-01,hgr lubero,virunga,0.0
+2023-06-01,hopital provincial,snel,0.0
+2023-06-02,csr bakhita,nuru,0.0
+2023-06-02,hgr katwa,enk,0.0
+2023-06-02,hgr lubero,virunga,0.0
+2023-06-03,csr bakhita,nuru,0.0
+2023-06-03,hgr kirotshe,snel,0.0
+2023-06-03,hgr panzi,snel,0.0
+2023-06-03,hopital provincial,snel,0.0
+2023-06-04,csr kiziba,nuru,0.0
+2023-06-05,ch matanda,enk,0.0
+2023-06-05,csr bakhita,nuru,0.0
+2023-06-05,heal africa,snel,0.0
+2023-06-05,hgr beni,enk,0.0
+2023-06-05,hgr lubero,virunga,0.0
+2023-06-06,cclk,nuru,0.0
+2023-06-06,cs murara,snel,0.0
+2023-06-06,heal africa,snel,0.0
+2023-06-06,hgr katwa,enk,0.338889
+2023-06-07,hgr kirotshe,snel,0.0
+2023-06-07,hgr panzi,snel,0.0
+2023-06-07,ngangi 3,virunga,6.801667
+2023-06-08,ch matanda,enk,0.0
+2023-06-08,hgr kirotshe,snel,0.0
+2023-06-08,hgr panzi,snel,0.0
+2023-06-09,ch matanda,enk,0.836389
+2023-06-09,cs murara,snel,0.0
+2023-06-09,csr bakhita,nuru,0.0
+2023-06-09,csr kiziba,nuru,0.0
+2023-06-10,cs murara,snel,0.0
+2023-06-10,hgr beni,enk,0.0
+2023-06-10,hgr katwa,enk,0.954722
+2023-06-10,hgr kirotshe,snel,0.0
+2023-06-10,hgr lubero,virunga,0.0
+2023-06-10,hgr panzi,snel,0.0
+2023-06-11,cclk,nuru,0.0
+2023-06-11,ch cbca bethesda ndosho,virunga,0.0
+2023-06-11,heal africa,snel,0.0
+2023-06-11,hgr panzi,snel,0.0
+2023-06-11,hopital provincial,snel,0.0
+2023-06-11,ngangi 3,virunga,21.979861
+2023-06-12,ch matanda,enk,0.305556
+2023-06-12,cs murara,snel,0.0
+2023-06-12,csr bakhita,nuru,0.0
+2023-06-12,hgr beni,enk,0.0
+2023-06-12,hgr lubero,virunga,0.0
+2023-06-13,cclk,nuru,0.0
+2023-06-13,csr bakhita,nuru,0.0
+2023-06-13,hopital provincial,snel,0.0
+2023-06-14,ch cbca bethesda ndosho,virunga,0.0
+2023-06-14,ch matanda,enk,0.279167
+2023-06-14,csr bakhita,nuru,0.0
+2023-06-14,csr kiziba,nuru,0.0
+2023-06-14,hgr beni,enk,0.0
+2023-06-14,hgr kirotshe,snel,0.0
+2023-06-14,hgr lubero,virunga,0.0
+2023-06-14,hopital provincial,snel,0.0
+2023-06-15,csr kiziba,nuru,0.0
+2023-06-15,heal africa,snel,0.043611
+2023-06-15,hgr kitatumba,enk,0.0
+2023-06-15,hopital provincial,snel,0.0
+2023-06-15,ngangi 3,virunga,7.229028
+2023-06-16,ch matanda,enk,0.2375
+2023-06-16,csr bakhita,nuru,0.0
+2023-06-16,hgr katwa,enk,0.033889
+2023-06-16,hopital provincial,snel,0.0
+2023-06-16,ngangi 3,virunga,16.361389
+2023-06-17,csr bakhita,nuru,0.0
+2023-06-17,hgr beni,enk,0.0
+2023-06-17,hgr kirotshe,snel,0.0
+2023-06-17,hgr lubero,virunga,0.0
+2023-06-17,hgr panzi,snel,0.0
+2023-06-17,ngangi 3,virunga,7.887778
+2023-06-18,cclk,nuru,0.0
+2023-06-18,ch cbca bethesda ndosho,virunga,0.222083
+2023-06-18,csr bakhita,nuru,0.0
+2023-06-18,csr kiziba,nuru,0.0
+2023-06-18,heal africa,snel,0.0
+2023-06-18,hgr lubero,virunga,0.0
+2023-06-18,hopital provincial,snel,0.0
+2023-06-19,cclk,nuru,0.0
+2023-06-19,csr kiziba,nuru,0.0
+2023-06-19,hgr kirotshe,snel,0.0
+2023-06-19,hgr kitatumba,enk,0.0
+2023-06-19,hgr lubero,virunga,0.309722
+2023-06-19,hgr panzi,snel,0.0
+2023-06-19,hopital provincial,snel,0.0
+2023-06-20,cclk,nuru,0.0
+2023-06-20,ch cbca bethesda ndosho,virunga,0.0
+2023-06-20,hgr kirotshe,snel,0.0
+2023-06-20,hopital provincial,snel,0.0
+2023-06-21,cclk,nuru,0.0
+2023-06-21,cs murara,snel,7.875556
+2023-06-21,csr bakhita,nuru,0.0
+2023-06-21,heal africa,snel,0.0
+2023-06-21,hgr kirotshe,snel,0.0
+2023-06-21,hgr kitatumba,enk,0.268056
+2023-06-21,hopital provincial,snel,0.0
+2023-06-22,csr bakhita,nuru,0.0
+2023-06-22,heal africa,snel,0.0
+2023-06-22,hgr beni,enk,0.0
+2023-06-22,hgr kirotshe,snel,0.0
+2023-06-23,cclk,nuru,0.0
+2023-06-23,ch cbca bethesda ndosho,virunga,0.014028
+2023-06-23,ch matanda,enk,0.0
+2023-06-23,hgr katwa,enk,0.0
+2023-06-23,hgr lubero,virunga,0.124444
+2023-06-23,hgr panzi,snel,0.0
+2023-06-24,cclk,nuru,0.0
+2023-06-24,hgr kirotshe,snel,0.0
+2023-06-24,hgr kitatumba,enk,0.0
+2023-06-25,cclk,nuru,0.0
+2023-06-25,ch matanda,enk,0.0
+2023-06-25,heal africa,snel,0.0
+2023-06-25,hgr beni,enk,0.0
+2023-06-25,hgr kirotshe,snel,0.0
+2023-06-25,hgr lubero,virunga,0.0
+2023-06-25,ngangi 3,virunga,24.0
+2023-06-26,csr bakhita,nuru,0.0
+2023-06-26,heal africa,snel,0.0
+2023-06-26,hgr katwa,enk,0.033566
+2023-06-26,hgr kirotshe,snel,0.0
+2023-06-27,csr bakhita,nuru,0.0
+2023-06-27,hgr beni,enk,0.0
+2023-06-27,hgr katwa,enk,0.0
+2023-06-27,hgr panzi,snel,0.0
+2023-06-28,ch matanda,enk,0.0
+2023-06-28,csr bakhita,nuru,0.0
+2023-06-28,heal africa,snel,0.0
+2023-06-28,hgr beni,enk,0.0
+2023-06-28,hgr katwa,enk,0.0
+2023-06-28,hgr kirotshe,snel,0.0
+2023-06-28,hgr kitatumba,enk,0.0
+2023-06-28,hopital provincial,snel,0.0
+2023-06-29,cclk,nuru,0.0
+2023-06-29,csr bakhita,nuru,0.0
+2023-06-29,heal africa,snel,0.0
+2023-06-29,hgr katwa,enk,0.0
+2023-06-29,hgr kitatumba,enk,0.0
+2023-06-29,hgr panzi,snel,0.0
+2023-06-29,hopital provincial,snel,0.0
+2023-06-30,ch cbca bethesda ndosho,virunga,0.0
+2023-06-30,hgr kitatumba,enk,0.0
+2023-06-30,hgr lubero,virunga,0.0
+2023-06-30,hopital provincial,snel,0.207639
+2023-07-01,hgr kitatumba,enk,0.0
+2023-07-01,hgr lubero,virunga,0.0
+2023-07-02,cclk,nuru,0.0
+2023-07-02,hgr kirotshe,snel,0.0
+2023-07-02,ngangi 3,virunga,24.0
+2023-07-03,ch matanda,enk,0.0
+2023-07-03,csr bakhita,nuru,0.0
+2023-07-03,heal africa,snel,0.0
+2023-07-03,hgr beni,enk,0.0
+2023-07-03,hgr katwa,enk,0.223889
+2023-07-03,hgr kitatumba,enk,0.0
+2023-07-03,hopital provincial,snel,0.0
+2023-07-03,ngangi 3,virunga,21.270556
+2023-07-04,ch cbca bethesda ndosho,virunga,0.0
+2023-07-04,csr bakhita,nuru,0.0
+2023-07-04,hgr katwa,enk,0.073333
+2023-07-05,cs murara,snel,0.0
+2023-07-05,hgr katwa,enk,0.075556
+2023-07-05,hgr kitatumba,enk,0.0
+2023-07-05,hgr lubero,virunga,2.078333
+2023-07-06,ch cbca bethesda ndosho,virunga,0.0
+2023-07-06,csr bakhita,nuru,0.0
+2023-07-06,hgr lubero,virunga,0.0
+2023-07-07,hgr beni,enk,0.081944
+2023-07-07,hgr katwa,enk,0.0
+2023-07-07,hgr lubero,virunga,0.0
+2023-07-07,hgr panzi,snel,0.0
+2023-07-07,ngangi 3,virunga,0.0
+2023-07-08,cs murara,snel,0.270278
+2023-07-08,csr bakhita,nuru,0.495278
+2023-07-08,hgr katwa,enk,0.041667
+2023-07-08,hgr kitatumba,enk,0.0
+2023-07-08,hopital provincial,snel,0.054167
+2023-07-08,ngangi 3,virunga,13.139444
+2023-07-09,heal africa,snel,0.0
+2023-07-10,ch cbca bethesda ndosho,virunga,0.0
+2023-07-10,csr bakhita,nuru,0.0
+2023-07-10,hgr beni,enk,0.111111
+2023-07-11,csr bakhita,nuru,0.0
+2023-07-11,hgr beni,enk,0.176195
+2023-07-11,hgr katwa,enk,0.0
+2023-07-11,hgr kitatumba,enk,0.0
+2023-07-11,hgr panzi,snel,0.0
+2023-07-11,ngangi 3,virunga,21.744028
+2023-07-12,cclk,nuru,0.0
+2023-07-12,hgr katwa,enk,0.0
+2023-07-13,cclk,nuru,0.0
+2023-07-13,ch cbca bethesda ndosho,virunga,0.048611
+2023-07-13,hgr kitatumba,enk,0.0
+2023-07-14,ch cbca bethesda ndosho,virunga,0.0
+2023-07-14,cs murara,snel,0.0
+2023-07-14,heal africa,snel,0.0525
+2023-07-14,hgr beni,enk,0.0
+2023-07-14,hgr katwa,enk,0.211667
+2023-07-14,hgr lubero,virunga,0.0
+2023-07-15,cs murara,snel,0.785278
+2023-07-15,csr bakhita,nuru,0.0
+2023-07-15,hgr beni,enk,0.138296
+2023-07-15,hgr kirotshe,snel,0.0
+2023-07-15,hgr lubero,virunga,0.0
+2023-07-15,ngangi 3,virunga,7.612917
+2023-07-16,hgr kitatumba,enk,0.0
+2023-07-17,cclk,nuru,0.0
+2023-07-17,cs murara,snel,0.836944
+2023-07-17,heal africa,snel,0.0625
+2023-07-17,hgr beni,enk,0.088611
+2023-07-17,hgr kitatumba,enk,0.0
+2023-07-18,hgr beni,enk,0.023056
+2023-07-18,hgr lubero,virunga,0.0
+2023-07-18,ngangi 3,virunga,11.8375
+2023-07-19,ch cbca bethesda ndosho,virunga,0.0
+2023-07-19,cs murara,snel,0.0
+2023-07-19,csr bakhita,nuru,0.0
+2023-07-19,heal africa,snel,0.0
+2023-07-19,hgr beni,enk,0.0
+2023-07-19,hgr lubero,virunga,0.0
+2023-07-20,csr bakhita,nuru,0.0
+2023-07-20,heal africa,snel,0.0
+2023-07-20,hgr kitatumba,enk,0.0
+2023-07-20,hgr lubero,virunga,0.0
+2023-07-21,ch matanda,enk,0.435833
+2023-07-21,cs murara,snel,0.171806
+2023-07-21,csr bakhita,nuru,1.506389
+2023-07-21,hgr beni,enk,0.119722
+2023-07-21,hgr katwa,enk,0.648333
+2023-07-21,hgr kirotshe,snel,0.0
+2023-07-21,hgr lubero,virunga,0.0
+2023-07-21,hopital provincial,snel,0.055
+2023-07-22,cclk,nuru,0.0
+2023-07-22,ch cbca bethesda ndosho,virunga,0.0
+2023-07-22,ch matanda,enk,0.128281
+2023-07-22,hgr kirotshe,snel,0.0
+2023-07-22,hgr lubero,virunga,0.0
+2023-07-22,ngangi 3,virunga,0.0
+2023-07-23,ch matanda,enk,0.0
+2023-07-23,hgr beni,enk,0.031667
+2023-07-23,hgr kitatumba,enk,0.0
+2023-07-23,hopital provincial,snel,0.007917
+2023-07-23,ngangi 3,virunga,16.266389
+2023-07-24,csr bakhita,nuru,0.0
+2023-07-25,ch cbca bethesda ndosho,virunga,0.0
+2023-07-25,hgr katwa,enk,0.0
+2023-07-25,hgr kirotshe,snel,0.0
+2023-07-25,hgr kitatumba,enk,0.0
+2023-07-25,ngangi 3,virunga,24.0
+2023-07-26,ch cbca bethesda ndosho,virunga,0.0
+2023-07-26,ch matanda,enk,0.0
+2023-07-26,csr bakhita,nuru,0.0
+2023-07-26,hgr beni,enk,0.0
+2023-07-26,hgr katwa,enk,0.565833
+2023-07-26,hgr kitatumba,enk,0.0
+2023-07-26,hopital provincial,snel,0.0
+2023-07-26,ngangi 3,virunga,21.254028
+2023-07-27,cclk,nuru,0.0
+2023-07-27,ch cbca bethesda ndosho,virunga,0.0
+2023-07-27,cs murara,snel,3.578056
+2023-07-27,hgr beni,enk,0.0
+2023-07-27,hgr kirotshe,snel,0.0
+2023-07-27,hgr lubero,virunga,0.0
+2023-07-27,hopital provincial,snel,0.0
+2023-07-27,ngangi 3,virunga,18.716111
+2023-07-28,ch matanda,enk,0.086667
+2023-07-28,csr bakhita,nuru,0.0
+2023-07-29,cclk,nuru,0.0
+2023-07-29,ch cbca bethesda ndosho,virunga,0.0
+2023-07-29,csr bakhita,nuru,0.0
+2023-07-29,hgr beni,enk,0.0
+2023-07-30,ch cbca bethesda ndosho,virunga,0.0
+2023-07-30,hgr katwa,enk,0.0
+2023-07-30,hgr lubero,virunga,9.985833
+2023-07-31,hgr kirotshe,snel,0.0
+2023-07-31,hgr lubero,virunga,0.0
+2023-07-31,hopital provincial,snel,0.0
+2023-07-31,ngangi 3,virunga,24.0
+2023-08-01,cclk,nuru,0.0
+2023-08-01,csr bakhita,nuru,0.0
+2023-08-01,hgr beni,enk,0.0
+2023-08-01,hgr kitatumba,enk,0.206944
+2023-08-01,hgr lubero,virunga,0.0
+2023-08-02,heal africa,snel,0.099167
+2023-08-02,hgr katwa,enk,0.058065
+2023-08-03,ch matanda,enk,0.144722
+2023-08-03,hgr katwa,enk,0.045833
+2023-08-03,hgr lubero,virunga,0.0
+2023-08-03,hopital provincial,snel,0.0
+2023-08-04,cclk,nuru,0.0
+2023-08-04,ch matanda,enk,0.0
+2023-08-04,heal africa,snel,0.079118
+2023-08-04,hgr beni,enk,0.0
+2023-08-04,hgr kirotshe,snel,0.0
+2023-08-05,ch cbca bethesda ndosho,virunga,0.118056
+2023-08-05,ch matanda,enk,0.0
+2023-08-05,hgr katwa,enk,0.0
+2023-08-05,hgr kitatumba,enk,0.0
+2023-08-05,ngangi 3,virunga,11.735694
+2023-08-06,ch cbca bethesda ndosho,virunga,0.0
+2023-08-06,ch matanda,enk,0.409167
+2023-08-06,cs murara,snel,0.0
+2023-08-06,hgr kirotshe,snel,0.0
+2023-08-06,hgr kitatumba,enk,0.409167
+2023-08-07,ch cbca bethesda ndosho,virunga,0.0
+2023-08-07,hgr kitatumba,enk,0.283056
+2023-08-08,ch matanda,enk,0.0
+2023-08-08,hopital provincial,snel,0.0
+2023-08-09,hgr katwa,enk,0.0
+2023-08-09,hgr kirotshe,snel,0.0
+2023-08-10,hgr beni,enk,0.0
+2023-08-10,hgr katwa,enk,0.0
+2023-08-10,hgr kitatumba,enk,0.0
+2023-08-10,ngangi 3,virunga,8.054028
+2023-08-11,cclk,nuru,0.0
+2023-08-11,cs murara,snel,0.585417
+2023-08-11,csr bakhita,nuru,0.0
+2023-08-11,hgr kitatumba,enk,0.0
+2023-08-12,cclk,nuru,0.0
+2023-08-12,csr bakhita,nuru,0.0
+2023-08-12,hgr beni,enk,0.0
+2023-08-12,hgr lubero,virunga,0.0
+2023-08-13,ch matanda,enk,0.0
+2023-08-13,hgr beni,enk,0.0
+2023-08-13,hopital provincial,snel,0.0
+2023-08-14,ch matanda,enk,0.0
+2023-08-14,hgr katwa,enk,0.0
+2023-08-14,hgr kitatumba,enk,0.0
+2023-08-14,hgr lubero,virunga,0.0
+2023-08-14,hopital provincial,snel,0.0
+2023-08-15,cs murara,snel,0.0
+2023-08-15,csr bakhita,nuru,0.0
+2023-08-15,hopital provincial,snel,0.0
+2023-08-16,cs murara,snel,0.046528
+2023-08-16,hgr beni,enk,0.0
+2023-08-16,hgr lubero,virunga,0.0
+2023-08-17,hgr lubero,virunga,0.0
+2023-08-17,hopital provincial,snel,0.0
+2023-08-18,csr bakhita,nuru,1.2
+2023-08-18,hgr kitatumba,enk,0.0
+2023-08-18,hopital provincial,snel,0.0
+2023-08-18,ngangi 3,virunga,17.179444
+2023-08-19,cclk,nuru,0.0
+2023-08-19,ch cbca bethesda ndosho,virunga,0.053889
+2023-08-19,ch matanda,enk,0.0
+2023-08-19,csr bakhita,nuru,2.848611
+2023-08-19,hgr kirotshe,snel,0.0
+2023-08-19,hgr lubero,virunga,0.0
+2023-08-20,cclk,nuru,0.0
+2023-08-20,ch cbca bethesda ndosho,virunga,0.0
+2023-08-20,csr bakhita,nuru,0.0
+2023-08-20,hgr beni,enk,0.0
+2023-08-20,hgr panzi,snel,0.0
+2023-08-20,hopital provincial,snel,0.0
+2023-08-20,ngangi 3,virunga,24.0
+2023-08-21,hgr beni,enk,0.0
+2023-08-21,ngangi 3,virunga,10.39375
+2023-08-22,cclk,nuru,0.0
+2023-08-22,ch cbca bethesda ndosho,virunga,0.082361
+2023-08-22,cs murara,snel,0.2925
+2023-08-22,csr bakhita,nuru,0.0
+2023-08-22,hgr beni,enk,0.0
+2023-08-22,hgr kirotshe,snel,0.0
+2023-08-23,cclk,nuru,0.0
+2023-08-23,ch matanda,enk,0.0
+2023-08-23,cs murara,snel,0.496528
+2023-08-23,hgr beni,enk,0.0
+2023-08-23,hgr katwa,enk,0.0
+2023-08-23,hgr lubero,virunga,0.0
+2023-08-24,heal africa,snel,0.040278
+2023-08-25,ch cbca bethesda ndosho,virunga,0.146111
+2023-08-25,ch matanda,enk,0.125556
+2023-08-25,heal africa,snel,0.0
+2023-08-25,hgr katwa,enk,0.0
+2023-08-25,hgr kirotshe,snel,0.0
+2023-08-25,hgr kitatumba,enk,0.125556
+2023-08-25,hopital provincial,snel,0.0
+2023-08-26,cclk,nuru,0.0
+2023-08-26,ch matanda,enk,0.114167
+2023-08-26,hgr lubero,virunga,0.0
+2023-08-27,ch cbca bethesda ndosho,virunga,0.201111
+2023-08-27,cs murara,snel,0.296667
+2023-08-27,csr bakhita,nuru,0.0
+2023-08-27,hgr kirotshe,snel,0.0
+2023-08-27,hgr kitatumba,enk,0.319444
+2023-08-28,cclk,nuru,0.0
+2023-08-28,hgr katwa,enk,0.0
+2023-08-28,hgr kirotshe,snel,0.0
+2023-08-28,hgr kitatumba,enk,0.0
+2023-08-29,cs murara,snel,0.563194
+2023-08-29,heal africa,snel,0.0
+2023-08-29,hgr katwa,enk,0.0
+2023-08-29,hgr kirotshe,snel,0.0
+2023-08-30,ch matanda,enk,0.0
+2023-08-30,cs murara,snel,0.0
+2023-08-31,hgr lubero,virunga,0.0
+2023-08-31,hopital provincial,snel,0.0
+2023-08-31,ngangi 3,virunga,12.779861
+2023-09-01,ch cbca bethesda ndosho,virunga,0.045
+2023-09-01,ch matanda,enk,0.228056
+2023-09-01,hgr beni,enk,0.056307
+2023-09-01,hopital provincial,snel,0.08913
+2023-09-02,heal africa,snel,0.161944
+2023-09-02,hgr kirotshe,snel,0.0
+2023-09-02,hgr lubero,virunga,0.0
+2023-09-03,ch cbca bethesda ndosho,virunga,0.049444
+2023-09-03,heal africa,snel,0.113056
+2023-09-03,hgr kitatumba,enk,0.094722
+2023-09-03,hopital provincial,snel,0.004861
+2023-09-04,cclk,nuru,0.0
+2023-09-04,cs murara,snel,7.788611
+2023-09-04,hgr katwa,enk,0.026944
+2023-09-04,hgr kirotshe,snel,0.0
+2023-09-04,hgr kitatumba,enk,0.088056
+2023-09-05,heal africa,snel,0.131389
+2023-09-05,ngangi 3,virunga,18.91375
+2023-09-06,hgr kirotshe,snel,0.0
+2023-09-06,ngangi 3,virunga,7.564028
+2023-09-07,ch matanda,enk,0.0
+2023-09-07,hgr beni,enk,0.0
+2023-09-07,ngangi 3,virunga,8.941628
+2023-09-08,csr bakhita,nuru,0.0
+2023-09-08,hgr beni,enk,0.0
+2023-09-08,hgr kitatumba,enk,0.0
+2023-09-08,hgr lubero,virunga,1.206528
+2023-09-09,ch cbca bethesda ndosho,virunga,0.075556
+2023-09-09,ch matanda,enk,0.0
+2023-09-09,hgr beni,enk,0.0
+2023-09-10,cclk,nuru,0.0
+2023-09-10,cs murara,snel,0.0
+2023-09-10,hgr lubero,virunga,0.0
+2023-09-10,ngangi 3,virunga,0.0
+2023-09-11,cclk,nuru,0.0
+2023-09-11,hgr katwa,enk,0.0
+2023-09-11,hgr kirotshe,snel,0.0
+2023-09-11,hgr lubero,virunga,0.282778
+2023-09-12,ch matanda,enk,0.4575
+2023-09-12,cs murara,snel,0.329306
+2023-09-12,hgr kirotshe,snel,0.0
+2023-09-12,hgr kitatumba,enk,0.4575
+2023-09-12,hgr lubero,virunga,0.282222
+2023-09-13,ch cbca bethesda ndosho,virunga,0.0
+2023-09-13,hgr beni,enk,0.008889
+2023-09-14,hgr katwa,enk,0.099167
+2023-09-15,ch matanda,enk,0.145278
+2023-09-16,ch cbca bethesda ndosho,virunga,0.0
+2023-09-16,ch matanda,enk,0.089444
+2023-09-16,hgr beni,enk,0.170278
+2023-09-16,hgr lubero,virunga,0.263056
+2023-09-17,ch cbca bethesda ndosho,virunga,0.0
+2023-09-17,ch matanda,enk,0.970833
+2023-09-17,csr bakhita,nuru,17.474722
+2023-09-18,ch cbca bethesda ndosho,virunga,0.0
+2023-09-18,heal africa,snel,0.071944
+2023-09-18,hgr katwa,enk,0.031389
+2023-09-18,ngangi 3,virunga,9.863611
+2023-09-19,cclk,nuru,0.0
+2023-09-19,ch matanda,enk,0.0
+2023-09-19,hgr katwa,enk,0.291667
+2023-09-19,hgr lubero,virunga,0.100556
+2023-09-19,hopital provincial,snel,0.0
+2023-09-20,ch cbca bethesda ndosho,virunga,0.0
+2023-09-20,heal africa,snel,0.133009
+2023-09-20,hgr lubero,virunga,0.060278
+2023-09-20,hgr panzi,snel,0.0
+2023-09-20,hopital provincial,snel,0.053611
+2023-09-20,ngangi 3,virunga,0.0
+2023-09-21,ch cbca bethesda ndosho,virunga,0.0
+2023-09-21,cs murara,snel,0.037361
+2023-09-21,csr bakhita,nuru,0.158889
+2023-09-21,hgr lubero,virunga,0.123611
+2023-09-21,ngangi 3,virunga,9.767778
+2023-09-22,heal africa,snel,0.070278
+2023-09-22,hgr beni,enk,0.0
+2023-09-22,hgr katwa,enk,0.0
+2023-09-22,hgr kirotshe,snel,0.0
+2023-09-22,hgr kitatumba,enk,0.0
+2023-09-22,hopital provincial,snel,0.022361
+2023-09-22,ngangi 3,virunga,6.975278
+2023-09-23,cs murara,snel,7.77375
+2023-09-23,hgr katwa,enk,0.223889
+2023-09-23,hgr kirotshe,snel,0.0
+2023-09-23,hopital provincial,snel,0.204028
+2023-09-24,ch cbca bethesda ndosho,virunga,0.203611
+2023-09-24,cs murara,snel,10.035556
+2023-09-24,csr bakhita,nuru,0.0
+2023-09-24,heal africa,snel,0.161111
+2023-09-24,hgr kitatumba,enk,0.0
+2023-09-24,hopital provincial,snel,0.1825
+2023-09-25,cclk,nuru,0.0
+2023-09-25,ch cbca bethesda ndosho,virunga,0.136111
+2023-09-25,hgr beni,enk,0.0
+2023-09-25,hgr katwa,enk,0.0
+2023-09-25,hgr lubero,virunga,0.118056
+2023-09-26,cclk,nuru,0.0
+2023-09-26,csr bakhita,nuru,0.0
+2023-09-26,hgr katwa,enk,0.0
+2023-09-26,hgr kitatumba,enk,0.0
+2023-09-26,hgr panzi,snel,0.0
+2023-09-27,cs murara,snel,6.08125
+2023-09-28,ch cbca bethesda ndosho,virunga,0.0
+2023-09-28,cs murara,snel,5.557083
+2023-09-28,hgr katwa,enk,0.046389
+2023-09-29,hgr kirotshe,snel,0.0
+2023-09-29,hgr lubero,virunga,0.070833
+2023-09-30,hgr beni,enk,0.0
+2023-09-30,hgr katwa,enk,0.0
+2023-09-30,hgr kitatumba,enk,0.0
+2023-09-30,ngangi 3,virunga,0.0
+2023-10-01,cclk,nuru,0.0
+2023-10-01,hgr kirotshe,snel,0.0
+2023-10-02,heal africa,snel,0.0
+2023-10-02,hgr beni,enk,0.0
+2023-10-02,hgr kirotshe,snel,0.0
+2023-10-02,hgr kitatumba,enk,0.273611
+2023-10-03,cs murara,snel,0.0
+2023-10-03,csr bakhita,nuru,0.0
+2023-10-03,hgr beni,enk,0.0
+2023-10-03,hgr katwa,enk,0.0
+2023-10-03,hgr kitatumba,enk,0.0
+2023-10-03,hopital provincial,snel,0.0
+2023-10-03,ngangi 3,virunga,8.549722
+2023-10-04,ch cbca bethesda ndosho,virunga,0.0
+2023-10-04,csr bakhita,nuru,0.0
+2023-10-04,heal africa,snel,0.0
+2023-10-04,hgr beni,enk,0.0
+2023-10-04,hgr kirotshe,snel,0.0
+2023-10-04,hgr kitatumba,enk,0.0
+2023-10-04,hgr lubero,virunga,0.067778
+2023-10-05,cclk,nuru,0.0
+2023-10-05,cs murara,snel,0.0
+2023-10-05,csr bakhita,nuru,0.0
+2023-10-05,heal africa,snel,0.0
+2023-10-05,hgr katwa,enk,0.310556
+2023-10-06,ch cbca bethesda ndosho,virunga,0.0
+2023-10-06,ch matanda,enk,0.0
+2023-10-06,heal africa,snel,0.0
+2023-10-06,hgr beni,enk,0.0
+2023-10-06,hopital provincial,snel,0.0
+2023-10-07,ch matanda,enk,0.0
+2023-10-07,hgr beni,enk,0.0
+2023-10-08,cclk,nuru,0.0
+2023-10-08,heal africa,snel,0.0
+2023-10-08,hgr katwa,enk,0.0
+2023-10-08,hgr lubero,virunga,0.0
+2023-10-08,ngangi 3,virunga,0.0
+2023-10-09,hgr kitatumba,enk,0.0
+2023-10-10,ch cbca bethesda ndosho,virunga,0.0
+2023-10-10,csr bakhita,nuru,0.0
+2023-10-10,hgr kitatumba,enk,0.0
+2023-10-11,ch matanda,enk,0.150833
+2023-10-11,cs murara,snel,0.0
+2023-10-11,hgr kitatumba,enk,0.150833
+2023-10-11,ngangi 3,virunga,7.771528
+2023-10-12,hgr katwa,enk,0.476667
+2023-10-13,ch cbca bethesda ndosho,virunga,0.124028
+2023-10-13,ch matanda,enk,0.143611
+2023-10-13,heal africa,snel,0.105278
+2023-10-13,hgr kirotshe,snel,0.0
+2023-10-13,hgr lubero,virunga,0.0
+2023-10-13,hopital provincial,snel,0.018611
+2023-10-14,ch cbca bethesda ndosho,virunga,0.0
+2023-10-14,csr bakhita,nuru,0.0
+2023-10-14,hgr katwa,enk,0.0
+2023-10-14,ngangi 3,virunga,7.463472
+2023-10-15,csr bakhita,nuru,0.0
+2023-10-15,hgr katwa,enk,0.235833
+2023-10-15,hgr kitatumba,enk,0.659722
+2023-10-15,hgr lubero,virunga,0.0
+2023-10-16,hgr beni,enk,0.0
+2023-10-16,hgr kirotshe,snel,0.0
+2023-10-16,hgr kitatumba,enk,0.0
+2023-10-16,hopital provincial,snel,0.0
+2023-10-17,ch cbca bethesda ndosho,virunga,0.0
+2023-10-17,heal africa,snel,0.081111
+2023-10-17,hgr beni,enk,0.0
+2023-10-17,hgr kitatumba,enk,0.0
+2023-10-18,cclk,nuru,0.0
+2023-10-18,cs murara,snel,0.272083
+2023-10-18,heal africa,snel,0.058889
+2023-10-18,hgr katwa,enk,0.119722
+2023-10-18,hgr kirotshe,snel,0.0
+2023-10-18,hgr kitatumba,enk,0.0
+2023-10-18,hgr lubero,virunga,0.0
+2023-10-19,heal africa,snel,0.096389
+2023-10-19,hgr kirotshe,snel,0.0
+2023-10-19,hgr lubero,virunga,0.0
+2023-10-20,cs murara,snel,1.065139
+2023-10-20,hgr katwa,enk,0.031667
+2023-10-20,hgr kirotshe,snel,0.0
+2023-10-20,hopital provincial,snel,0.074722
+2023-10-20,ngangi 3,virunga,0.0
+2023-10-21,cclk,nuru,0.0
+2023-10-21,ch matanda,enk,0.139722
+2023-10-21,heal africa,snel,0.116389
+2023-10-21,hgr katwa,enk,0.214722
+2023-10-21,ngangi 3,virunga,0.166667
+2023-10-22,cclk,nuru,0.0
+2023-10-22,hopital provincial,snel,0.0
+2023-10-23,cs murara,snel,0.0
+2023-10-23,csr bakhita,nuru,0.0
+2023-10-23,hgr lubero,virunga,0.0
+2023-10-24,cclk,nuru,0.0
+2023-10-24,ch cbca bethesda ndosho,virunga,0.0425
+2023-10-24,csr bakhita,nuru,0.0
+2023-10-24,hgr beni,enk,0.0
+2023-10-24,hgr katwa,enk,0.0
+2023-10-24,hgr kirotshe,snel,0.0
+2023-10-24,hgr lubero,virunga,0.0
+2023-10-24,hopital provincial,snel,0.004583
+2023-10-25,heal africa,snel,0.052035
+2023-10-25,hgr lubero,virunga,0.0
+2023-10-25,hopital provincial,snel,0.0
+2023-10-26,cclk,nuru,0.0
+2023-10-26,cs murara,snel,0.357778
+2023-10-26,csr bakhita,nuru,2.023889
+2023-10-26,hgr katwa,enk,0.0
+2023-10-26,hgr kitatumba,enk,0.0
+2023-10-27,hgr lubero,virunga,0.0
+2023-10-27,ngangi 3,virunga,0.0
+2023-10-28,cclk,nuru,0.0
+2023-10-28,ch cbca bethesda ndosho,virunga,0.0
+2023-10-28,ch matanda,enk,0.0
+2023-10-28,hgr katwa,enk,0.0
+2023-10-28,hgr lubero,virunga,0.0
+2023-10-28,hopital provincial,snel,0.0
+2023-10-28,ngangi 3,virunga,10.567778
+2023-10-29,cclk,nuru,0.0
+2023-10-29,ch cbca bethesda ndosho,virunga,0.0
+2023-10-29,ch matanda,enk,0.0
+2023-10-29,hgr beni,enk,0.0
+2023-10-29,hgr katwa,enk,0.098333
+2023-10-29,hopital provincial,snel,0.0
+2023-10-30,cclk,nuru,0.0
+2023-10-30,ch cbca bethesda ndosho,virunga,0.043889
+2023-10-30,heal africa,snel,0.074444
+2023-10-30,hgr beni,enk,0.0
+2023-10-30,hgr katwa,enk,0.0
+2023-10-30,hgr kitatumba,enk,0.0
+2023-10-30,ngangi 3,virunga,6.377222
+2023-10-31,ch matanda,enk,0.081944
+2023-10-31,cs murara,snel,0.058056
+2023-10-31,hgr katwa,enk,0.127778
+2023-10-31,hgr kirotshe,snel,0.0
+2023-10-31,hgr kitatumba,enk,0.081944
+2023-10-31,hgr lubero,virunga,0.0
+2023-10-31,ngangi 3,virunga,0.0
+2023-11-01,cs murara,snel,0.0
+2023-11-01,hgr katwa,enk,0.050556
+2023-11-01,hgr kitatumba,enk,0.134722
+2023-11-01,hopital provincial,snel,0.004861
+2023-11-02,cclk,nuru,0.0
+2023-11-02,cs murara,snel,0.049722
+2023-11-02,hgr katwa,enk,0.0
+2023-11-02,hgr kirotshe,snel,0.0
+2023-11-02,hgr lubero,virunga,0.0
+2023-11-03,cclk,nuru,0.0
+2023-11-03,csr bakhita,nuru,0.0
+2023-11-03,hgr beni,enk,0.0
+2023-11-03,ngangi 3,virunga,0.0
+2023-11-04,ch cbca bethesda ndosho,virunga,0.466389
+2023-11-04,hgr beni,enk,0.0
+2023-11-04,hgr katwa,enk,0.0
+2023-11-04,hgr kitatumba,enk,0.0
+2023-11-04,ngangi 3,virunga,0.468611
+2023-11-05,heal africa,snel,0.060556
+2023-11-05,hgr lubero,virunga,0.0
+2023-11-05,hopital provincial,snel,0.0
+2023-11-05,ngangi 3,virunga,0.368889
+2023-11-06,cclk,nuru,0.0
+2023-11-06,cs murara,snel,7.524583
+2023-11-06,csr bakhita,nuru,0.0
+2023-11-06,hgr beni,enk,0.0
+2023-11-06,hgr kirotshe,snel,0.0
+2023-11-07,csr bakhita,nuru,0.0
+2023-11-07,heal africa,snel,0.0
+2023-11-07,ngangi 3,virunga,0.230456
+2023-11-08,hgr lubero,virunga,0.0
+2023-11-09,heal africa,snel,0.0
+2023-11-09,hgr beni,enk,0.0
+2023-11-09,hgr kirotshe,snel,0.0
+2023-11-09,ngangi 3,virunga,0.0
+2023-11-10,hgr lubero,virunga,0.0
+2023-11-11,cs murara,snel,0.0
+2023-11-11,csr bakhita,nuru,0.0
+2023-11-11,heal africa,snel,0.0
+2023-11-11,hgr beni,enk,0.0
+2023-11-11,hgr katwa,enk,0.0
+2023-11-12,cclk,nuru,0.0
+2023-11-12,ch matanda,enk,0.13
+2023-11-12,csr bakhita,nuru,0.0
+2023-11-12,heal africa,snel,0.0
+2023-11-13,cclk,nuru,0.0
+2023-11-13,cs murara,snel,7.5149
+2023-11-13,hgr kitatumba,enk,0.0
+2023-11-14,cclk,nuru,0.0
+2023-11-15,cs murara,snel,0.115
+2023-11-15,heal africa,snel,0.0
+2023-11-15,hgr kirotshe,snel,0.0
+2023-11-15,hgr kitatumba,enk,0.0
+2023-11-16,cclk,nuru,0.0
+2023-11-16,ch cbca bethesda ndosho,virunga,0.205694
+2023-11-16,cs murara,snel,1.068194
+2023-11-16,csr kiziba,nuru,0.0
+2023-11-16,hgr kitatumba,enk,0.0
+2023-11-16,hgr lubero,virunga,0.0
+2023-11-16,hopital provincial,snel,0.0
+2023-11-17,ch matanda,enk,0.0
+2023-11-17,csr bakhita,nuru,0.0
+2023-11-17,csr kiziba,nuru,0.0
+2023-11-17,hgr kirotshe,snel,0.0
+2023-11-17,hopital provincial,snel,0.0
+2023-11-18,cclk,nuru,0.0
+2023-11-18,heal africa,snel,0.0
+2023-11-18,hgr katwa,enk,0.0
+2023-11-18,hgr kitatumba,enk,0.0
+2023-11-18,ngangi 3,virunga,0.0
+2023-11-19,cclk,nuru,0.0
+2023-11-19,ch cbca bethesda ndosho,virunga,0.0
+2023-11-19,ch matanda,enk,0.0
+2023-11-19,csr bakhita,nuru,0.0
+2023-11-19,csr kiziba,nuru,0.0
+2023-11-19,hgr katwa,enk,0.0
+2023-11-19,hgr kirotshe,snel,0.0
+2023-11-20,ch cbca bethesda ndosho,virunga,0.0
+2023-11-20,hgr katwa,enk,0.0
+2023-11-20,hgr kitatumba,enk,0.0
+2023-11-20,hopital provincial,snel,0.0
+2023-11-20,ngangi 3,virunga,0.0
+2023-11-21,ch matanda,enk,0.0
+2023-11-21,cs murara,snel,0.0
+2023-11-21,hgr beni,enk,0.0
+2023-11-21,hgr kirotshe,snel,0.0
+2023-11-21,ngangi 3,virunga,0.0
+2023-11-22,cclk,nuru,0.0
+2023-11-22,ch cbca bethesda ndosho,virunga,0.0
+2023-11-22,cs murara,snel,1.738333
+2023-11-22,csr kiziba,nuru,4.475152
+2023-11-22,hgr beni,enk,0.0
+2023-11-22,hgr kirotshe,snel,0.0
+2023-11-22,hopital provincial,snel,0.0
+2023-11-22,ngangi 3,virunga,0.0
+2023-11-23,cclk,nuru,0.0
+2023-11-23,cs murara,snel,0.0
+2023-11-23,csr kiziba,nuru,0.0
+2023-11-23,hgr kirotshe,snel,0.0
+2023-11-23,hgr kitatumba,enk,0.0
+2023-11-23,hgr lubero,virunga,0.0
+2023-11-24,ch cbca bethesda ndosho,virunga,0.0
+2023-11-24,hgr katwa,enk,0.242778
+2023-11-24,hgr kitatumba,enk,0.106944
+2023-11-24,hgr lubero,virunga,0.0
+2023-11-24,hopital provincial,snel,0.011667
+2023-11-24,ngangi 3,virunga,0.0
+2023-11-25,hgr beni,enk,0.0
+2023-11-25,hgr katwa,enk,0.0
+2023-11-25,hgr kirotshe,snel,0.0
+2023-11-25,hopital provincial,snel,0.0
+2023-11-26,cclk,nuru,0.0
+2023-11-26,csr bakhita,nuru,0.0
+2023-11-26,hgr beni,enk,0.102222
+2023-11-27,csr bakhita,nuru,0.0
+2023-11-27,heal africa,snel,0.0
+2023-11-27,hgr katwa,enk,0.0
+2023-11-27,hgr kirotshe,snel,0.0
+2023-11-27,hgr kitatumba,enk,0.481667
+2023-11-27,ngangi 3,virunga,10.060694
+2023-11-28,cs murara,snel,0.497917
+2023-11-28,hgr beni,enk,0.0
+2023-11-28,hgr kirotshe,snel,0.0
+2023-11-28,hgr kitatumba,enk,0.096389
+2023-11-29,cs murara,snel,10.114583
+2023-11-29,csr bakhita,nuru,0.0
+2023-11-30,ch cbca bethesda ndosho,virunga,0.020833
+2023-11-30,cs murara,snel,0.0
+2023-11-30,heal africa,snel,0.068333
+2023-12-01,ch matanda,enk,0.211111
+2023-12-01,hgr lubero,virunga,0.0
+2023-12-02,cclk,nuru,0.0
+2023-12-02,ch matanda,enk,0.0
+2023-12-02,csr kiziba,nuru,0.0
+2023-12-02,hgr katwa,enk,0.0
+2023-12-02,hgr kirotshe,snel,0.0
+2023-12-03,cs murara,snel,0.255972
+2023-12-03,hgr kirotshe,snel,0.0
+2023-12-04,ch cbca bethesda ndosho,virunga,0.003611
+2023-12-04,ch matanda,enk,0.0
+2023-12-04,csr bakhita,nuru,0.0
+2023-12-04,heal africa,snel,0.0
+2023-12-04,hgr beni,enk,0.0
+2023-12-05,cs murara,snel,0.024028
+2023-12-05,csr kiziba,nuru,0.0
+2023-12-05,heal africa,snel,0.073333
+2023-12-05,hgr beni,enk,0.0
+2023-12-05,hgr kirotshe,snel,0.0
+2023-12-05,hgr lubero,virunga,0.0
+2023-12-05,hopital provincial,snel,0.05
+2023-12-06,ch cbca bethesda ndosho,virunga,0.0
+2023-12-06,hgr kitatumba,enk,0.255556
+2023-12-06,hgr lubero,virunga,0.0
+2023-12-06,hopital provincial,snel,0.0
+2023-12-07,ch cbca bethesda ndosho,virunga,0.110694
+2023-12-07,ch matanda,enk,0.0
+2023-12-07,heal africa,snel,0.0
+2023-12-07,hgr kitatumba,enk,0.0
+2023-12-08,ch cbca bethesda ndosho,virunga,0.0
+2023-12-08,csr bakhita,nuru,0.0
+2023-12-08,hgr beni,enk,0.0
+2023-12-08,hgr kirotshe,snel,0.0
+2023-12-08,hgr kitatumba,enk,0.0
+2023-12-08,ngangi 3,virunga,24.0
+2023-12-09,hgr beni,enk,0.0
+2023-12-09,hgr lubero,virunga,0.0
+2023-12-10,cclk,nuru,0.0
+2023-12-10,ch cbca bethesda ndosho,virunga,0.0
+2023-12-10,cs murara,snel,0.041389
+2023-12-10,hgr beni,enk,0.0
+2023-12-10,hgr katwa,enk,0.0
+2023-12-10,hgr kirotshe,snel,0.0
+2023-12-10,hgr kitatumba,enk,0.0
+2023-12-11,ch cbca bethesda ndosho,virunga,0.08377
+2023-12-11,csr bakhita,nuru,0.0
+2023-12-11,csr kiziba,nuru,0.0
+2023-12-11,hgr katwa,enk,0.0
+2023-12-11,hgr kirotshe,snel,0.0
+2023-12-11,hgr kitatumba,enk,0.0
+2023-12-11,hgr lubero,virunga,0.0
+2023-12-12,cs murara,snel,0.030541
+2023-12-12,csr bakhita,nuru,0.0
+2023-12-12,hgr katwa,enk,0.0
+2023-12-13,ch matanda,enk,0.0
+2023-12-13,cs murara,snel,5.677791
+2023-12-13,hgr kitatumba,enk,0.0
+2023-12-13,hopital provincial,snel,0.0
+2023-12-14,cclk,nuru,0.0
+2023-12-14,heal africa,snel,0.137222
+2023-12-14,hgr lubero,virunga,0.0
+2023-12-14,ngangi 3,virunga,0.445833
+2023-12-15,hgr katwa,enk,0.051667
+2023-12-16,cs murara,snel,0.639722
+2023-12-16,csr bakhita,nuru,0.0
+2023-12-16,hopital provincial,snel,0.0
+2023-12-17,cclk,nuru,0.0
+2023-12-17,hgr beni,enk,0.150556
+2023-12-18,ch cbca bethesda ndosho,virunga,0.059028
+2023-12-18,csr bakhita,nuru,0.0
+2023-12-18,csr kiziba,nuru,0.0
+2023-12-18,hgr katwa,enk,0.0
+2023-12-18,hgr lubero,virunga,0.0
+2023-12-19,ch cbca bethesda ndosho,virunga,0.149167
+2023-12-19,cs murara,snel,0.038056
+2023-12-19,heal africa,snel,0.0
+2023-12-19,hgr kirotshe,snel,0.0
+2023-12-19,hgr lubero,virunga,0.0
+2023-12-19,hopital provincial,snel,0.0
+2023-12-20,hgr katwa,enk,0.0
+2023-12-21,ch matanda,enk,0.0
+2023-12-21,csr kiziba,nuru,0.0
+2023-12-21,hgr kirotshe,snel,0.0
+2023-12-21,hgr lubero,virunga,0.0
+2023-12-21,hopital provincial,snel,0.054167
+2023-12-21,ngangi 3,virunga,7.218889
+2023-12-22,cclk,nuru,0.0
+2023-12-22,csr kiziba,nuru,0.0
+2023-12-22,hgr kitatumba,enk,0.155833
+2023-12-22,hgr lubero,virunga,0.0
+2023-12-22,hopital provincial,snel,0.0
+2023-12-23,cclk,nuru,0.0
+2023-12-23,ch cbca bethesda ndosho,virunga,0.101944
+2023-12-23,csr bakhita,nuru,0.0
+2023-12-23,csr kiziba,nuru,0.0
+2023-12-23,hgr beni,enk,0.0
+2023-12-23,ngangi 3,virunga,0.944167
+2023-12-24,ch cbca bethesda ndosho,virunga,0.176667
+2023-12-24,cs murara,snel,0.018056
+2023-12-24,csr kiziba,nuru,0.0
+2023-12-24,hgr kitatumba,enk,0.0
+2023-12-25,cclk,nuru,0.0
+2023-12-25,heal africa,snel,0.029565
+2023-12-25,hgr beni,enk,0.0
+2023-12-25,ngangi 3,virunga,0.200139
+2023-12-26,ch matanda,enk,0.0
+2023-12-27,cs murara,snel,0.553889
+2023-12-27,csr bakhita,nuru,0.0
+2023-12-27,csr kiziba,nuru,0.0
+2023-12-27,heal africa,snel,0.028455
+2023-12-27,hgr katwa,enk,0.0
+2023-12-27,hgr kirotshe,snel,0.0
+2023-12-27,ngangi 3,virunga,11.175278
+2023-12-28,cclk,nuru,0.0
+2023-12-28,ch cbca bethesda ndosho,virunga,0.178056
+2023-12-28,ch matanda,enk,0.150833
+2023-12-28,heal africa,snel,0.227741
+2023-12-28,hgr lubero,virunga,0.0
+2023-12-29,hgr katwa,enk,0.0
+2023-12-29,ngangi 3,virunga,24.0
+2023-12-30,ch cbca bethesda ndosho,virunga,0.312222
+2023-12-30,ch matanda,enk,0.137778
+2023-12-30,heal africa,snel,0.0
+2023-12-31,csr kiziba,nuru,0.0
+2023-12-31,heal africa,snel,0.0
+2023-12-31,hgr kitatumba,enk,0.0
+2023-01-01,cs murara,snel,0.040833
+2023-01-01,csr bakhita,nuru,0.0
+2023-01-01,heal africa,snel,0.178472
+2023-01-01,hgr beni,enk,0.0
+2023-01-01,ngangi 3,virunga,8.61625
+2023-01-02,cclk,nuru,0.0
+2023-01-02,hgr beni,enk,0.0
+2023-01-02,hgr kitatumba,enk,0.0
+2023-01-02,hgr panzi,snel,0.0
+2023-01-03,ch cbca bethesda ndosho,virunga,0.0
+2023-01-03,csr bakhita,nuru,0.0
+2023-01-03,heal africa,snel,0.221667
+2023-01-03,hgr kitatumba,enk,0.735833
+2023-01-03,hopital provincial,snel,0.039167
+2023-01-04,ch cbca bethesda ndosho,virunga,0.0
+2023-01-04,csr bakhita,nuru,0.0
+2023-01-04,csr kiziba,nuru,0.5325
+2023-01-04,hgr katwa,enk,0.119096
+2023-01-04,hgr lubero,virunga,0.0
+2023-01-05,hgr kitatumba,enk,0.520139
+2023-01-05,ngangi 3,virunga,0.081558
+2023-01-06,cclk,nuru,0.0
+2023-01-06,hgr beni,enk,0.037496
+2023-01-06,hgr panzi,snel,0.0
+2023-01-07,hgr kitatumba,enk,0.0
+2023-01-07,hgr lubero,virunga,0.0
+2023-01-07,hopital provincial,snel,0.0
+2023-01-07,ngangi 3,virunga,7.608889
+2023-01-08,hopital provincial,snel,0.0
+2023-01-09,cclk,nuru,0.0
+2023-01-09,csr kiziba,nuru,0.0
+2023-01-09,hgr katwa,enk,0.0
+2023-01-09,hgr kitatumba,enk,0.6975
+2023-01-09,hopital provincial,snel,0.0
+2023-01-10,ch cbca bethesda ndosho,virunga,0.0
+2023-01-10,hgr kitatumba,enk,0.0
+2023-01-10,hgr lubero,virunga,0.0
+2023-01-10,ngangi 3,virunga,24.0
+2023-01-11,ch cbca bethesda ndosho,virunga,0.0
+2023-01-11,csr kiziba,nuru,0.0
+2023-01-11,hgr katwa,enk,0.240833
+2023-01-11,hgr kitatumba,enk,0.361389
+2023-01-11,ngangi 3,virunga,15.805
+2023-01-12,cclk,nuru,0.0
+2023-01-12,csr bakhita,nuru,0.0
+2023-01-12,heal africa,snel,0.0
+2023-01-12,hgr katwa,enk,0.099722
+2023-01-12,hopital provincial,snel,0.0
+2023-01-13,cs murara,snel,0.0
+2023-01-13,heal africa,snel,0.143611
+2023-01-13,hgr lubero,virunga,0.0
+2023-01-14,ch matanda,enk,0.177083
+2023-01-14,csr bakhita,nuru,0.0
+2023-01-14,ngangi 3,virunga,0.0
+2023-01-15,heal africa,snel,0.122778
+2023-01-15,hgr kitatumba,enk,0.201528
+2023-01-15,hgr lubero,virunga,0.0
+2023-01-15,ngangi 3,virunga,0.0
+2023-01-16,cs murara,snel,0.0
+2023-01-16,hgr beni,enk,0.0
+2023-01-16,hgr panzi,snel,0.0
+2023-01-16,ngangi 3,virunga,1.7
+2023-01-17,ch cbca bethesda ndosho,virunga,0.0
+2023-01-17,heal africa,snel,0.119167
+2023-01-17,hgr kitatumba,enk,0.12875
+2023-01-17,hgr panzi,snel,0.0
+2023-01-17,ngangi 3,virunga,8.697639
+2023-01-18,ch cbca bethesda ndosho,virunga,0.0
+2023-01-18,cs murara,snel,0.0
+2023-01-18,hgr katwa,enk,0.128223
+2023-01-18,ngangi 3,virunga,16.533056
+2023-01-19,cclk,nuru,0.0
+2023-01-19,ch matanda,enk,0.0
+2023-01-19,hgr beni,enk,0.0
+2023-01-19,hgr katwa,enk,0.343611
+2023-01-19,hgr panzi,snel,0.0
+2023-01-20,ch matanda,enk,0.518889
+2023-01-20,csr bakhita,nuru,0.0
+2023-01-20,csr kiziba,nuru,0.0
+2023-01-20,heal africa,snel,0.089444
+2023-01-20,hgr lubero,virunga,0.0
+2023-01-21,csr bakhita,nuru,0.0
+2023-01-21,csr kiziba,nuru,0.0
+2023-01-22,cclk,nuru,0.0
+2023-01-22,csr bakhita,nuru,0.0
+2023-01-22,hopital provincial,snel,0.0
+2023-01-23,ch cbca bethesda ndosho,virunga,0.060139
+2023-01-23,csr bakhita,nuru,0.0
+2023-01-23,csr kiziba,nuru,0.0
+2023-01-23,heal africa,snel,0.066667
+2023-01-23,hgr lubero,virunga,0.0
+2023-01-24,ch matanda,enk,1.781389
+2023-01-24,hgr katwa,enk,0.2125
+2023-01-24,hgr panzi,snel,0.0
+2023-01-24,ngangi 3,virunga,9.777361
+2023-01-25,ch matanda,enk,0.533194
+2023-01-25,hgr beni,enk,0.042778
+2023-01-26,cclk,nuru,0.0
+2023-01-26,ch cbca bethesda ndosho,virunga,0.0
+2023-01-26,ch matanda,enk,0.655278
+2023-01-26,hgr beni,enk,0.082778
+2023-01-26,hgr lubero,virunga,0.0
+2023-01-26,hopital provincial,snel,0.0
+2023-01-27,ch matanda,enk,0.62
+2023-01-27,hgr lubero,virunga,0.0
+2023-01-27,hgr panzi,snel,0.006944
+2023-01-28,cclk,nuru,0.0
+2023-01-28,ch cbca bethesda ndosho,virunga,0.034722
+2023-01-28,csr bakhita,nuru,0.0
+2023-01-28,hgr kitatumba,enk,0.0
+2023-01-28,hgr lubero,virunga,0.0
+2023-01-29,ch cbca bethesda ndosho,virunga,0.0
+2023-01-29,heal africa,snel,0.052222
+2023-01-29,hgr beni,enk,0.182778
+2023-01-30,csr bakhita,nuru,0.0
+2023-01-30,hgr panzi,snel,0.010296
+2023-01-31,cclk,nuru,0.928472
+2023-01-31,hgr kitatumba,enk,0.1025
+2023-01-31,hgr panzi,snel,0.021389
+2023-02-01,hgr beni,enk,0.263611
+2023-02-01,hgr katwa,enk,0.405
+2023-02-01,hgr lubero,virunga,0.0
+2023-02-02,heal africa,snel,0.101389
+2023-02-02,hgr panzi,snel,0.006944
+2023-02-03,cclk,nuru,0.0
+2023-02-03,ch matanda,enk,0.1175
+2023-02-03,csr bakhita,nuru,0.0
+2023-02-03,hgr panzi,snel,0.008333
+2023-02-03,hopital provincial,snel,0.004861
+2023-02-04,heal africa,snel,0.06
+2023-02-04,hgr beni,enk,0.374261
+2023-02-04,hgr katwa,enk,0.42
+2023-02-04,hgr lubero,virunga,0.0
+2023-02-05,ch cbca bethesda ndosho,virunga,0.0
+2023-02-05,cs murara,snel,0.0
+2023-02-05,csr bakhita,nuru,0.0
+2023-02-05,hgr kitatumba,enk,0.62875
+2023-02-05,hgr panzi,snel,0.0
+2023-02-05,hopital provincial,snel,0.009722
+2023-02-06,cs murara,snel,0.0
+2023-02-06,hgr kitatumba,enk,0.187361
+2023-02-06,hgr lubero,virunga,0.0
+2023-02-06,hopital provincial,snel,0.004722
+2023-02-07,ch cbca bethesda ndosho,virunga,0.231111
+2023-02-07,csr bakhita,nuru,0.0
+2023-02-07,heal africa,snel,0.0
+2023-02-07,hgr beni,enk,0.16
+2023-02-08,ch cbca bethesda ndosho,virunga,0.0
+2023-02-08,hgr beni,enk,0.043611
+2023-02-08,hgr katwa,enk,0.329444
+2023-02-08,hgr panzi,snel,0.333611
+2023-02-09,ch cbca bethesda ndosho,virunga,0.0
+2023-02-09,ch matanda,enk,4.388611
+2023-02-09,hgr beni,enk,0.0
+2023-02-09,hgr panzi,snel,0.012222
+2023-02-09,hopital provincial,snel,0.0
+2023-02-10,cclk,nuru,0.0
+2023-02-10,heal africa,snel,0.0
+2023-02-11,ch cbca bethesda ndosho,virunga,0.0
+2023-02-11,csr kiziba,nuru,0.0
+2023-02-11,heal africa,snel,0.0
+2023-02-11,hgr katwa,enk,0.15
+2023-02-11,hopital provincial,snel,0.0
+2023-02-11,ngangi 3,virunga,23.973194
+2023-02-12,cclk,nuru,0.0
+2023-02-12,csr kiziba,nuru,0.0
+2023-02-12,heal africa,snel,0.027222
+2023-02-12,hgr katwa,enk,0.0
+2023-02-13,ch matanda,enk,0.327222
+2023-02-13,csr kiziba,nuru,4.751111
+2023-02-13,heal africa,snel,0.0
+2023-02-13,hgr beni,enk,0.050556
+2023-02-14,ch cbca bethesda ndosho,virunga,0.0
+2023-02-14,ch matanda,enk,0.486389
+2023-02-14,csr kiziba,nuru,0.0
+2023-02-14,hopital provincial,snel,0.0
+2023-02-15,csr bakhita,nuru,0.0
+2023-02-15,hgr katwa,enk,0.232778
+2023-02-15,hopital provincial,snel,0.0
+2023-02-16,heal africa,snel,0.0
+2023-02-17,cs murara,snel,0.008611
+2023-02-17,heal africa,snel,0.002783
+2023-02-17,hgr beni,enk,0.0
+2023-02-17,hgr kitatumba,enk,0.193611
+2023-02-17,hopital provincial,snel,0.002778
+2023-02-18,cs murara,snel,0.216667
+2023-02-18,csr bakhita,nuru,0.0
+2023-02-18,hgr beni,enk,0.056111
+2023-02-18,hgr katwa,enk,0.072778
+2023-02-18,hgr kitatumba,enk,0.067361
+2023-02-18,hgr lubero,virunga,0.0
+2023-02-18,hgr panzi,snel,0.0
+2023-02-19,csr kiziba,nuru,1.795833
+2023-02-19,hgr panzi,snel,0.021944
+2023-02-19,hopital provincial,snel,0.0
+2023-02-20,cclk,nuru,0.0
+2023-02-20,csr kiziba,nuru,3.150556
+2023-02-20,heal africa,snel,0.0
+2023-02-20,hgr beni,enk,0.0
+2023-02-20,hgr kitatumba,enk,0.575833
+2023-02-20,ngangi 3,virunga,0.742517
+2023-02-21,ch cbca bethesda ndosho,virunga,0.0
+2023-02-21,csr bakhita,nuru,0.0
+2023-02-21,heal africa,snel,0.0
+2023-02-21,hgr kitatumba,enk,0.0
+2023-02-21,hgr panzi,snel,0.0
+2023-02-22,heal africa,snel,0.0
+2023-02-22,hgr beni,enk,0.019167
+2023-02-22,hgr lubero,virunga,0.0
+2023-02-23,csr bakhita,nuru,0.0
+2023-02-23,hgr katwa,enk,0.150556
+2023-02-24,cclk,nuru,0.0
+2023-02-24,ch cbca bethesda ndosho,virunga,0.0
+2023-02-24,hgr beni,enk,0.0
+2023-02-24,hgr kitatumba,enk,0.116944
+2023-02-24,ngangi 3,virunga,7.24
+2023-02-25,cclk,nuru,0.0
+2023-02-25,ch cbca bethesda ndosho,virunga,0.0
+2023-02-25,csr bakhita,nuru,0.0
+2023-02-25,heal africa,snel,0.0
+2023-02-25,hgr katwa,enk,0.0
+2023-02-26,ch matanda,enk,0.0
+2023-02-26,cs murara,snel,0.0
+2023-02-26,hgr katwa,enk,0.0
+2023-02-26,hgr kitatumba,enk,0.0
+2023-02-27,cclk,nuru,0.0
+2023-02-27,ch matanda,enk,0.406667
+2023-02-27,csr bakhita,nuru,0.0
+2023-02-27,heal africa,snel,0.098889
+2023-02-27,hgr katwa,enk,0.184722
+2023-02-27,hgr kitatumba,enk,0.495833
+2023-02-27,hgr panzi,snel,0.016944
+2023-02-28,ch matanda,enk,0.167222
+2023-02-28,cs murara,snel,0.0
+2023-02-28,hgr beni,enk,0.111667
+2023-02-28,ngangi 3,virunga,10.364954
+2023-03-01,heal africa,snel,0.0
+2023-03-01,hgr beni,enk,0.200278
+2023-03-02,ch cbca bethesda ndosho,virunga,0.031389
+2023-03-02,csr bakhita,nuru,0.0
+2023-03-02,csr kiziba,nuru,2.422222
+2023-03-02,hgr kitatumba,enk,0.301667
+2023-03-02,hgr panzi,snel,0.0
+2023-03-03,csr bakhita,nuru,0.0
+2023-03-03,hgr kitatumba,enk,0.271528
+2023-03-03,hgr lubero,virunga,0.238056
+2023-03-03,hgr panzi,snel,0.021389
+2023-03-04,cs murara,snel,0.138889
+2023-03-04,csr kiziba,nuru,5.644583
+2023-03-04,heal africa,snel,0.0
+2023-03-04,hgr panzi,snel,0.0075
+2023-03-05,cclk,nuru,0.0
+2023-03-05,ch cbca bethesda ndosho,virunga,0.144722
+2023-03-05,csr bakhita,nuru,0.0
+2023-03-05,csr kiziba,nuru,9.763889
+2023-03-06,ch matanda,enk,0.0
+2023-03-06,hgr beni,enk,0.092189
+2023-03-06,hopital provincial,snel,0.0
+2023-03-07,csr kiziba,nuru,0.020556
+2023-03-07,hgr beni,enk,0.085983
+2023-03-07,hgr lubero,virunga,0.0
+2023-03-08,ch cbca bethesda ndosho,virunga,0.019722
+2023-03-08,ch matanda,enk,0.339167
+2023-03-08,csr bakhita,nuru,0.0
+2023-03-08,hgr katwa,enk,0.233333
+2023-03-08,hgr panzi,snel,0.0
+2023-03-09,csr kiziba,nuru,9.010833
+2023-03-09,hgr beni,enk,0.0
+2023-03-09,hgr lubero,virunga,0.143333
+2023-03-09,hopital provincial,snel,0.0
+2023-03-09,ngangi 3,virunga,0.0
+2023-03-10,ch cbca bethesda ndosho,virunga,0.278889
+2023-03-10,csr bakhita,nuru,0.0
+2023-03-10,csr kiziba,nuru,0.0
+2023-03-10,hgr kitatumba,enk,0.0
+2023-03-10,hgr lubero,virunga,0.0
+2023-03-11,cclk,nuru,0.0
+2023-03-11,ch matanda,enk,0.056111
+2023-03-11,csr bakhita,nuru,0.0
+2023-03-11,csr kiziba,nuru,0.0
+2023-03-11,heal africa,snel,0.005556
+2023-03-11,hgr lubero,virunga,0.381667
+2023-03-11,hopital provincial,snel,0.005278
+2023-03-12,ch cbca bethesda ndosho,virunga,0.096667
+2023-03-12,ch matanda,enk,0.0
+2023-03-12,cs murara,snel,0.202222
+2023-03-12,heal africa,snel,0.0
+2023-03-12,hgr beni,enk,0.0
+2023-03-13,ch matanda,enk,0.076111
+2023-03-13,heal africa,snel,0.0
+2023-03-13,hgr lubero,virunga,0.0
+2023-03-13,hgr panzi,snel,0.0
+2023-03-13,hopital provincial,snel,0.0
+2023-03-14,ch cbca bethesda ndosho,virunga,0.166389
+2023-03-14,ch matanda,enk,0.090417
+2023-03-14,cs murara,snel,0.496667
+2023-03-14,csr kiziba,nuru,0.0
+2023-03-14,heal africa,snel,0.084444
+2023-03-14,hgr kitatumba,enk,0.161389
+2023-03-14,hgr lubero,virunga,0.0
+2023-03-14,ngangi 3,virunga,10.393333
+2023-03-15,cclk,nuru,0.0
+2023-03-15,heal africa,snel,0.2275
+2023-03-15,hgr beni,enk,0.0
+2023-03-15,ngangi 3,virunga,9.973889
+2023-03-16,cs murara,snel,0.014167
+2023-03-16,hgr katwa,enk,0.249167
+2023-03-16,hgr kitatumba,enk,0.381944
+2023-03-17,ch matanda,enk,0.0
+2023-03-17,cs murara,snel,0.0
+2023-03-17,csr bakhita,nuru,0.0
+2023-03-18,csr bakhita,nuru,0.0
+2023-03-18,csr kiziba,nuru,0.0
+2023-03-18,ngangi 3,virunga,10.414214
+2023-03-19,ch cbca bethesda ndosho,virunga,0.0
+2023-03-19,ch matanda,enk,0.0
+2023-03-19,csr kiziba,nuru,0.0
+2023-03-19,hgr beni,enk,0.269842
+2023-03-20,cclk,nuru,0.0
+2023-03-20,csr kiziba,nuru,0.0
+2023-03-20,hgr beni,enk,0.033889
+2023-03-20,hgr katwa,enk,0.061667
+2023-03-20,hgr panzi,snel,0.0
+2023-03-21,ch cbca bethesda ndosho,virunga,0.0
+2023-03-21,csr bakhita,nuru,0.0
+2023-03-21,csr kiziba,nuru,0.0
+2023-03-21,heal africa,snel,0.0
+2023-03-21,hgr kitatumba,enk,0.0
+2023-03-22,ch cbca bethesda ndosho,virunga,0.057083
+2023-03-22,csr kiziba,nuru,0.0
+2023-03-22,hgr katwa,enk,0.0
+2023-03-22,hopital provincial,snel,0.0
+2023-03-23,cclk,nuru,0.0
+2023-03-23,cs murara,snel,1.533056
+2023-03-23,csr bakhita,nuru,0.0
+2023-03-23,csr kiziba,nuru,0.0
+2023-03-23,ngangi 3,virunga,0.0
+2023-03-24,cclk,nuru,0.0
+2023-03-24,csr bakhita,nuru,0.0
+2023-03-24,hgr katwa,enk,0.0
+2023-03-24,hgr kitatumba,enk,0.0
+2023-03-24,ngangi 3,virunga,0.0
+2023-03-25,ch cbca bethesda ndosho,virunga,0.075972
+2023-03-25,ch matanda,enk,0.245694
+2023-03-25,csr bakhita,nuru,0.0
+2023-03-25,csr kiziba,nuru,0.0
+2023-03-25,ngangi 3,virunga,8.706944
+2023-03-26,ch cbca bethesda ndosho,virunga,0.153333
+2023-03-26,ch matanda,enk,0.0
+2023-03-26,heal africa,snel,0.081111
+2023-03-26,hgr beni,enk,0.0
+2023-03-26,hgr kitatumba,enk,0.0
+2023-03-26,ngangi 3,virunga,24.0
+2023-03-27,hgr katwa,enk,0.0
+2023-03-27,hgr kitatumba,enk,0.0
+2023-03-27,hgr panzi,snel,0.0
+2023-03-28,cclk,nuru,0.0
+2023-03-28,ch matanda,enk,2.159444
+2023-03-28,cs murara,snel,0.153056
+2023-03-28,csr kiziba,nuru,1.328333
+2023-03-28,hgr beni,enk,0.0
+2023-03-29,csr kiziba,nuru,3.177222
+2023-03-29,heal africa,snel,0.032657
+2023-03-29,hgr beni,enk,0.0
+2023-03-29,hgr lubero,virunga,0.344722
+2023-03-30,hgr kitatumba,enk,0.0
+2023-03-31,cclk,nuru,0.0
+2023-03-31,ch cbca bethesda ndosho,virunga,0.0
+2023-03-31,cs murara,snel,0.0
+2023-03-31,hgr beni,enk,0.0
+2023-03-31,hgr katwa,enk,0.413889
+2023-03-31,hgr panzi,snel,0.135278
+2023-03-31,hopital provincial,snel,0.048472
+2023-04-01,cclk,nuru,0.0
+2023-04-01,ch matanda,enk,0.0
+2023-04-01,hgr katwa,enk,0.0
+2023-04-01,hgr lubero,virunga,0.0
+2023-04-01,hgr panzi,snel,0.012222
+2023-04-01,hopital provincial,snel,0.025278
+2023-04-02,ch cbca bethesda ndosho,virunga,0.0
+2023-04-02,ch matanda,enk,0.0
+2023-04-02,csr bakhita,nuru,0.0
+2023-04-02,csr kiziba,nuru,0.013333
+2023-04-02,hgr beni,enk,0.0
+2023-04-02,hgr katwa,enk,0.0
+2023-04-02,hgr lubero,virunga,0.0
+2023-04-02,hgr panzi,snel,0.011944
+2023-04-03,ch cbca bethesda ndosho,virunga,0.0
+2023-04-03,ch matanda,enk,0.0
+2023-04-03,csr kiziba,nuru,0.0
+2023-04-03,hgr beni,enk,0.0
+2023-04-03,hgr panzi,snel,0.162222
+2023-04-04,cclk,nuru,0.0
+2023-04-04,csr kiziba,nuru,0.0
+2023-04-04,hopital provincial,snel,0.02875
+2023-04-05,ch cbca bethesda ndosho,virunga,0.0
+2023-04-05,hgr katwa,enk,0.0
+2023-04-05,hgr kirotshe,snel,0.0
+2023-04-05,hopital provincial,snel,0.0
+2023-04-06,cclk,nuru,0.0
+2023-04-06,ch matanda,enk,0.0
+2023-04-06,csr bakhita,nuru,0.0
+2023-04-06,hgr katwa,enk,0.0
+2023-04-06,hgr kirotshe,snel,0.0
+2023-04-06,hopital provincial,snel,0.0
+2023-04-06,ngangi 3,virunga,19.611944
+2023-04-07,ch cbca bethesda ndosho,virunga,0.0
+2023-04-07,cs murara,snel,0.0
+2023-04-07,hgr katwa,enk,0.212222
+2023-04-07,hgr panzi,snel,0.0
+2023-04-08,ch cbca bethesda ndosho,virunga,0.0
+2023-04-08,ch matanda,enk,0.0
+2023-04-08,csr kiziba,nuru,0.488611
+2023-04-08,hgr lubero,virunga,0.0
+2023-04-09,cs murara,snel,0.0
+2023-04-09,csr kiziba,nuru,0.0
+2023-04-09,heal africa,snel,0.099444
+2023-04-09,hgr lubero,virunga,0.0
+2023-04-10,cclk,nuru,0.0
+2023-04-10,ch cbca bethesda ndosho,virunga,0.0
+2023-04-10,ch matanda,enk,0.0
+2023-04-10,cs murara,snel,0.0
+2023-04-10,hgr kirotshe,snel,0.0
+2023-04-10,hgr lubero,virunga,0.0
+2023-04-10,ngangi 3,virunga,6.225
+2023-04-11,ch matanda,enk,1.145417
+2023-04-11,hgr lubero,virunga,0.0
+2023-04-11,hopital provincial,snel,0.004583
+2023-04-11,ngangi 3,virunga,11.543194
+2023-04-12,cclk,nuru,0.0
+2023-04-12,cs murara,snel,0.0
+2023-04-12,hgr katwa,enk,0.0
+2023-04-13,cclk,nuru,0.0
+2023-04-13,ch cbca bethesda ndosho,virunga,0.1025
+2023-04-13,cs murara,snel,0.016944
+2023-04-13,csr kiziba,nuru,7.003333
+2023-04-13,heal africa,snel,0.0
+2023-04-13,hgr katwa,enk,0.241944
+2023-04-14,ch cbca bethesda ndosho,virunga,0.0
+2023-04-14,csr bakhita,nuru,2.49
+2023-04-14,csr kiziba,nuru,0.03
+2023-04-14,hgr kirotshe,snel,0.0
+2023-04-14,hgr kitatumba,enk,0.106389
+2023-04-14,hgr panzi,snel,0.070278
+2023-04-15,ch cbca bethesda ndosho,virunga,0.0
+2023-04-15,cs murara,snel,0.433611
+2023-04-15,csr kiziba,nuru,0.0
+2023-04-15,hgr beni,enk,0.0
+2023-04-15,hgr katwa,enk,0.035833
+2023-04-15,hgr kitatumba,enk,0.0
+2023-04-16,cclk,nuru,0.0
+2023-04-16,csr bakhita,nuru,0.0
+2023-04-16,hgr panzi,snel,0.0
+2023-04-16,hopital provincial,snel,0.0
+2023-04-16,ngangi 3,virunga,24.0
+2023-04-17,cclk,nuru,0.0
+2023-04-17,ch matanda,enk,0.0
+2023-04-17,cs murara,snel,24.0
+2023-04-17,heal africa,snel,0.0
+2023-04-17,hgr kirotshe,snel,0.0
+2023-04-17,hgr kitatumba,enk,0.371389
+2023-04-17,hgr panzi,snel,0.006111
+2023-04-18,ch cbca bethesda ndosho,virunga,0.0
+2023-04-18,ch matanda,enk,0.0
+2023-04-18,csr kiziba,nuru,0.0
+2023-04-19,heal africa,snel,0.067783
+2023-04-19,hgr beni,enk,0.0
+2023-04-19,hgr katwa,enk,0.0
+2023-04-19,hgr kirotshe,snel,0.0
+2023-04-19,hgr panzi,snel,0.483056
+2023-04-19,ngangi 3,virunga,9.488801
+2023-04-20,cs murara,snel,0.0
+2023-04-20,hgr beni,enk,0.0
+2023-04-20,hgr lubero,virunga,0.0
+2023-04-21,csr bakhita,nuru,0.0
+2023-04-21,heal africa,snel,0.1425
+2023-04-21,hgr beni,enk,0.0
+2023-04-21,hgr kirotshe,snel,0.0
+2023-04-21,ngangi 3,virunga,24.0
+2023-04-22,ch cbca bethesda ndosho,virunga,0.0
+2023-04-22,csr kiziba,nuru,0.0
+2023-04-22,hgr katwa,enk,0.238889
+2023-04-22,hgr lubero,virunga,0.373333
+2023-04-23,csr kiziba,nuru,0.0
+2023-04-23,heal africa,snel,0.0
+2023-04-23,hgr kirotshe,snel,0.0
+2023-04-23,ngangi 3,virunga,16.577083
+2023-04-24,csr bakhita,nuru,0.0
+2023-04-24,hgr beni,enk,0.0
+2023-04-24,hgr panzi,snel,0.0
+2023-04-24,hopital provincial,snel,0.0
+2023-04-25,hgr katwa,enk,0.192222
+2023-04-25,hgr kirotshe,snel,0.0
+2023-04-25,hgr kitatumba,enk,0.0
+2023-04-25,hgr panzi,snel,0.0
+2023-04-26,cclk,nuru,0.0
+2023-04-26,heal africa,snel,0.0
+2023-04-26,hgr katwa,enk,0.0
+2023-04-26,hgr kitatumba,enk,0.0
+2023-04-26,hgr panzi,snel,0.0
+2023-04-28,ch cbca bethesda ndosho,virunga,0.0
+2023-04-28,ch matanda,enk,0.535
+2023-04-28,hgr kirotshe,snel,0.0
+2023-04-28,hgr lubero,virunga,0.0
+2023-04-28,hgr panzi,snel,0.0
+2023-04-29,ch cbca bethesda ndosho,virunga,0.0
+2023-04-29,ch matanda,enk,0.337083
+2023-04-29,cs murara,snel,0.064861
+2023-04-30,cclk,nuru,0.0
+2023-04-30,ch cbca bethesda ndosho,virunga,0.0
+2023-04-30,csr bakhita,nuru,0.0
+2023-04-30,hgr katwa,enk,0.147222
+2023-04-30,hgr lubero,virunga,0.0
+2023-04-30,hgr panzi,snel,0.0
+2023-05-01,cclk,nuru,0.0
+2023-05-01,ch cbca bethesda ndosho,virunga,0.0
+2023-05-01,cs murara,snel,0.0
+2023-05-01,heal africa,snel,0.0
+2023-05-01,hgr katwa,enk,0.105
+2023-05-01,hgr kitatumba,enk,0.361389
+2023-05-01,hgr panzi,snel,0.0
+2023-05-02,csr bakhita,nuru,0.0
+2023-05-02,csr kiziba,nuru,0.174488
+2023-05-02,heal africa,snel,0.083887
+2023-05-02,hgr kirotshe,snel,0.0
+2023-05-02,hgr panzi,snel,0.0
+2023-05-03,cclk,nuru,0.0
+2023-05-03,csr kiziba,nuru,0.0
+2023-05-03,heal africa,snel,0.0
+2023-05-03,hgr katwa,enk,0.0
+2023-05-03,hgr kirotshe,snel,0.0
+2023-05-03,hgr lubero,virunga,0.164444
+2023-05-04,cclk,nuru,0.0
+2023-05-04,ch cbca bethesda ndosho,virunga,0.0
+2023-05-04,csr bakhita,nuru,0.0
+2023-05-04,heal africa,snel,0.0
+2023-05-04,hgr beni,enk,0.0
+2023-05-04,hgr katwa,enk,0.359722
+2023-05-04,hgr kitatumba,enk,0.5525
+2023-05-04,hgr panzi,snel,0.0
+2023-05-05,ch matanda,enk,0.0
+2023-05-05,hgr beni,enk,0.0
+2023-05-05,hopital provincial,snel,0.0
+2023-05-06,ch cbca bethesda ndosho,virunga,0.076389
+2023-05-06,hgr lubero,virunga,0.0
+2023-05-06,hgr panzi,snel,0.0
+2023-05-06,hopital provincial,snel,0.0
+2023-05-07,hgr beni,enk,0.0
+2023-05-08,csr bakhita,nuru,0.0
+2023-05-08,hgr beni,enk,0.0
+2023-05-08,hopital provincial,snel,0.005972
+2023-05-09,heal africa,snel,0.0
+2023-05-09,hgr beni,enk,0.0
+2023-05-09,hgr katwa,enk,0.0
+2023-05-09,hgr panzi,snel,0.0
+2023-05-10,hgr katwa,enk,0.0
+2023-05-10,hgr kitatumba,enk,0.0
+2023-05-10,hopital provincial,snel,0.0
+2023-05-10,ngangi 3,virunga,0.0
+2023-05-11,ch cbca bethesda ndosho,virunga,0.0
+2023-05-11,ch matanda,enk,0.193889
+2023-05-11,csr bakhita,nuru,0.0
+2023-05-11,csr kiziba,nuru,0.868611
+2023-05-11,hgr beni,enk,0.0
+2023-05-11,hgr kirotshe,snel,0.0
+2023-05-11,hgr kitatumba,enk,0.387778
+2023-05-11,hgr lubero,virunga,0.0
+2023-05-11,hopital provincial,snel,0.0
+2023-05-11,ngangi 3,virunga,0.0
+2023-05-12,cs murara,snel,0.0
+2023-05-12,csr kiziba,nuru,0.0
+2023-05-12,hgr kirotshe,snel,0.0
+2023-05-13,ch cbca bethesda ndosho,virunga,0.0
+2023-05-13,csr kiziba,nuru,0.0
+2023-05-13,hgr beni,enk,0.0
+2023-05-13,hgr katwa,enk,0.128611
+2023-05-14,cclk,nuru,0.0
+2023-05-14,cs murara,snel,0.0
+2023-05-14,csr kiziba,nuru,0.0
+2023-05-14,heal africa,snel,0.0
+2023-05-15,csr kiziba,nuru,0.0
+2023-05-15,hgr kitatumba,enk,0.0
+2023-05-15,hgr lubero,virunga,0.0
+2023-05-15,hgr panzi,snel,0.0
+2023-05-15,hopital provincial,snel,0.0
+2023-05-16,ch cbca bethesda ndosho,virunga,0.0
+2023-05-16,ch matanda,enk,0.882778
+2023-05-16,heal africa,snel,0.038333
+2023-05-16,hgr kirotshe,snel,0.0
+2023-05-17,ch cbca bethesda ndosho,virunga,0.239444
+2023-05-17,ch matanda,enk,0.0
+2023-05-17,csr bakhita,nuru,0.0
+2023-05-17,csr kiziba,nuru,0.0
+2023-05-17,heal africa,snel,0.0
+2023-05-17,hgr lubero,virunga,0.0
+2023-05-17,hgr panzi,snel,0.0
+2023-05-17,hopital provincial,snel,0.0
+2023-05-18,ch cbca bethesda ndosho,virunga,0.048333
+2023-05-18,heal africa,snel,0.031111
+2023-05-18,hgr kirotshe,snel,0.0
+2023-05-18,hgr kitatumba,enk,0.0
+2023-05-18,hopital provincial,snel,0.005
+2023-05-19,ch cbca bethesda ndosho,virunga,0.0
+2023-05-19,cs murara,snel,0.236944
+2023-05-19,csr kiziba,nuru,0.0
+2023-05-19,hgr kitatumba,enk,0.090833
+2023-05-19,hgr panzi,snel,0.0
+2023-05-20,cclk,nuru,0.0
+2023-05-20,cs murara,snel,0.0
+2023-05-20,csr kiziba,nuru,0.0
+2023-05-20,hgr katwa,enk,0.046944
+2023-05-20,hopital provincial,snel,0.0
+2023-05-20,ngangi 3,virunga,0.0
+2023-05-21,ch cbca bethesda ndosho,virunga,0.0
+2023-05-21,ch matanda,enk,0.0
+2023-05-21,csr kiziba,nuru,0.0
+2023-05-21,heal africa,snel,0.0
+2023-05-21,hgr lubero,virunga,0.0
+2023-05-22,ch cbca bethesda ndosho,virunga,0.0
+2023-05-22,ch matanda,enk,0.137083
+2023-05-22,hgr kirotshe,snel,0.0
+2023-05-23,ch cbca bethesda ndosho,virunga,0.0
+2023-05-23,ch matanda,enk,0.0
+2023-05-23,hgr panzi,snel,0.0
+2023-05-24,cs murara,snel,0.431806
+2023-05-24,csr bakhita,nuru,0.485278
+2023-05-24,hgr kitatumba,enk,0.0
+2023-05-24,hopital provincial,snel,0.0
+2023-05-24,ngangi 3,virunga,11.306275
+2023-05-25,cclk,nuru,0.0
+2023-05-25,cs murara,snel,0.042778
+2023-05-25,hgr lubero,virunga,0.0
+2023-05-25,hgr panzi,snel,0.0
+2023-05-25,hopital provincial,snel,0.0
+2023-05-25,ngangi 3,virunga,15.160278
+2023-05-26,hgr beni,enk,0.0
+2023-05-26,hgr katwa,enk,0.079722
+2023-05-26,hgr kitatumba,enk,0.0
+2023-05-26,hgr lubero,virunga,0.0
+2023-05-27,ch matanda,enk,0.308272
+2023-05-27,cs murara,snel,0.208472
+2023-05-27,hgr kirotshe,snel,0.0
+2023-05-27,hgr kitatumba,enk,0.053611
+2023-05-27,hgr lubero,virunga,0.0
+2023-05-27,hopital provincial,snel,0.0
+2023-05-28,cclk,nuru,0.0
+2023-05-28,cs murara,snel,0.381944
+2023-05-28,csr kiziba,nuru,0.0
+2023-05-28,hgr katwa,enk,0.0
+2023-05-28,hgr kirotshe,snel,0.0
+2023-05-28,hgr kitatumba,enk,0.0
+2023-05-28,hgr panzi,snel,0.0
+2023-05-29,hgr kitatumba,enk,0.0
+2023-05-29,hgr panzi,snel,0.0
+2023-05-30,cclk,nuru,0.0
+2023-05-30,ch cbca bethesda ndosho,virunga,0.0
+2023-05-30,heal africa,snel,0.0
+2023-05-30,hgr beni,enk,0.0
+2023-05-30,hgr kitatumba,enk,0.0
+2023-05-31,hgr beni,enk,0.0
+2023-05-31,hgr panzi,snel,0.0
+2023-05-31,hopital provincial,snel,0.0
+2023-06-01,csr kiziba,nuru,0.0
+2023-06-01,heal africa,snel,0.0
+2023-06-01,hgr panzi,snel,0.0
+2023-06-02,heal africa,snel,0.08625
+2023-06-02,hgr beni,enk,0.0
+2023-06-03,hgr beni,enk,0.0
+2023-06-03,hgr katwa,enk,0.0
+2023-06-03,ngangi 3,virunga,15.133333
+2023-06-04,cclk,nuru,0.0
+2023-06-04,ch cbca bethesda ndosho,virunga,0.0
+2023-06-04,hgr beni,enk,0.0
+2023-06-04,hgr lubero,virunga,0.0
+2023-06-04,hopital provincial,snel,0.0
+2023-06-04,ngangi 3,virunga,21.261806
+2023-06-05,cclk,nuru,0.0
+2023-06-05,cs murara,snel,0.024861
+2023-06-05,csr kiziba,nuru,0.0
+2023-06-05,hgr katwa,enk,0.0
+2023-06-05,hgr kirotshe,snel,0.0
+2023-06-05,ngangi 3,virunga,8.184306
+2023-06-06,hgr kirotshe,snel,0.0
+2023-06-06,hgr panzi,snel,0.0
+2023-06-06,ngangi 3,virunga,7.668056
+2023-06-07,cs murara,snel,0.015833
+2023-06-07,csr bakhita,nuru,0.0
+2023-06-07,hgr beni,enk,0.0
+2023-06-07,hgr katwa,enk,0.231916
+2023-06-07,hgr lubero,virunga,0.0
+2023-06-07,hopital provincial,snel,0.0
+2023-06-08,ch cbca bethesda ndosho,virunga,0.106111
+2023-06-08,cs murara,snel,0.032083
+2023-06-08,heal africa,snel,0.043889
+2023-06-08,hopital provincial,snel,0.002778
+2023-06-08,ngangi 3,virunga,0.0
+2023-06-09,ch cbca bethesda ndosho,virunga,0.0
+2023-06-09,hgr beni,enk,0.0
+2023-06-09,hgr katwa,enk,0.401667
+2023-06-09,hopital provincial,snel,0.010139
+2023-06-09,ngangi 3,virunga,8.575634
+2023-06-10,ch matanda,enk,0.0
+2023-06-10,hopital provincial,snel,0.0
+2023-06-11,ch matanda,enk,0.0
+2023-06-11,csr kiziba,nuru,0.0
+2023-06-11,hgr beni,enk,0.0
+2023-06-11,hgr katwa,enk,0.0
+2023-06-11,hgr lubero,virunga,0.121944
+2023-06-12,csr kiziba,nuru,0.0
+2023-06-12,heal africa,snel,0.019404
+2023-06-12,hopital provincial,snel,0.0
+2023-06-13,csr kiziba,nuru,0.0
+2023-06-13,hgr katwa,enk,0.060556
+2023-06-13,hgr lubero,virunga,0.0
+2023-06-14,ngangi 3,virunga,22.785833
+2023-06-15,ch cbca bethesda ndosho,virunga,0.0
+2023-06-15,ch matanda,enk,0.0
+2023-06-15,cs murara,snel,0.039722
+2023-06-15,hgr katwa,enk,0.0
+2023-06-15,hgr kirotshe,snel,0.0
+2023-06-16,cclk,nuru,0.0
+2023-06-16,cs murara,snel,0.156667
+2023-06-16,heal africa,snel,0.0
+2023-06-16,hgr beni,enk,0.0
+2023-06-16,hgr kirotshe,snel,0.0
+2023-06-16,hgr kitatumba,enk,0.197222
+2023-06-16,hgr panzi,snel,0.0
+2023-06-17,ch cbca bethesda ndosho,virunga,0.0
+2023-06-17,cs murara,snel,0.0
+2023-06-17,csr kiziba,nuru,0.0
+2023-06-17,heal africa,snel,0.0
+2023-06-17,hgr kitatumba,enk,0.223333
+2023-06-17,hopital provincial,snel,0.0
+2023-06-18,ch matanda,enk,0.0
+2023-06-18,cs murara,snel,0.248333
+2023-06-18,hgr kitatumba,enk,0.0
+2023-06-19,ch matanda,enk,0.0
+2023-06-19,csr bakhita,nuru,0.0
+2023-06-19,heal africa,snel,0.0
+2023-06-19,hgr beni,enk,0.009722
+2023-06-19,hgr katwa,enk,0.0
+2023-06-20,ch matanda,enk,0.183611
+2023-06-20,hgr lubero,virunga,0.425278
+2023-06-21,ch matanda,enk,0.254785
+2023-06-21,hgr beni,enk,0.2925
+2023-06-21,hgr panzi,snel,0.0
+2023-06-22,cclk,nuru,0.0
+2023-06-22,ch matanda,enk,0.0
+2023-06-22,cs murara,snel,0.270139
+2023-06-22,hopital provincial,snel,0.0
+2023-06-23,csr bakhita,nuru,0.0
+2023-06-23,hgr beni,enk,0.073333
+2023-06-23,hgr kirotshe,snel,0.0
+2023-06-23,ngangi 3,virunga,7.52625
+2023-06-24,cs murara,snel,0.0
+2023-06-24,hgr beni,enk,0.0
+2023-06-24,hgr katwa,enk,0.0
+2023-06-24,hopital provincial,snel,0.0
+2023-06-25,ch cbca bethesda ndosho,virunga,0.249444
+2023-06-25,hgr katwa,enk,0.0
+2023-06-25,hopital provincial,snel,0.0
+2023-06-26,cclk,nuru,0.0
+2023-06-26,ch cbca bethesda ndosho,virunga,0.0
+2023-06-26,ch matanda,enk,0.0
+2023-06-26,hgr panzi,snel,0.0
+2023-06-26,hopital provincial,snel,0.0
+2023-06-27,cclk,nuru,0.0
+2023-06-27,ch cbca bethesda ndosho,virunga,0.274444
+2023-06-27,cs murara,snel,0.700556
+2023-06-27,heal africa,snel,0.0
+2023-06-27,hgr kitatumba,enk,0.0
+2023-06-27,hgr lubero,virunga,0.1925
+2023-06-27,hopital provincial,snel,0.0
+2023-06-28,hgr panzi,snel,0.0
+2023-06-28,ngangi 3,virunga,22.237083
+2023-06-29,hgr lubero,virunga,0.0
+2023-06-29,ngangi 3,virunga,18.58375
+2023-06-30,cclk,nuru,0.0
+2023-06-30,ngangi 3,virunga,8.225694
+2023-07-01,ch cbca bethesda ndosho,virunga,0.045556
+2023-07-01,ch matanda,enk,0.0
+2023-07-01,csr bakhita,nuru,0.0
+2023-07-01,hgr beni,enk,0.031111
+2023-07-01,hgr kirotshe,snel,0.0
+2023-07-01,hopital provincial,snel,0.0
+2023-07-02,ch cbca bethesda ndosho,virunga,0.434444
+2023-07-02,cs murara,snel,0.0
+2023-07-02,hgr beni,enk,0.0
+2023-07-02,hgr lubero,virunga,0.146111
+2023-07-02,hgr panzi,snel,0.0
+2023-07-02,hopital provincial,snel,0.0
+2023-07-03,hgr kirotshe,snel,0.0
+2023-07-03,hgr lubero,virunga,0.0
+2023-07-04,cclk,nuru,0.0
+2023-07-04,ch matanda,enk,0.0
+2023-07-04,cs murara,snel,0.0
+2023-07-04,heal africa,snel,0.0
+2023-07-04,hgr kirotshe,snel,0.0
+2023-07-04,hgr kitatumba,enk,0.0
+2023-07-04,hgr lubero,virunga,0.648056
+2023-07-05,cclk,nuru,0.0
+2023-07-05,ch matanda,enk,0.0
+2023-07-05,csr bakhita,nuru,0.0
+2023-07-05,ngangi 3,virunga,10.406271
+2023-07-06,cclk,nuru,0.0
+2023-07-06,ch matanda,enk,0.0
+2023-07-06,hgr kitatumba,enk,0.0
+2023-07-06,hgr panzi,snel,0.0
+2023-07-07,cclk,nuru,0.0
+2023-07-07,ch cbca bethesda ndosho,virunga,0.0
+2023-07-07,csr bakhita,nuru,0.0
+2023-07-07,heal africa,snel,0.0
+2023-07-07,hgr kirotshe,snel,0.0
+2023-07-07,hgr kitatumba,enk,0.0
+2023-07-08,cclk,nuru,0.0
+2023-07-08,ch cbca bethesda ndosho,virunga,0.0
+2023-07-08,hgr panzi,snel,0.0
+2023-07-09,cclk,nuru,0.0
+2023-07-09,ch matanda,enk,0.0
+2023-07-09,hgr kirotshe,snel,0.0
+2023-07-09,hopital provincial,snel,0.0
+2023-07-10,heal africa,snel,0.0
+2023-07-10,hgr katwa,enk,0.455833
+2023-07-10,hgr lubero,virunga,0.0
+2023-07-11,cclk,nuru,0.0
+2023-07-11,ch cbca bethesda ndosho,virunga,3.296806
+2023-07-11,ch matanda,enk,0.0
+2023-07-11,cs murara,snel,0.0
+2023-07-11,heal africa,snel,0.060556
+2023-07-11,hgr kirotshe,snel,0.0
+2023-07-11,hopital provincial,snel,0.033611
+2023-07-12,cs murara,snel,0.2475
+2023-07-12,csr bakhita,nuru,0.457222
+2023-07-12,hgr beni,enk,0.118056
+2023-07-12,hgr kitatumba,enk,0.0
+2023-07-12,hgr panzi,snel,0.0
+2023-07-13,heal africa,snel,0.0
+2023-07-13,hgr beni,enk,0.0
+2023-07-13,hgr katwa,enk,0.118611
+2023-07-13,hgr panzi,snel,0.0
+2023-07-14,hgr kirotshe,snel,0.0
+2023-07-15,heal africa,snel,0.0
+2023-07-15,hgr kitatumba,enk,0.0
+2023-07-16,cclk,nuru,0.0
+2023-07-16,ch cbca bethesda ndosho,virunga,0.135198
+2023-07-16,ch matanda,enk,0.0
+2023-07-16,cs murara,snel,0.249722
+2023-07-16,csr bakhita,nuru,0.0
+2023-07-16,heal africa,snel,0.0
+2023-07-16,hgr beni,enk,0.041111
+2023-07-16,hgr katwa,enk,0.051667
+2023-07-16,hgr lubero,virunga,0.0
+2023-07-16,hopital provincial,snel,0.0
+2023-07-17,hgr katwa,enk,0.444722
+2023-07-17,hopital provincial,snel,0.022639
+2023-07-18,cclk,nuru,0.0
+2023-07-18,cs murara,snel,0.354583
+2023-07-18,hgr katwa,enk,0.049167
+2023-07-18,hopital provincial,snel,0.05079
+2023-07-19,ch matanda,enk,0.0
+2023-07-19,hgr kirotshe,snel,0.0
+2023-07-19,hopital provincial,snel,0.0
+2023-07-20,ch cbca bethesda ndosho,virunga,0.0
+2023-07-20,hgr beni,enk,0.143889
+2023-07-20,hgr kirotshe,snel,0.0
+2023-07-20,ngangi 3,virunga,0.238333
+2023-07-21,cclk,nuru,0.0
+2023-07-21,ch cbca bethesda ndosho,virunga,0.0
+2023-07-21,heal africa,snel,0.055
+2023-07-21,ngangi 3,virunga,0.0
+2023-07-22,cs murara,snel,0.0
+2023-07-22,csr bakhita,nuru,0.0
+2023-07-22,hgr katwa,enk,0.0
+2023-07-22,hgr kitatumba,enk,0.126944
+2023-07-22,hopital provincial,snel,0.0
+2023-07-23,cclk,nuru,0.0
+2023-07-23,cs murara,snel,0.0
+2023-07-23,hgr katwa,enk,0.039167
+2023-07-23,hgr kirotshe,snel,0.0
+2023-07-24,ch matanda,enk,0.0
+2023-07-24,cs murara,snel,0.114167
+2023-07-24,hgr katwa,enk,0.060556
+2023-07-24,hgr kirotshe,snel,0.0
+2023-07-24,hgr kitatumba,enk,0.0
+2023-07-25,cclk,nuru,0.0
+2023-07-25,ch matanda,enk,0.0
+2023-07-25,cs murara,snel,0.215
+2023-07-25,csr bakhita,nuru,0.0
+2023-07-25,heal africa,snel,0.0
+2023-07-25,hgr beni,enk,0.0
+2023-07-26,cs murara,snel,6.514167
+2023-07-28,cclk,nuru,0.0
+2023-07-28,ch cbca bethesda ndosho,virunga,0.0
+2023-07-28,cs murara,snel,0.059167
+2023-07-28,heal africa,snel,0.166389
+2023-07-28,hgr beni,enk,0.0
+2023-07-29,heal africa,snel,0.05
+2023-07-29,hgr katwa,enk,0.456824
+2023-07-29,hgr kitatumba,enk,0.062222
+2023-07-29,hgr lubero,virunga,0.0
+2023-07-29,hopital provincial,snel,0.0025
+2023-07-30,cclk,nuru,0.0
+2023-07-30,cs murara,snel,24.0
+2023-07-30,heal africa,snel,0.0
+2023-07-30,hgr kitatumba,enk,0.101667
+2023-07-31,cclk,nuru,0.0
+2023-07-31,ch cbca bethesda ndosho,virunga,0.0
+2023-07-31,cs murara,snel,13.458948
+2023-07-31,heal africa,snel,0.0
+2023-07-31,hgr katwa,enk,0.0
+2023-07-31,hgr kitatumba,enk,0.0
+2023-08-01,ch matanda,enk,0.219926
+2023-08-01,hgr katwa,enk,0.0
+2023-08-01,hgr kirotshe,snel,0.0
+2023-08-02,ch matanda,enk,0.0
+2023-08-02,cs murara,snel,0.078534
+2023-08-02,hgr kirotshe,snel,0.0
+2023-08-02,hgr kitatumba,enk,0.0
+2023-08-02,ngangi 3,virunga,0.0
+2023-08-03,ch cbca bethesda ndosho,virunga,0.111389
+2023-08-03,cs murara,snel,0.030278
+2023-08-03,ngangi 3,virunga,0.056528
+2023-08-04,ch cbca bethesda ndosho,virunga,0.0
+2023-08-04,hgr katwa,enk,0.0
+2023-08-05,cs murara,snel,0.0
+2023-08-05,csr bakhita,nuru,0.0
+2023-08-05,heal africa,snel,0.0
+2023-08-05,hgr lubero,virunga,0.0
+2023-08-05,hopital provincial,snel,0.0
+2023-08-06,cclk,nuru,0.0
+2023-08-06,csr bakhita,nuru,0.298056
+2023-08-06,heal africa,snel,0.0
+2023-08-06,hopital provincial,snel,0.0
+2023-08-06,ngangi 3,virunga,13.645417
+2023-08-07,cclk,nuru,0.0
+2023-08-07,cs murara,snel,0.517222
+2023-08-07,csr bakhita,nuru,0.0
+2023-08-07,hgr beni,enk,0.0
+2023-08-07,hopital provincial,snel,0.0
+2023-08-07,ngangi 3,virunga,16.189722
+2023-08-08,ch cbca bethesda ndosho,virunga,0.0
+2023-08-08,csr bakhita,nuru,0.0
+2023-08-08,hgr beni,enk,0.0
+2023-08-08,hgr kirotshe,snel,0.0
+2023-08-08,hgr kitatumba,enk,0.0
+2023-08-08,ngangi 3,virunga,18.122222
+2023-08-09,hgr beni,enk,0.0
+2023-08-09,hgr lubero,virunga,0.0
+2023-08-09,ngangi 3,virunga,16.078889
+2023-08-10,ch cbca bethesda ndosho,virunga,0.091111
+2023-08-10,cs murara,snel,1.709722
+2023-08-10,hgr lubero,virunga,0.0
+2023-08-11,ch cbca bethesda ndosho,virunga,0.191111
+2023-08-11,hgr beni,enk,0.0
+2023-08-11,hgr katwa,enk,0.0
+2023-08-11,hgr kirotshe,snel,0.0
+2023-08-12,heal africa,snel,0.180556
+2023-08-12,hgr kirotshe,snel,0.0
+2023-08-13,ch cbca bethesda ndosho,virunga,0.299444
+2023-08-13,cs murara,snel,0.0
+2023-08-13,csr bakhita,nuru,0.0
+2023-08-13,hgr kirotshe,snel,0.0
+2023-08-13,hgr kitatumba,enk,0.0
+2023-08-14,csr bakhita,nuru,0.0
+2023-08-14,heal africa,snel,0.0
+2023-08-14,hgr beni,enk,0.0
+2023-08-15,cclk,nuru,0.0
+2023-08-15,ch matanda,enk,0.0
+2023-08-15,heal africa,snel,0.0
+2023-08-15,hgr beni,enk,0.0
+2023-08-16,cclk,nuru,0.0
+2023-08-16,heal africa,snel,0.025833
+2023-08-16,hgr kitatumba,enk,0.583056
+2023-08-16,hgr panzi,snel,0.0
+2023-08-17,ch cbca bethesda ndosho,virunga,0.066389
+2023-08-17,cs murara,snel,0.227778
+2023-08-17,hgr beni,enk,0.0
+2023-08-17,hgr kitatumba,enk,0.221111
+2023-08-17,hgr panzi,snel,0.0
+2023-08-18,ch cbca bethesda ndosho,virunga,0.046389
+2023-08-18,ch matanda,enk,0.0
+2023-08-18,cs murara,snel,0.551389
+2023-08-18,heal africa,snel,0.260833
+2023-08-18,hgr beni,enk,0.0
+2023-08-18,hgr lubero,virunga,0.0
+2023-08-19,cs murara,snel,0.113889
+2023-08-19,heal africa,snel,0.042443
+2023-08-19,hgr beni,enk,0.0
+2023-08-19,ngangi 3,virunga,22.937639
+2023-08-20,cs murara,snel,0.163889
+2023-08-20,hgr katwa,enk,0.101667
+2023-08-21,ch matanda,enk,0.0
+2023-08-21,cs murara,snel,0.021528
+2023-08-21,csr bakhita,nuru,0.0
+2023-08-21,heal africa,snel,0.072222
+2023-08-21,hgr kirotshe,snel,0.0
+2023-08-21,hgr lubero,virunga,0.0
+2023-08-21,hgr panzi,snel,0.0
+2023-08-22,heal africa,snel,0.0
+2023-08-22,hopital provincial,snel,0.0
+2023-08-22,ngangi 3,virunga,10.953889
+2023-08-23,ch cbca bethesda ndosho,virunga,0.0
+2023-08-23,hgr kirotshe,snel,0.0
+2023-08-23,ngangi 3,virunga,8.956389
+2023-08-24,cs murara,snel,0.162222
+2023-08-24,hgr kitatumba,enk,0.127778
+2023-08-24,hgr lubero,virunga,0.0
+2023-08-24,ngangi 3,virunga,4.243351
+2023-08-25,cclk,nuru,0.0
+2023-08-25,hgr beni,enk,0.067222
+2023-08-26,ch cbca bethesda ndosho,virunga,0.018889
+2023-08-26,heal africa,snel,0.091944
+2023-08-26,hgr kitatumba,enk,0.114167
+2023-08-26,hopital provincial,snel,0.0
+2023-08-27,cclk,nuru,0.0
+2023-08-27,ch matanda,enk,0.319444
+2023-08-27,heal africa,snel,0.0
+2023-08-27,hgr katwa,enk,0.121389
+2023-08-28,ch cbca bethesda ndosho,virunga,0.157778
+2023-08-28,cs murara,snel,0.73875
+2023-08-28,csr bakhita,nuru,0.0
+2023-08-28,hgr lubero,virunga,0.0
+2023-08-29,cclk,nuru,0.0
+2023-08-29,ch cbca bethesda ndosho,virunga,0.017778
+2023-08-29,ch matanda,enk,0.0
+2023-08-29,hgr beni,enk,0.0
+2023-08-29,hgr kitatumba,enk,0.0
+2023-08-29,hopital provincial,snel,0.0
+2023-08-30,heal africa,snel,0.0
+2023-08-30,hgr katwa,enk,0.0
+2023-08-30,hgr kirotshe,snel,0.0
+2023-08-30,hgr lubero,virunga,0.0
+2023-08-31,cclk,nuru,0.0
+2023-08-31,ch cbca bethesda ndosho,virunga,0.116944
+2023-08-31,cs murara,snel,1.298472
+2023-08-31,hgr beni,enk,0.0
+2023-08-31,hgr kirotshe,snel,0.0
+2023-09-01,csr bakhita,nuru,0.0
+2023-09-01,hgr kirotshe,snel,0.0
+2023-09-02,cclk,nuru,0.0
+2023-09-02,ch cbca bethesda ndosho,virunga,0.0
+2023-09-02,hopital provincial,snel,0.0
+2023-09-03,ch matanda,enk,0.094722
+2023-09-03,cs murara,snel,0.0
+2023-09-03,hgr beni,enk,0.020278
+2023-09-04,csr bakhita,nuru,0.0
+2023-09-04,hgr beni,enk,0.085
+2023-09-04,hopital provincial,snel,0.0
+2023-09-05,cclk,nuru,0.0
+2023-09-05,ch cbca bethesda ndosho,virunga,0.181389
+2023-09-05,cs murara,snel,0.134722
+2023-09-05,hgr beni,enk,0.0
+2023-09-05,hgr kitatumba,enk,0.0
+2023-09-05,hgr lubero,virunga,0.0
+2023-09-05,hopital provincial,snel,0.070556
+2023-09-06,ch cbca bethesda ndosho,virunga,0.095
+2023-09-06,heal africa,snel,0.0
+2023-09-06,hgr katwa,enk,0.0
+2023-09-06,hgr lubero,virunga,0.0
+2023-09-06,hopital provincial,snel,0.0
+2023-09-07,cs murara,snel,0.119306
+2023-09-07,heal africa,snel,0.046748
+2023-09-07,hgr katwa,enk,0.0
+2023-09-07,hgr kirotshe,snel,0.0
+2023-09-07,hgr kitatumba,enk,0.0
+2023-09-07,hopital provincial,snel,0.031528
+2023-09-08,cclk,nuru,0.0
+2023-09-08,ch matanda,enk,0.0
+2023-09-08,cs murara,snel,0.0
+2023-09-08,heal africa,snel,0.0
+2023-09-08,hgr katwa,enk,0.0
+2023-09-08,hgr kirotshe,snel,0.0
+2023-09-09,heal africa,snel,0.018333
+2023-09-09,hgr kirotshe,snel,0.0
+2023-09-09,hgr kitatumba,enk,0.0
+2023-09-09,hopital provincial,snel,0.004167
+2023-09-09,ngangi 3,virunga,3.193056
+2023-09-10,ch cbca bethesda ndosho,virunga,0.106944
+2023-09-10,ch matanda,enk,0.0
+2023-09-10,csr bakhita,nuru,0.0
+2023-09-10,heal africa,snel,0.0
+2023-09-10,hgr katwa,enk,0.0
+2023-09-10,hgr kitatumba,enk,0.0
+2023-09-11,csr bakhita,nuru,0.0
+2023-09-11,heal africa,snel,0.0
+2023-09-11,hgr beni,enk,0.0
+2023-09-12,heal africa,snel,0.091806
+2023-09-12,hgr beni,enk,0.014098
+2023-09-12,hgr katwa,enk,0.201111
+2023-09-12,hopital provincial,snel,0.089583
+2023-09-13,cclk,nuru,0.0
+2023-09-13,cs murara,snel,0.234444
+2023-09-13,hgr kirotshe,snel,0.0
+2023-09-13,hgr kitatumba,enk,0.116667
+2023-09-14,cclk,nuru,0.0
+2023-09-14,csr bakhita,nuru,24.0
+2023-09-14,hgr beni,enk,0.006389
+2023-09-14,hgr kirotshe,snel,0.0
+2023-09-14,hgr kitatumba,enk,0.095
+2023-09-14,hgr lubero,virunga,0.0
+2023-09-14,ngangi 3,virunga,21.835139
+2023-09-15,cclk,nuru,0.0
+2023-09-15,csr bakhita,nuru,24.0
+2023-09-15,heal africa,snel,0.0
+2023-09-15,hgr beni,enk,0.076667
+2023-09-15,hgr kitatumba,enk,0.145278
+2023-09-15,hgr panzi,snel,0.0
+2023-09-15,hopital provincial,snel,0.0
+2023-09-16,cclk,nuru,0.0
+2023-09-16,csr bakhita,nuru,24.0
+2023-09-16,heal africa,snel,0.025102
+2023-09-16,hgr kitatumba,enk,0.089444
+2023-09-16,hgr panzi,snel,0.0
+2023-09-16,hopital provincial,snel,0.085833
+2023-09-16,ngangi 3,virunga,0.0
+2023-09-17,cclk,nuru,0.0
+2023-09-17,cs murara,snel,0.110972
+2023-09-17,heal africa,snel,0.0
+2023-09-17,hgr lubero,virunga,0.099722
+2023-09-17,hgr panzi,snel,0.0
+2023-09-17,hopital provincial,snel,0.0
+2023-09-18,cclk,nuru,0.0
+2023-09-18,ch matanda,enk,0.152778
+2023-09-18,cs murara,snel,0.214861
+2023-09-18,hgr beni,enk,0.0
+2023-09-18,hgr kitatumba,enk,0.152778
+2023-09-18,hgr lubero,virunga,0.103333
+2023-09-18,hopital provincial,snel,0.072222
+2023-09-19,ch cbca bethesda ndosho,virunga,0.0
+2023-09-19,csr bakhita,nuru,0.0
+2023-09-19,heal africa,snel,0.0
+2023-09-19,hgr kirotshe,snel,0.0
+2023-09-19,ngangi 3,virunga,14.368889
+2023-09-20,cs murara,snel,0.0
+2023-09-20,csr bakhita,nuru,0.0
+2023-09-20,hgr katwa,enk,0.0
+2023-09-20,hgr kirotshe,snel,0.0
+2023-09-21,heal africa,snel,0.090435
+2023-09-21,hgr kitatumba,enk,0.0
+2023-09-21,hgr panzi,snel,0.0
+2023-09-21,hopital provincial,snel,0.063333
+2023-09-22,ch cbca bethesda ndosho,virunga,0.0
+2023-09-23,cclk,nuru,0.0
+2023-09-23,hgr beni,enk,0.015278
+2023-09-23,hgr kitatumba,enk,0.317778
+2023-09-23,hgr lubero,virunga,0.041944
+2023-09-23,ngangi 3,virunga,10.486624
+2023-09-24,cclk,nuru,0.0
+2023-09-24,ngangi 3,virunga,24.0
+2023-09-25,cs murara,snel,0.186944
+2023-09-25,hgr kirotshe,snel,0.0
+2023-09-25,hgr kitatumba,enk,0.0
+2023-09-25,hopital provincial,snel,0.004444
+2023-09-26,ch matanda,enk,0.0
+2023-09-26,hgr beni,enk,0.0
+2023-09-26,hgr lubero,virunga,0.056111
+2023-09-27,cclk,nuru,0.0
+2023-09-27,ch cbca bethesda ndosho,virunga,0.131528
+2023-09-27,ch matanda,enk,0.069167
+2023-09-27,heal africa,snel,0.004444
+2023-09-27,hgr lubero,virunga,0.169444
+2023-09-27,hopital provincial,snel,0.032222
+2023-09-28,ch matanda,enk,0.119444
+2023-09-28,heal africa,snel,0.0
+2023-09-28,hgr kitatumba,enk,0.119444
+2023-09-28,hgr lubero,virunga,0.093611
+2023-09-28,hopital provincial,snel,0.0
+2023-09-29,csr bakhita,nuru,0.0
+2023-09-29,heal africa,snel,0.101045
+2023-09-29,hgr beni,enk,0.047778
+2023-09-29,hopital provincial,snel,0.125139
+2023-09-30,cs murara,snel,0.0
+2023-09-30,hgr kirotshe,snel,0.0
+2023-10-01,ch matanda,enk,0.0
+2023-10-01,csr bakhita,nuru,0.0
+2023-10-01,heal africa,snel,0.032842
+2023-10-01,hgr beni,enk,0.0
+2023-10-01,hgr lubero,virunga,0.075
+2023-10-01,hopital provincial,snel,0.02875
+2023-10-02,cclk,nuru,0.0
+2023-10-02,ch cbca bethesda ndosho,virunga,0.0
+2023-10-02,ch matanda,enk,0.273611
+2023-10-02,cs murara,snel,0.0
+2023-10-02,hgr katwa,enk,0.097222
+2023-10-02,hgr lubero,virunga,0.124444
+2023-10-02,hopital provincial,snel,0.0
+2023-10-03,ch cbca bethesda ndosho,virunga,0.118611
+2023-10-03,hgr kirotshe,snel,0.0
+2023-10-03,hgr lubero,virunga,0.0
+2023-10-04,cs murara,snel,0.0
+2023-10-04,ngangi 3,virunga,7.686111
+2023-10-05,ch matanda,enk,0.276667
+2023-10-05,hgr lubero,virunga,0.0
+2023-10-06,cclk,nuru,0.0
+2023-10-06,cs murara,snel,0.0
+2023-10-06,csr bakhita,nuru,0.886667
+2023-10-06,ngangi 3,virunga,0.0
+2023-10-07,cclk,nuru,0.0
+2023-10-07,hgr kitatumba,enk,0.0
+2023-10-08,ch cbca bethesda ndosho,virunga,0.0
+2023-10-08,ch matanda,enk,0.0
+2023-10-08,cs murara,snel,0.0
+2023-10-08,hgr beni,enk,0.0
+2023-10-09,ch cbca bethesda ndosho,virunga,0.0
+2023-10-09,csr bakhita,nuru,0.0
+2023-10-09,hgr beni,enk,0.0
+2023-10-09,hgr katwa,enk,0.0
+2023-10-10,ch matanda,enk,0.0
+2023-10-10,heal africa,snel,0.0
+2023-10-10,hgr katwa,enk,0.0
+2023-10-10,hgr lubero,virunga,0.0
+2023-10-10,hopital provincial,snel,0.0
+2023-10-11,cclk,nuru,0.0
+2023-10-11,csr bakhita,nuru,0.0
+2023-10-11,hopital provincial,snel,0.0
+2023-10-12,cclk,nuru,0.0
+2023-10-12,ch matanda,enk,0.0
+2023-10-12,cs murara,snel,0.0
+2023-10-12,hgr beni,enk,0.705833
+2023-10-12,hgr kitatumba,enk,0.0
+2023-10-12,ngangi 3,virunga,0.0
+2023-10-13,cclk,nuru,0.0
+2023-10-13,csr bakhita,nuru,0.0
+2023-10-13,hgr beni,enk,0.044722
+2023-10-13,hgr katwa,enk,0.945833
+2023-10-14,cclk,nuru,0.0
+2023-10-14,ch matanda,enk,0.0
+2023-10-14,hgr kirotshe,snel,0.0
+2023-10-14,hgr lubero,virunga,0.0
+2023-10-15,ch matanda,enk,0.659722
+2023-10-15,heal africa,snel,0.0
+2023-10-15,hgr beni,enk,0.209722
+2023-10-15,hgr kirotshe,snel,0.0
+2023-10-15,hopital provincial,snel,0.0
+2023-10-15,ngangi 3,virunga,0.0
+2023-10-16,cclk,nuru,0.0
+2023-10-16,ch cbca bethesda ndosho,virunga,0.151667
+2023-10-16,heal africa,snel,0.0
+2023-10-16,ngangi 3,virunga,0.04625
+2023-10-17,cclk,nuru,0.0
+2023-10-17,ch matanda,enk,0.0
+2023-10-17,cs murara,snel,0.114167
+2023-10-17,csr bakhita,nuru,0.0
+2023-10-17,hgr katwa,enk,0.0
+2023-10-17,hopital provincial,snel,0.0875
+2023-10-17,ngangi 3,virunga,4.709167
+2023-10-18,ch cbca bethesda ndosho,virunga,0.0
+2023-10-18,ch matanda,enk,0.0
+2023-10-18,ngangi 3,virunga,9.600833
+2023-10-19,ch matanda,enk,0.0
+2023-10-19,hgr beni,enk,0.0
+2023-10-19,hgr katwa,enk,0.070833
+2023-10-19,hopital provincial,snel,0.070833
+2023-10-20,cclk,nuru,0.0
+2023-10-20,hgr kitatumba,enk,0.0
+2023-10-20,hgr lubero,virunga,0.0
+2023-10-21,cs murara,snel,0.224306
+2023-10-21,csr bakhita,nuru,0.0
+2023-10-21,hgr kitatumba,enk,0.139722
+2023-10-22,cs murara,snel,1.051528
+2023-10-22,csr bakhita,nuru,0.0
+2023-10-22,heal africa,snel,0.0
+2023-10-22,hgr katwa,enk,0.0
+2023-10-22,hgr kitatumba,enk,0.0
+2023-10-22,ngangi 3,virunga,0.192222
+2023-10-23,cclk,nuru,0.0
+2023-10-23,ch cbca bethesda ndosho,virunga,0.226667
+2023-10-23,hgr katwa,enk,0.208333
+2023-10-23,hgr kirotshe,snel,0.0
+2023-10-24,ch matanda,enk,0.0
+2023-10-24,cs murara,snel,1.113056
+2023-10-24,hgr kitatumba,enk,0.0
+2023-10-25,cclk,nuru,0.0
+2023-10-25,ch cbca bethesda ndosho,virunga,0.050556
+2023-10-25,ch matanda,enk,0.128611
+2023-10-25,cs murara,snel,0.200556
+2023-10-25,csr bakhita,nuru,0.0
+2023-10-25,hgr beni,enk,0.0
+2023-10-25,hgr kitatumba,enk,0.128611
+2023-10-26,ch cbca bethesda ndosho,virunga,0.263611
+2023-10-26,heal africa,snel,0.068056
+2023-10-26,hgr beni,enk,0.0
+2023-10-26,hgr lubero,virunga,0.0
+2023-10-27,ch cbca bethesda ndosho,virunga,0.0
+2023-10-27,ch matanda,enk,0.327222
+2023-10-27,csr bakhita,nuru,0.0
+2023-10-27,heal africa,snel,0.0
+2023-10-27,hgr kirotshe,snel,0.0
+2023-10-28,csr bakhita,nuru,0.0
+2023-10-28,heal africa,snel,0.0
+2023-10-29,cs murara,snel,0.0
+2023-10-29,heal africa,snel,0.0
+2023-10-29,hgr kirotshe,snel,0.0
+2023-10-29,hgr lubero,virunga,0.0
+2023-10-29,ngangi 3,virunga,24.0
+2023-10-31,hopital provincial,snel,0.0
+2023-11-01,cclk,nuru,0.0
+2023-11-01,ch matanda,enk,0.134722
+2023-11-01,hgr beni,enk,0.0
+2023-11-02,ch cbca bethesda ndosho,virunga,0.0
+2023-11-02,ngangi 3,virunga,0.0
+2023-11-03,ch matanda,enk,0.0
+2023-11-03,heal africa,snel,0.0
+2023-11-03,hgr lubero,virunga,0.0
+2023-11-04,cclk,nuru,0.0
+2023-11-04,cs murara,snel,1.25
+2023-11-04,hopital provincial,snel,0.002361
+2023-11-05,ch cbca bethesda ndosho,virunga,0.370556
+2023-11-05,cs murara,snel,0.577361
+2023-11-05,csr bakhita,nuru,0.0
+2023-11-05,hgr katwa,enk,0.0
+2023-11-06,ch matanda,enk,0.0
+2023-11-06,hgr katwa,enk,0.0
+2023-11-06,hgr lubero,virunga,0.0
+2023-11-06,ngangi 3,virunga,0.053056
+2023-11-07,cs murara,snel,2.222171
+2023-11-07,hgr beni,enk,0.0
+2023-11-07,hgr katwa,enk,0.0
+2023-11-07,hgr kitatumba,enk,0.0
+2023-11-07,hopital provincial,snel,0.0
+2023-11-08,ch cbca bethesda ndosho,virunga,0.058889
+2023-11-08,ch matanda,enk,0.201667
+2023-11-08,cs murara,snel,1.469722
+2023-11-08,csr bakhita,nuru,0.0
+2023-11-08,hgr katwa,enk,0.0
+2023-11-08,hgr kirotshe,snel,0.0
+2023-11-08,ngangi 3,virunga,0.058889
+2023-11-09,csr bakhita,nuru,0.0
+2023-11-10,hgr katwa,enk,0.0
+2023-11-10,hgr kirotshe,snel,0.0
+2023-11-10,hopital provincial,snel,0.0
+2023-11-11,cclk,nuru,0.0
+2023-11-11,ch matanda,enk,0.0
+2023-11-11,csr kiziba,nuru,1.728762
+2023-11-11,hgr kitatumba,enk,0.0
+2023-11-12,csr kiziba,nuru,0.525833
+2023-11-12,hgr beni,enk,0.0
+2023-11-12,hgr katwa,enk,0.033391
+2023-11-12,hgr kirotshe,snel,0.0
+2023-11-13,ch matanda,enk,0.0
+2023-11-13,hgr kirotshe,snel,0.0
+2023-11-13,hgr lubero,virunga,0.0
+2023-11-14,ch cbca bethesda ndosho,virunga,0.0
+2023-11-14,ch matanda,enk,0.0
+2023-11-14,hgr beni,enk,0.0
+2023-11-14,hgr katwa,enk,0.0
+2023-11-14,hgr kirotshe,snel,0.0
+2023-11-14,ngangi 3,virunga,0.0
+2023-11-15,cclk,nuru,0.0
+2023-11-15,csr bakhita,nuru,0.0
+2023-11-15,csr kiziba,nuru,0.0
+2023-11-15,hgr katwa,enk,0.081944
+2023-11-16,ch matanda,enk,0.0
+2023-11-16,hgr katwa,enk,0.0
+2023-11-17,ch cbca bethesda ndosho,virunga,0.05875
+2023-11-17,hgr beni,enk,0.0
+2023-11-17,ngangi 3,virunga,0.140278
+2023-11-18,cs murara,snel,0.496389
+2023-11-18,hgr beni,enk,0.0
+2023-11-18,hopital provincial,snel,0.0
+2023-11-19,heal africa,snel,0.0
+2023-11-19,hopital provincial,snel,0.0
+2023-11-20,cs murara,snel,0.115278
+2023-11-20,csr bakhita,nuru,0.0
+2023-11-20,hgr beni,enk,0.0
+2023-11-20,hgr lubero,virunga,0.0
+2023-11-21,cclk,nuru,0.0
+2023-11-21,csr bakhita,nuru,0.0
+2023-11-21,csr kiziba,nuru,0.0
+2023-11-21,heal africa,snel,0.0
+2023-11-21,hgr kitatumba,enk,0.0
+2023-11-21,hopital provincial,snel,0.0
+2023-11-22,ch matanda,enk,0.0
+2023-11-22,csr bakhita,nuru,0.0
+2023-11-23,heal africa,snel,0.0
+2023-11-23,ngangi 3,virunga,0.0
+2023-11-24,heal africa,snel,0.0
+2023-11-24,hgr kirotshe,snel,0.0
+2023-11-25,ch matanda,enk,0.0
+2023-11-25,cs murara,snel,0.0
+2023-11-25,heal africa,snel,0.0675
+2023-11-25,hgr lubero,virunga,0.0
+2023-11-25,ngangi 3,virunga,0.013056
+2023-11-26,cs murara,snel,0.0
+2023-11-26,csr kiziba,nuru,0.0
+2023-11-26,hgr kirotshe,snel,0.0
+2023-11-26,hgr kitatumba,enk,0.0
+2023-11-26,hgr lubero,virunga,0.0
+2023-11-27,ch matanda,enk,0.481667
+2023-11-27,hgr lubero,virunga,0.0
+2023-11-28,ch matanda,enk,0.096389
+2023-11-28,csr bakhita,nuru,0.0
+2023-11-28,hgr katwa,enk,0.156667
+2023-11-28,hopital provincial,snel,0.004722
+2023-11-28,ngangi 3,virunga,7.862222
+2023-11-29,cclk,nuru,0.0
+2023-11-29,ch cbca bethesda ndosho,virunga,0.0
+2023-11-29,heal africa,snel,0.101111
+2023-11-29,hgr katwa,enk,0.118809
+2023-11-29,hgr lubero,virunga,0.0
+2023-11-29,hopital provincial,snel,0.0
+2023-11-29,ngangi 3,virunga,0.402222
+2023-11-30,cclk,nuru,0.0
+2023-11-30,csr bakhita,nuru,0.0
+2023-11-30,csr kiziba,nuru,0.0
+2023-11-30,hgr kirotshe,snel,0.0
+2023-11-30,hgr lubero,virunga,0.0
+2023-11-30,hopital provincial,snel,0.0
+2023-12-01,cclk,nuru,0.0
+2023-12-01,ch cbca bethesda ndosho,virunga,0.0
+2023-12-01,hgr katwa,enk,0.048889
+2023-12-01,hgr kitatumba,enk,0.211111
+2023-12-01,ngangi 3,virunga,0.0
+2023-12-02,csr bakhita,nuru,0.0
+2023-12-02,hgr lubero,virunga,0.0
+2023-12-02,hopital provincial,snel,0.0
+2023-12-03,cclk,nuru,0.0
+2023-12-03,csr bakhita,nuru,0.0
+2023-12-03,csr kiziba,nuru,0.218889
+2023-12-03,hgr beni,enk,0.0
+2023-12-03,hgr katwa,enk,0.0
+2023-12-03,ngangi 3,virunga,0.0
+2023-12-04,csr kiziba,nuru,0.0
+2023-12-04,hgr katwa,enk,0.0
+2023-12-04,hgr kirotshe,snel,0.0
+2023-12-04,ngangi 3,virunga,0.003333
+2023-12-05,ch cbca bethesda ndosho,virunga,0.055278
+2023-12-05,ch matanda,enk,0.0
+2023-12-05,csr bakhita,nuru,0.0
+2023-12-05,hgr kitatumba,enk,0.0
+2023-12-05,ngangi 3,virunga,0.052222
+2023-12-06,ch matanda,enk,0.255556
+2023-12-06,cs murara,snel,7.999306
+2023-12-06,heal africa,snel,0.0
+2023-12-06,ngangi 3,virunga,0.189444
+2023-12-07,csr kiziba,nuru,0.0
+2023-12-07,hgr katwa,enk,0.0
+2023-12-07,hgr kirotshe,snel,0.0
+2023-12-07,hopital provincial,snel,0.0
+2023-12-08,cclk,nuru,0.0
+2023-12-08,ch matanda,enk,0.0
+2023-12-08,csr kiziba,nuru,0.0
+2023-12-09,ch matanda,enk,0.0
+2023-12-09,hgr katwa,enk,0.0
+2023-12-09,hgr kirotshe,snel,0.0
+2023-12-09,hgr kitatumba,enk,0.0
+2023-12-10,ch matanda,enk,0.0
+2023-12-10,csr kiziba,nuru,0.0
+2023-12-10,heal africa,snel,0.043056
+2023-12-10,hgr lubero,virunga,0.0
+2023-12-10,hopital provincial,snel,0.029167
+2023-12-11,cclk,nuru,0.0
+2023-12-11,cs murara,snel,0.043729
+2023-12-11,hopital provincial,snel,0.0
+2023-12-12,ch matanda,enk,0.0
+2023-12-12,csr kiziba,nuru,0.0
+2023-12-12,heal africa,snel,0.0
+2023-12-12,hgr kirotshe,snel,0.0
+2023-12-12,ngangi 3,virunga,7.509444
+2023-12-13,ch cbca bethesda ndosho,virunga,0.0
+2023-12-13,csr bakhita,nuru,0.0
+2023-12-13,csr kiziba,nuru,0.0
+2023-12-13,heal africa,snel,0.0
+2023-12-13,ngangi 3,virunga,0.0
+2023-12-14,ch cbca bethesda ndosho,virunga,0.048333
+2023-12-14,ch matanda,enk,0.0
+2023-12-14,cs murara,snel,0.135556
+2023-12-14,hgr katwa,enk,0.0
+2023-12-14,hgr kirotshe,snel,0.0
+2023-12-14,hopital provincial,snel,0.098194
+2023-12-15,ch matanda,enk,0.106475
+2023-12-15,heal africa,snel,0.086944
+2023-12-15,hgr lubero,virunga,0.0
+2023-12-15,hopital provincial,snel,0.059512
+2023-12-16,heal africa,snel,0.0
+2023-12-16,hgr beni,enk,0.0
+2023-12-16,hgr kirotshe,snel,0.0
+2023-12-16,ngangi 3,virunga,0.272639
+2023-12-17,ch matanda,enk,0.0
+2023-12-17,cs murara,snel,0.0
+2023-12-17,csr bakhita,nuru,0.0
+2023-12-17,hgr katwa,enk,0.664444
+2023-12-17,hgr kitatumba,enk,0.0
+2023-12-17,hgr lubero,virunga,0.0
+2023-12-17,hopital provincial,snel,0.0
+2023-12-18,ch matanda,enk,0.0
+2023-12-18,cs murara,snel,0.127639
+2023-12-18,hgr beni,enk,0.0
+2023-12-18,hopital provincial,snel,0.081528
+2023-12-18,ngangi 3,virunga,9.108889
+2023-12-19,cclk,nuru,0.0
+2023-12-19,csr bakhita,nuru,0.0
+2023-12-19,csr kiziba,nuru,0.0
+2023-12-19,hgr katwa,enk,0.135833
+2023-12-20,ch matanda,enk,0.0
+2023-12-20,cs murara,snel,0.040556
+2023-12-20,csr bakhita,nuru,0.0
+2023-12-20,heal africa,snel,0.039722
+2023-12-20,hgr beni,enk,0.0
+2023-12-20,hgr kirotshe,snel,0.0
+2023-12-20,hgr lubero,virunga,0.0
+2023-12-20,hopital provincial,snel,0.040417
+2023-12-21,ch cbca bethesda ndosho,virunga,0.080556
+2023-12-22,ch matanda,enk,0.157474
+2023-12-22,cs murara,snel,0.350556
+2023-12-22,heal africa,snel,0.0
+2023-12-23,heal africa,snel,0.051394
+2023-12-23,hgr katwa,enk,0.11
+2023-12-23,hgr kirotshe,snel,0.0
+2023-12-23,hgr lubero,virunga,0.0
+2023-12-24,csr bakhita,nuru,0.0
+2023-12-24,hgr katwa,enk,0.0
+2023-12-24,hgr kirotshe,snel,0.0
+2023-12-24,hgr lubero,virunga,0.0
+2023-12-24,ngangi 3,virunga,3.643333
+2023-12-25,csr kiziba,nuru,0.0
+2023-12-25,hgr katwa,enk,0.0
+2023-12-25,hgr lubero,virunga,0.0
+2023-12-25,hopital provincial,snel,0.051667
+2023-12-26,cclk,nuru,0.0
+2023-12-26,ch cbca bethesda ndosho,virunga,0.451389
+2023-12-26,cs murara,snel,0.496111
+2023-12-26,hgr beni,enk,0.0
+2023-12-26,hgr katwa,enk,0.0
+2023-12-26,hgr lubero,virunga,0.0
+2023-12-26,ngangi 3,virunga,1.247778
+2023-12-27,ch matanda,enk,0.0
+2023-12-27,hgr kitatumba,enk,0.0
+2023-12-28,csr bakhita,nuru,0.0
+2023-12-28,hgr kitatumba,enk,0.150833
+2023-12-28,ngangi 3,virunga,6.969167
+2023-12-29,ch cbca bethesda ndosho,virunga,0.18
+2023-12-29,cs murara,snel,0.0
+2023-12-29,csr bakhita,nuru,0.0
+2023-12-29,hgr lubero,virunga,0.0
+2023-12-29,hopital provincial,snel,0.028333
+2023-12-30,cs murara,snel,0.265833
+2023-12-30,csr kiziba,nuru,0.0
+2023-12-30,hgr beni,enk,0.068056
+2023-12-30,hgr kirotshe,snel,0.0
+2023-12-30,hgr lubero,virunga,0.0
+2023-12-30,hopital provincial,snel,0.0
+2023-12-31,ch cbca bethesda ndosho,virunga,0.0
+2023-12-31,ch matanda,enk,0.0
+2023-12-31,cs murara,snel,0.125556
+2023-12-31,csr bakhita,nuru,0.0
+2023-12-31,hgr beni,enk,0.0
+2023-12-31,hgr katwa,enk,0.353611
+2023-12-31,ngangi 3,virunga,0.0
+2023-01-01,cclk,nuru,0.0
+2023-01-01,ch cbca bethesda ndosho,virunga,0.0
+2023-01-01,ch matanda,enk,0.0
+2023-01-01,hgr katwa,enk,0.0
+2023-01-01,hgr panzi,snel,0.0
+2023-01-01,hopital provincial,snel,0.154722
+2023-01-02,ch cbca bethesda ndosho,virunga,0.0
+2023-01-02,ch matanda,enk,0.0
+2023-01-02,cs murara,snel,0.0
+2023-01-02,csr kiziba,nuru,0.0
+2023-01-02,hgr katwa,enk,0.0
+2023-01-02,hopital provincial,snel,0.162083
+2023-01-02,ngangi 3,virunga,1.499028
+2023-01-03,cclk,nuru,0.0
+2023-01-03,csr kiziba,nuru,0.0
+2023-01-03,hgr katwa,enk,0.136824
+2023-01-03,hgr lubero,virunga,0.0
+2023-01-03,ngangi 3,virunga,13.833333
+2023-01-04,cclk,nuru,0.0
+2023-01-04,hgr beni,enk,0.115556
+2023-01-04,hopital provincial,snel,0.026944
+2023-01-04,ngangi 3,virunga,11.328184
+2023-01-05,cclk,nuru,0.0
+2023-01-05,ch cbca bethesda ndosho,virunga,0.087222
+2023-01-05,hgr beni,enk,0.089444
+2023-01-05,hgr katwa,enk,0.15
+2023-01-05,hgr lubero,virunga,0.0
+2023-01-06,ch cbca bethesda ndosho,virunga,0.0
+2023-01-06,ch matanda,enk,0.446944
+2023-01-06,csr bakhita,nuru,0.0
+2023-01-06,hgr kitatumba,enk,0.595694
+2023-01-06,hgr lubero,virunga,0.0
+2023-01-06,ngangi 3,virunga,0.0
+2023-01-07,cclk,nuru,0.0
+2023-01-07,ch cbca bethesda ndosho,virunga,0.0
+2023-01-07,ch matanda,enk,0.0
+2023-01-07,csr bakhita,nuru,0.0
+2023-01-07,csr kiziba,nuru,0.0
+2023-01-07,heal africa,snel,0.139722
+2023-01-07,hgr panzi,snel,0.0
+2023-01-08,ch cbca bethesda ndosho,virunga,0.0
+2023-01-08,ch matanda,enk,0.0
+2023-01-08,csr bakhita,nuru,0.0
+2023-01-08,csr kiziba,nuru,0.0
+2023-01-08,hgr beni,enk,0.0
+2023-01-08,hgr lubero,virunga,0.0
+2023-01-08,ngangi 3,virunga,24.0
+2023-01-09,ch cbca bethesda ndosho,virunga,0.0
+2023-01-09,ch matanda,enk,0.0
+2023-01-09,heal africa,snel,0.187222
+2023-01-09,hgr beni,enk,0.0
+2023-01-09,hgr lubero,virunga,0.0
+2023-01-09,hgr panzi,snel,0.0
+2023-01-09,ngangi 3,virunga,17.920139
+2023-01-10,cclk,nuru,0.0
+2023-01-10,ch matanda,enk,0.0
+2023-01-10,csr kiziba,nuru,1.153333
+2023-01-10,hgr beni,enk,0.0
+2023-01-10,hgr katwa,enk,0.113333
+2023-01-10,hgr panzi,snel,0.0
+2023-01-10,hopital provincial,snel,0.005305
+2023-01-11,ch matanda,enk,0.0
+2023-01-11,csr bakhita,nuru,0.0
+2023-01-11,heal africa,snel,0.118333
+2023-01-11,hgr lubero,virunga,0.0
+2023-01-11,hgr panzi,snel,0.0
+2023-01-12,csr kiziba,nuru,0.0
+2023-01-12,hgr kitatumba,enk,0.361389
+2023-01-12,hgr lubero,virunga,0.0
+2023-01-12,hgr panzi,snel,0.0
+2023-01-12,ngangi 3,virunga,16.805417
+2023-01-13,cclk,nuru,0.0
+2023-01-13,ch cbca bethesda ndosho,virunga,0.0
+2023-01-13,ch matanda,enk,1.138056
+2023-01-13,csr kiziba,nuru,4.086944
+2023-01-13,hgr kitatumba,enk,0.209722
+2023-01-13,hgr panzi,snel,0.0
+2023-01-13,hopital provincial,snel,0.0
+2023-01-14,cclk,nuru,0.0
+2023-01-14,cs murara,snel,0.036944
+2023-01-14,csr kiziba,nuru,0.0
+2023-01-14,heal africa,snel,0.110556
+2023-01-14,hgr beni,enk,0.2775
+2023-01-14,hgr kitatumba,enk,0.177083
+2023-01-14,hgr panzi,snel,0.0
+2023-01-14,hopital provincial,snel,0.009306
+2023-01-15,cclk,nuru,2.174583
+2023-01-15,ch cbca bethesda ndosho,virunga,0.0
+2023-01-15,ch matanda,enk,1.235556
+2023-01-15,csr kiziba,nuru,0.0
+2023-01-15,hgr beni,enk,0.185833
+2023-01-15,hgr katwa,enk,0.704722
+2023-01-15,hgr panzi,snel,0.0
+2023-01-15,hopital provincial,snel,0.0
+2023-01-16,ch cbca bethesda ndosho,virunga,0.0
+2023-01-16,ch matanda,enk,0.356667
+2023-01-16,csr bakhita,nuru,0.0
+2023-01-16,csr kiziba,nuru,1.003611
+2023-01-16,hgr kitatumba,enk,0.179722
+2023-01-17,cs murara,snel,0.0
+2023-01-17,hgr beni,enk,0.11
+2023-01-17,hopital provincial,snel,0.0
+2023-01-18,cclk,nuru,0.0
+2023-01-18,ch matanda,enk,0.671944
+2023-01-18,csr kiziba,nuru,2.061569
+2023-01-18,hgr beni,enk,0.139444
+2023-01-18,hgr lubero,virunga,0.0
+2023-01-18,hopital provincial,snel,0.0
+2023-01-19,ch cbca bethesda ndosho,virunga,0.0
+2023-01-19,cs murara,snel,0.0
+2023-01-19,csr bakhita,nuru,0.0
+2023-01-19,csr kiziba,nuru,0.107571
+2023-01-19,hgr kitatumba,enk,0.0
+2023-01-19,hopital provincial,snel,0.0
+2023-01-20,cclk,nuru,0.0
+2023-01-20,ch cbca bethesda ndosho,virunga,0.0425
+2023-01-20,cs murara,snel,0.0
+2023-01-20,hgr panzi,snel,0.0
+2023-01-21,hgr kitatumba,enk,0.051111
+2023-01-21,hgr lubero,virunga,0.0
+2023-01-21,hgr panzi,snel,0.0
+2023-01-21,ngangi 3,virunga,11.048056
+2023-01-22,ch cbca bethesda ndosho,virunga,0.0
+2023-01-22,csr kiziba,nuru,0.0
+2023-01-22,ngangi 3,virunga,0.8
+2023-01-23,cclk,nuru,0.0
+2023-01-23,ch matanda,enk,0.242222
+2023-01-23,hgr beni,enk,0.040556
+2023-01-23,hgr panzi,snel,0.0
+2023-01-23,ngangi 3,virunga,0.149444
+2023-01-24,cclk,nuru,0.0
+2023-01-24,heal africa,snel,0.038611
+2023-01-24,hgr kitatumba,enk,0.663056
+2023-01-24,hgr lubero,virunga,0.0
+2023-01-24,hopital provincial,snel,0.004444
+2023-01-25,cclk,nuru,0.0
+2023-01-25,csr bakhita,nuru,0.0
+2023-01-25,csr kiziba,nuru,0.0
+2023-01-25,hgr panzi,snel,0.02
+2023-01-26,csr bakhita,nuru,0.984722
+2023-01-26,csr kiziba,nuru,7.961944
+2023-01-26,heal africa,snel,0.075
+2023-01-26,hgr katwa,enk,0.0
+2023-01-26,ngangi 3,virunga,10.6975
+2023-01-27,cclk,nuru,0.0
+2023-01-27,csr bakhita,nuru,0.0
+2023-01-27,csr kiziba,nuru,0.0
+2023-01-27,heal africa,snel,0.145
+2023-01-27,hgr beni,enk,0.054261
+2023-01-27,hgr katwa,enk,0.062222
+2023-01-27,hgr kitatumba,enk,0.339167
+2023-01-27,hopital provincial,snel,0.003194
+2023-01-27,ngangi 3,virunga,18.475417
+2023-01-28,ch matanda,enk,0.0
+2023-01-28,csr kiziba,nuru,0.0
+2023-01-28,heal africa,snel,0.123889
+2023-01-28,hgr beni,enk,0.0
+2023-01-28,hgr katwa,enk,0.0
+2023-01-28,hgr panzi,snel,0.010833
+2023-01-28,hopital provincial,snel,0.0
+2023-01-28,ngangi 3,virunga,8.60125
+2023-01-29,cclk,nuru,0.0
+2023-01-29,ch matanda,enk,2.977222
+2023-01-29,hgr katwa,enk,0.335556
+2023-01-29,hgr kitatumba,enk,0.212083
+2023-01-29,hgr lubero,virunga,0.327222
+2023-01-29,hgr panzi,snel,0.0
+2023-01-29,hopital provincial,snel,0.0
+2023-01-29,ngangi 3,virunga,0.0
+2023-01-30,ch cbca bethesda ndosho,virunga,0.133333
+2023-01-30,ch matanda,enk,6.643889
+2023-01-30,csr kiziba,nuru,0.0
+2023-01-30,hgr beni,enk,0.066389
+2023-01-30,hgr lubero,virunga,0.0
+2023-01-30,ngangi 3,virunga,0.0
+2023-01-31,ch cbca bethesda ndosho,virunga,0.016667
+2023-01-31,cs murara,snel,0.0
+2023-01-31,csr bakhita,nuru,0.0
+2023-01-31,csr kiziba,nuru,0.0
+2023-01-31,heal africa,snel,0.136389
+2023-01-31,hgr beni,enk,0.323611
+2023-01-31,hgr lubero,virunga,1.694167
+2023-02-01,ch cbca bethesda ndosho,virunga,0.0
+2023-02-01,ch matanda,enk,0.532544
+2023-02-01,cs murara,snel,0.0
+2023-02-01,csr bakhita,nuru,10.257222
+2023-02-01,csr kiziba,nuru,0.0
+2023-02-01,hgr kitatumba,enk,0.360833
+2023-02-01,hopital provincial,snel,0.0
+2023-02-01,ngangi 3,virunga,8.65375
+2023-02-02,cclk,nuru,0.0
+2023-02-02,ch cbca bethesda ndosho,virunga,0.0
+2023-02-02,ch matanda,enk,0.585833
+2023-02-02,csr bakhita,nuru,0.0
+2023-02-02,hgr kitatumba,enk,0.528333
+2023-02-03,ch cbca bethesda ndosho,virunga,0.0
+2023-02-03,cs murara,snel,0.0
+2023-02-03,csr kiziba,nuru,0.0
+2023-02-03,hgr beni,enk,0.141389
+2023-02-03,hgr kitatumba,enk,0.138472
+2023-02-03,ngangi 3,virunga,2.466667
+2023-02-04,cclk,nuru,0.0
+2023-02-04,csr bakhita,nuru,0.0
+2023-02-04,hgr kitatumba,enk,0.114306
+2023-02-04,hgr panzi,snel,0.0
+2023-02-04,ngangi 3,virunga,0.0
+2023-02-05,heal africa,snel,0.0525
+2023-02-05,hgr katwa,enk,0.340278
+2023-02-06,ch matanda,enk,0.945
+2023-02-06,csr bakhita,nuru,0.0
+2023-02-06,csr kiziba,nuru,0.0
+2023-02-06,heal africa,snel,0.116806
+2023-02-07,cclk,nuru,0.0
+2023-02-07,ch matanda,enk,1.908611
+2023-02-07,csr kiziba,nuru,0.0
+2023-02-07,hgr lubero,virunga,0.0
+2023-02-07,hgr panzi,snel,0.101389
+2023-02-07,hopital provincial,snel,0.0
+2023-02-07,ngangi 3,virunga,0.0
+2023-02-08,cclk,nuru,0.773056
+2023-02-08,ch matanda,enk,0.328889
+2023-02-08,csr bakhita,nuru,0.0
+2023-02-08,hgr lubero,virunga,0.242778
+2023-02-08,ngangi 3,virunga,0.0
+2023-02-09,cclk,nuru,0.0
+2023-02-09,cs murara,snel,0.0
+2023-02-09,csr bakhita,nuru,0.0
+2023-02-09,heal africa,snel,0.0
+2023-02-09,hgr katwa,enk,1.001389
+2023-02-10,ch cbca bethesda ndosho,virunga,0.070556
+2023-02-10,cs murara,snel,0.0
+2023-02-10,csr bakhita,nuru,0.0
+2023-02-10,hgr beni,enk,0.041111
+2023-02-10,hgr katwa,enk,0.22
+2023-02-10,hgr kitatumba,enk,0.41
+2023-02-10,hgr panzi,snel,0.0
+2023-02-11,cclk,nuru,0.0
+2023-02-11,ch matanda,enk,0.099444
+2023-02-11,cs murara,snel,0.0
+2023-02-11,csr bakhita,nuru,0.0
+2023-02-11,hgr beni,enk,0.036944
+2023-02-11,hgr kitatumba,enk,0.090833
+2023-02-12,ch cbca bethesda ndosho,virunga,0.0
+2023-02-12,ch matanda,enk,0.0
+2023-02-12,csr bakhita,nuru,0.0
+2023-02-12,hgr beni,enk,0.0
+2023-02-12,hgr panzi,snel,0.0
+2023-02-13,cclk,nuru,0.0
+2023-02-13,ch cbca bethesda ndosho,virunga,0.127222
+2023-02-13,csr bakhita,nuru,0.0
+2023-02-13,hgr kitatumba,enk,0.202222
+2023-02-13,hgr lubero,virunga,0.0
+2023-02-13,hopital provincial,snel,0.0
+2023-02-13,ngangi 3,virunga,24.0
+2023-02-14,cclk,nuru,0.0
+2023-02-14,cs murara,snel,0.0
+2023-02-14,heal africa,snel,0.0
+2023-02-14,hgr katwa,enk,0.068611
+2023-02-14,hgr kitatumba,enk,0.136389
+2023-02-14,hgr lubero,virunga,0.0
+2023-02-14,hgr panzi,snel,0.008889
+2023-02-14,ngangi 3,virunga,24.0
+2023-02-15,cclk,nuru,0.0
+2023-02-15,ch cbca bethesda ndosho,virunga,0.323056
+2023-02-15,ch matanda,enk,0.0
+2023-02-15,cs murara,snel,0.057222
+2023-02-15,csr kiziba,nuru,0.0
+2023-02-15,hgr beni,enk,0.0
+2023-02-15,hgr kitatumba,enk,0.004444
+2023-02-15,hgr lubero,virunga,0.0
+2023-02-15,hgr panzi,snel,0.015278
+2023-02-15,ngangi 3,virunga,24.0
+2023-02-16,hgr beni,enk,0.313889
+2023-02-16,hgr panzi,snel,0.0
+2023-02-16,hopital provincial,snel,0.0
+2023-02-16,ngangi 3,virunga,8.474306
+2023-02-17,csr bakhita,nuru,0.0
+2023-02-17,csr kiziba,nuru,0.0
+2023-02-17,hgr katwa,enk,0.0
+2023-02-18,ch cbca bethesda ndosho,virunga,0.0
+2023-02-18,csr kiziba,nuru,2.843333
+2023-02-18,heal africa,snel,0.0
+2023-02-18,hopital provincial,snel,0.0
+2023-02-18,ngangi 3,virunga,0.788611
+2023-02-19,cclk,nuru,0.0
+2023-02-19,ch matanda,enk,0.0
+2023-02-19,cs murara,snel,12.440972
+2023-02-19,heal africa,snel,0.0
+2023-02-19,hgr beni,enk,0.0
+2023-02-19,hgr katwa,enk,0.0
+2023-02-19,hgr lubero,virunga,0.0
+2023-02-20,ch cbca bethesda ndosho,virunga,0.124167
+2023-02-20,ch matanda,enk,0.0
+2023-02-20,cs murara,snel,7.077917
+2023-02-20,csr bakhita,nuru,0.514722
+2023-02-20,hopital provincial,snel,0.0
+2023-02-21,ch matanda,enk,0.0
+2023-02-21,cs murara,snel,0.0
+2023-02-21,csr kiziba,nuru,0.288889
+2023-02-21,hgr lubero,virunga,0.0
+2023-02-21,ngangi 3,virunga,0.735278
+2023-02-22,cs murara,snel,0.128889
+2023-02-22,csr bakhita,nuru,0.0
+2023-02-22,hgr kitatumba,enk,0.381111
+2023-02-22,hgr panzi,snel,0.0
+2023-02-22,hopital provincial,snel,0.0
+2023-02-23,cclk,nuru,0.0
+2023-02-23,ch cbca bethesda ndosho,virunga,0.0
+2023-02-23,ch matanda,enk,0.897778
+2023-02-23,hgr kitatumba,enk,0.58875
+2023-02-23,hgr panzi,snel,0.121667
+2023-02-24,ch matanda,enk,0.228333
+2023-02-24,cs murara,snel,0.0
+2023-02-24,csr kiziba,nuru,0.0
+2023-02-24,heal africa,snel,0.039722
+2023-02-24,hgr katwa,enk,0.497222
+2023-02-24,hgr lubero,virunga,0.0
+2023-02-25,ch matanda,enk,0.0
+2023-02-25,hgr beni,enk,0.0
+2023-02-25,hgr kitatumba,enk,0.095556
+2023-02-25,hgr lubero,virunga,0.079167
+2023-02-25,ngangi 3,virunga,2.000417
+2023-02-26,ch cbca bethesda ndosho,virunga,0.0
+2023-02-26,csr bakhita,nuru,0.0
+2023-02-26,heal africa,snel,0.0
+2023-02-26,hgr panzi,snel,0.00446
+2023-02-26,hopital provincial,snel,0.0
+2023-02-27,ch cbca bethesda ndosho,virunga,0.0
+2023-02-27,csr kiziba,nuru,2.56
+2023-02-27,hgr beni,enk,0.011707
+2023-02-27,hopital provincial,snel,0.0
+2023-02-27,ngangi 3,virunga,4.258268
+2023-02-28,cclk,nuru,0.0
+2023-02-28,ch cbca bethesda ndosho,virunga,0.059444
+2023-02-28,heal africa,snel,0.0
+2023-02-28,hgr lubero,virunga,0.0
+2023-02-28,hgr panzi,snel,0.0225
+2023-02-28,hopital provincial,snel,0.0
+2023-03-01,cclk,nuru,16.632361
+2023-03-01,cs murara,snel,0.278056
+2023-03-01,csr bakhita,nuru,0.0
+2023-03-01,csr kiziba,nuru,2.457222
+2023-03-01,hgr katwa,enk,0.261667
+2023-03-01,hgr lubero,virunga,0.0
+2023-03-01,hopital provincial,snel,0.0
+2023-03-01,ngangi 3,virunga,18.764861
+2023-03-02,ch matanda,enk,0.504896
+2023-03-02,cs murara,snel,0.356667
+2023-03-02,heal africa,snel,0.0
+2023-03-02,hgr beni,enk,0.0
+2023-03-02,hopital provincial,snel,0.0
+2023-03-02,ngangi 3,virunga,14.805417
+2023-03-03,ch cbca bethesda ndosho,virunga,0.0
+2023-03-03,csr kiziba,nuru,2.478194
+2023-03-03,heal africa,snel,0.0
+2023-03-03,hgr beni,enk,0.065278
+2023-03-03,hgr katwa,enk,0.160833
+2023-03-03,hopital provincial,snel,0.0
+2023-03-04,cclk,nuru,12.064113
+2023-03-04,ch cbca bethesda ndosho,virunga,0.138611
+2023-03-04,ch matanda,enk,0.253611
+2023-03-04,hgr katwa,enk,0.085556
+2023-03-04,hgr lubero,virunga,0.0
+2023-03-04,ngangi 3,virunga,7.843333
+2023-03-05,ch matanda,enk,0.0
+2023-03-05,heal africa,snel,0.0
+2023-03-05,hgr panzi,snel,0.0
+2023-03-05,hopital provincial,snel,0.0
+2023-03-06,ch cbca bethesda ndosho,virunga,0.0
+2023-03-06,cs murara,snel,2.242361
+2023-03-06,hgr kitatumba,enk,0.0
+2023-03-06,hgr lubero,virunga,0.383333
+2023-03-06,ngangi 3,virunga,19.825
+2023-03-07,ch matanda,enk,0.149722
+2023-03-07,heal africa,snel,0.0
+2023-03-07,hgr panzi,snel,0.0
+2023-03-07,hopital provincial,snel,0.0
+2023-03-07,ngangi 3,virunga,10.004028
+2023-03-08,cclk,nuru,0.0
+2023-03-08,cs murara,snel,0.0
+2023-03-08,heal africa,snel,0.0
+2023-03-08,hgr kitatumba,enk,0.0
+2023-03-08,hgr lubero,virunga,0.0
+2023-03-08,hopital provincial,snel,0.0
+2023-03-09,cs murara,snel,0.228435
+2023-03-09,csr bakhita,nuru,0.0
+2023-03-09,hgr kitatumba,enk,0.0
+2023-03-10,cclk,nuru,0.0
+2023-03-10,ch matanda,enk,0.0
+2023-03-10,cs murara,snel,0.236667
+2023-03-10,hgr beni,enk,0.0
+2023-03-10,hopital provincial,snel,0.0
+2023-03-10,ngangi 3,virunga,0.216188
+2023-03-11,cs murara,snel,0.0
+2023-03-11,hgr beni,enk,0.038056
+2023-03-11,hgr kitatumba,enk,0.0
+2023-03-12,csr bakhita,nuru,0.0
+2023-03-12,hgr katwa,enk,0.0
+2023-03-12,ngangi 3,virunga,24.0
+2023-03-13,cs murara,snel,0.029167
+2023-03-13,csr bakhita,nuru,0.0
+2023-03-13,csr kiziba,nuru,0.0
+2023-03-13,hgr beni,enk,0.063056
+2023-03-13,hgr katwa,enk,0.154722
+2023-03-14,hgr beni,enk,0.013333
+2023-03-14,hgr panzi,snel,0.03
+2023-03-14,hopital provincial,snel,0.084028
+2023-03-15,csr bakhita,nuru,0.0
+2023-03-15,csr kiziba,nuru,0.0
+2023-03-15,hgr katwa,enk,0.0
+2023-03-15,hgr kitatumba,enk,0.0
+2023-03-15,hgr panzi,snel,0.012007
+2023-03-16,ch cbca bethesda ndosho,virunga,0.0
+2023-03-16,ch matanda,enk,0.0
+2023-03-16,csr bakhita,nuru,0.0
+2023-03-16,csr kiziba,nuru,0.0
+2023-03-16,heal africa,snel,0.032705
+2023-03-16,hgr beni,enk,0.0
+2023-03-16,hgr panzi,snel,0.011389
+2023-03-16,hopital provincial,snel,0.024722
+2023-03-17,cclk,nuru,0.0
+2023-03-17,csr kiziba,nuru,0.0
+2023-03-17,heal africa,snel,0.090972
+2023-03-17,hgr beni,enk,0.0
+2023-03-17,hgr kitatumba,enk,0.0
+2023-03-17,hopital provincial,snel,0.124722
+2023-03-17,ngangi 3,virunga,15.941944
+2023-03-18,ch matanda,enk,0.0
+2023-03-18,cs murara,snel,0.0
+2023-03-18,heal africa,snel,0.0
+2023-03-18,hgr beni,enk,0.029167
+2023-03-18,hgr katwa,enk,0.0
+2023-03-18,hgr lubero,virunga,0.0
+2023-03-19,cs murara,snel,0.0
+2023-03-19,csr bakhita,nuru,0.0
+2023-03-19,heal africa,snel,0.019444
+2023-03-19,hgr lubero,virunga,0.0
+2023-03-19,hgr panzi,snel,0.0
+2023-03-20,ch cbca bethesda ndosho,virunga,0.0
+2023-03-20,ch matanda,enk,0.121389
+2023-03-20,cs murara,snel,0.0
+2023-03-20,csr bakhita,nuru,0.0
+2023-03-20,hgr lubero,virunga,0.0
+2023-03-20,hopital provincial,snel,0.038889
+2023-03-21,cclk,nuru,0.0
+2023-03-21,hgr beni,enk,0.0
+2023-03-21,hgr lubero,virunga,0.0
+2023-03-21,hgr panzi,snel,0.011944
+2023-03-21,hopital provincial,snel,0.0
+2023-03-22,cclk,nuru,0.0
+2023-03-22,cs murara,snel,0.166667
+2023-03-22,csr bakhita,nuru,0.0
+2023-03-22,heal africa,snel,0.0
+2023-03-22,hgr beni,enk,0.0
+2023-03-22,hgr kitatumba,enk,0.0
+2023-03-22,hgr lubero,virunga,0.0
+2023-03-22,hgr panzi,snel,0.039167
+2023-03-22,ngangi 3,virunga,0.035365
+2023-03-23,ch matanda,enk,0.125417
+2023-03-23,hgr katwa,enk,0.192778
+2023-03-24,ch matanda,enk,0.0
+2023-03-24,heal africa,snel,0.114722
+2023-03-24,hgr beni,enk,0.0
+2023-03-24,hgr panzi,snel,0.006667
+2023-03-24,hopital provincial,snel,0.090556
+2023-03-25,cclk,nuru,0.0
+2023-03-25,hgr beni,enk,0.1625
+2023-03-25,hgr lubero,virunga,0.0
+2023-03-25,hgr panzi,snel,0.01
+2023-03-25,hopital provincial,snel,0.0
+2023-03-26,hgr katwa,enk,0.0
+2023-03-26,hgr lubero,virunga,0.0
+2023-03-26,hgr panzi,snel,0.000278
+2023-03-27,cclk,nuru,0.0
+2023-03-27,ch matanda,enk,0.070556
+2023-03-27,cs murara,snel,0.0
+2023-03-27,csr bakhita,nuru,0.0
+2023-03-27,csr kiziba,nuru,0.0
+2023-03-27,heal africa,snel,0.058889
+2023-03-27,hgr beni,enk,0.0
+2023-03-27,hgr lubero,virunga,0.081111
+2023-03-28,ch cbca bethesda ndosho,virunga,0.089444
+2023-03-28,csr bakhita,nuru,0.0
+2023-03-28,hgr kitatumba,enk,0.198056
+2023-03-28,hgr lubero,virunga,0.0
+2023-03-28,hgr panzi,snel,0.01
+2023-03-28,hopital provincial,snel,0.0
+2023-03-28,ngangi 3,virunga,0.0
+2023-03-29,cclk,nuru,0.0
+2023-03-29,ch cbca bethesda ndosho,virunga,0.0
+2023-03-29,cs murara,snel,1.470278
+2023-03-29,hgr katwa,enk,0.0
+2023-03-29,hgr panzi,snel,0.008333
+2023-03-29,hopital provincial,snel,0.050278
+2023-03-30,ch cbca bethesda ndosho,virunga,0.0
+2023-03-30,ch matanda,enk,0.0
+2023-03-30,csr bakhita,nuru,0.0
+2023-03-30,csr kiziba,nuru,0.0
+2023-03-30,heal africa,snel,0.019028
+2023-03-30,hgr lubero,virunga,0.0
+2023-03-30,hgr panzi,snel,0.006111
+2023-03-30,hopital provincial,snel,0.037917
+2023-03-31,ch matanda,enk,0.0
+2023-03-31,csr bakhita,nuru,0.0
+2023-03-31,csr kiziba,nuru,1.845278
+2023-03-31,heal africa,snel,0.0575
+2023-03-31,hgr kirotshe,snel,0.0
+2023-03-31,ngangi 3,virunga,18.000139
+2023-04-01,ch cbca bethesda ndosho,virunga,0.0
+2023-04-01,csr kiziba,nuru,1.713056
+2023-04-01,heal africa,snel,0.025278
+2023-04-01,hgr kirotshe,snel,0.0
+2023-04-01,hgr kitatumba,enk,0.0
+2023-04-02,cclk,nuru,0.0
+2023-04-02,heal africa,snel,0.0
+2023-04-02,hgr kirotshe,snel,0.0
+2023-04-02,hgr kitatumba,enk,0.0
+2023-04-02,ngangi 3,virunga,10.87
+2023-04-03,cclk,nuru,0.0
+2023-04-03,cs murara,snel,0.0
+2023-04-03,csr bakhita,nuru,0.0
+2023-04-03,hgr kirotshe,snel,0.0
+2023-04-03,hgr kitatumba,enk,0.0
+2023-04-03,hgr lubero,virunga,0.466944
+2023-04-03,ngangi 3,virunga,15.994028
+2023-04-04,ch cbca bethesda ndosho,virunga,0.0
+2023-04-04,csr bakhita,nuru,0.0
+2023-04-04,hgr kitatumba,enk,0.056111
+2023-04-04,hgr lubero,virunga,0.293889
+2023-04-04,ngangi 3,virunga,16.633333
+2023-04-05,ch matanda,enk,0.0
+2023-04-05,csr bakhita,nuru,0.0
+2023-04-05,csr kiziba,nuru,0.0
+2023-04-05,hgr beni,enk,0.0
+2023-04-05,hgr panzi,snel,0.02
+2023-04-05,ngangi 3,virunga,16.272778
+2023-04-06,ch cbca bethesda ndosho,virunga,0.009167
+2023-04-06,cs murara,snel,0.0
+2023-04-06,csr kiziba,nuru,1.072222
+2023-04-06,heal africa,snel,0.0
+2023-04-07,cclk,nuru,0.0
+2023-04-07,csr bakhita,nuru,0.0
+2023-04-07,csr kiziba,nuru,2.517778
+2023-04-07,hgr kirotshe,snel,0.0
+2023-04-07,hgr kitatumba,enk,0.135833
+2023-04-07,hgr lubero,virunga,0.0
+2023-04-07,hopital provincial,snel,0.0
+2023-04-08,cclk,nuru,0.0
+2023-04-08,cs murara,snel,0.965
+2023-04-08,csr bakhita,nuru,0.0
+2023-04-08,heal africa,snel,0.183611
+2023-04-08,hgr kitatumba,enk,0.0
+2023-04-09,cclk,nuru,0.0
+2023-04-09,ch cbca bethesda ndosho,virunga,0.0
+2023-04-09,csr bakhita,nuru,0.0
+2023-04-09,hgr beni,enk,0.0
+2023-04-09,hgr kirotshe,snel,0.0
+2023-04-09,hgr kitatumba,enk,0.472639
+2023-04-09,hgr panzi,snel,0.0
+2023-04-09,hopital provincial,snel,0.0
+2023-04-10,csr bakhita,nuru,0.0
+2023-04-10,heal africa,snel,0.025833
+2023-04-10,hgr beni,enk,0.0
+2023-04-10,hgr katwa,enk,0.0
+2023-04-10,hgr kitatumba,enk,0.11
+2023-04-10,hopital provincial,snel,0.004722
+2023-04-11,cclk,nuru,0.0
+2023-04-11,cs murara,snel,0.066667
+2023-04-11,heal africa,snel,0.002361
+2023-04-11,hgr beni,enk,0.0
+2023-04-11,hgr katwa,enk,0.161944
+2023-04-11,hgr kitatumba,enk,0.633056
+2023-04-12,csr bakhita,nuru,0.0
+2023-04-12,heal africa,snel,0.0
+2023-04-12,hgr beni,enk,0.0
+2023-04-12,hgr kirotshe,snel,0.0
+2023-04-12,hgr kitatumba,enk,0.0
+2023-04-13,ch matanda,enk,0.0
+2023-04-13,csr bakhita,nuru,0.0
+2023-04-13,hgr beni,enk,0.0
+2023-04-13,hgr kirotshe,snel,0.0
+2023-04-13,hgr kitatumba,enk,0.165
+2023-04-13,hgr panzi,snel,0.009722
+2023-04-13,ngangi 3,virunga,0.0
+2023-04-14,hgr beni,enk,0.0
+2023-04-14,hgr katwa,enk,0.0
+2023-04-14,ngangi 3,virunga,0.0
+2023-04-15,cclk,nuru,0.0
+2023-04-15,csr bakhita,nuru,9.934167
+2023-04-15,heal africa,snel,0.0
+2023-04-15,hgr kirotshe,snel,0.0
+2023-04-15,hgr lubero,virunga,0.0
+2023-04-15,hgr panzi,snel,0.025833
+2023-04-15,ngangi 3,virunga,10.70375
+2023-04-16,ch matanda,enk,0.0
+2023-04-16,csr kiziba,nuru,0.0
+2023-04-16,heal africa,snel,0.0
+2023-04-16,hgr katwa,enk,0.031667
+2023-04-16,hgr kitatumba,enk,0.0
+2023-04-17,ch cbca bethesda ndosho,virunga,0.0
+2023-04-17,csr kiziba,nuru,0.228333
+2023-04-17,hopital provincial,snel,0.0
+2023-04-18,cclk,nuru,0.0
+2023-04-18,cs murara,snel,9.821074
+2023-04-18,csr bakhita,nuru,0.0
+2023-04-18,heal africa,snel,0.004722
+2023-04-18,hgr katwa,enk,0.168889
+2023-04-18,hgr kirotshe,snel,0.0
+2023-04-18,hgr kitatumba,enk,0.0
+2023-04-18,hopital provincial,snel,0.004583
+2023-04-19,cclk,nuru,0.0
+2023-04-19,ch cbca bethesda ndosho,virunga,0.0
+2023-04-19,ch matanda,enk,0.0
+2023-04-19,csr bakhita,nuru,0.0
+2023-04-19,hgr kitatumba,enk,0.0
+2023-04-19,hgr lubero,virunga,0.0
+2023-04-20,ch cbca bethesda ndosho,virunga,0.0
+2023-04-20,ch matanda,enk,0.0
+2023-04-20,csr bakhita,nuru,0.0
+2023-04-20,csr kiziba,nuru,2.786667
+2023-04-20,heal africa,snel,0.0
+2023-04-20,hgr kirotshe,snel,0.0
+2023-04-20,hopital provincial,snel,0.0
+2023-04-20,ngangi 3,virunga,19.356528
+2023-04-21,cclk,nuru,0.0
+2023-04-21,cs murara,snel,0.0
+2023-04-21,hgr lubero,virunga,0.0
+2023-04-22,cclk,nuru,0.0
+2023-04-22,ch matanda,enk,1.896389
+2023-04-22,cs murara,snel,0.0
+2023-04-22,csr bakhita,nuru,0.0
+2023-04-22,hgr panzi,snel,0.0
+2023-04-22,hopital provincial,snel,0.042917
+2023-04-22,ngangi 3,virunga,12.079722
+2023-04-23,cclk,nuru,0.0
+2023-04-23,ch cbca bethesda ndosho,virunga,0.0
+2023-04-23,ch matanda,enk,0.0
+2023-04-23,cs murara,snel,0.0
+2023-04-23,hgr kitatumba,enk,0.0
+2023-04-23,hopital provincial,snel,0.0
+2023-04-24,ch cbca bethesda ndosho,virunga,0.0
+2023-04-24,ch matanda,enk,0.0
+2023-04-24,cs murara,snel,0.003333
+2023-04-24,heal africa,snel,0.0
+2023-04-24,hgr kirotshe,snel,0.0
+2023-04-24,ngangi 3,virunga,10.73375
+2023-04-25,cclk,nuru,0.0
+2023-04-25,csr bakhita,nuru,0.0
+2023-04-25,csr kiziba,nuru,0.0
+2023-04-25,ngangi 3,virunga,8.53875
+2023-04-26,cs murara,snel,7.898056
+2023-04-26,csr bakhita,nuru,0.0
+2023-04-26,hgr beni,enk,0.0
+2023-04-26,hgr kirotshe,snel,0.0
+2023-04-26,hgr lubero,virunga,0.0
+2023-04-26,hopital provincial,snel,0.0
+2023-04-26,ngangi 3,virunga,24.0
+2023-04-27,cclk,nuru,0.0
+2023-04-27,ch cbca bethesda ndosho,virunga,0.0
+2023-04-27,csr bakhita,nuru,0.0
+2023-04-27,csr kiziba,nuru,1.281667
+2023-04-27,heal africa,snel,0.0
+2023-04-27,hgr katwa,enk,0.045556
+2023-04-27,hgr kitatumba,enk,0.0
+2023-04-27,hgr lubero,virunga,0.170556
+2023-04-27,hgr panzi,snel,0.0
+2023-04-28,csr bakhita,nuru,0.0
+2023-04-28,csr kiziba,nuru,0.029722
+2023-04-28,hgr katwa,enk,0.689167
+2023-04-28,hgr kitatumba,enk,0.495556
+2023-04-28,hopital provincial,snel,0.0
+2023-04-28,ngangi 3,virunga,0.0
+2023-04-29,heal africa,snel,0.0
+2023-04-29,hgr beni,enk,0.0
+2023-04-29,hgr kirotshe,snel,0.0
+2023-04-29,hgr kitatumba,enk,0.337222
+2023-04-29,hgr lubero,virunga,0.172778
+2023-04-29,hgr panzi,snel,0.0
+2023-04-29,hopital provincial,snel,0.0
+2023-04-29,ngangi 3,virunga,11.0675
+2023-04-30,ch matanda,enk,2.445833
+2023-04-30,cs murara,snel,0.0
+2023-04-30,csr kiziba,nuru,0.0
+2023-04-30,heal africa,snel,0.004722
+2023-04-30,hgr beni,enk,0.0
+2023-04-30,hgr kitatumba,enk,0.0
+2023-04-30,ngangi 3,virunga,24.0
+2023-05-01,csr bakhita,nuru,0.0
+2023-05-01,csr kiziba,nuru,0.0
+2023-05-01,hgr kirotshe,snel,0.0
+2023-05-01,hgr lubero,virunga,0.0
+2023-05-02,cclk,nuru,0.0
+2023-05-02,ch matanda,enk,0.0
+2023-05-02,hgr beni,enk,0.0
+2023-05-02,hgr katwa,enk,0.0
+2023-05-02,hopital provincial,snel,0.0
+2023-05-02,ngangi 3,virunga,11.08
+2023-05-03,ch cbca bethesda ndosho,virunga,0.0
+2023-05-03,hgr beni,enk,0.0
+2023-05-03,hgr kitatumba,enk,0.0
+2023-05-03,hopital provincial,snel,0.0
+2023-05-04,cs murara,snel,0.0
+2023-05-04,csr kiziba,nuru,0.0
+2023-05-04,hgr kirotshe,snel,0.0
+2023-05-04,hgr lubero,virunga,0.0
+2023-05-04,hopital provincial,snel,0.0
+2023-05-05,cclk,nuru,0.0
+2023-05-05,ch cbca bethesda ndosho,virunga,0.0
+2023-05-05,cs murara,snel,0.0
+2023-05-05,csr bakhita,nuru,0.0
+2023-05-05,csr kiziba,nuru,0.0
+2023-05-05,heal africa,snel,0.0
+2023-05-05,hgr kitatumba,enk,0.0
+2023-05-06,cclk,nuru,0.0
+2023-05-06,ch matanda,enk,0.0
+2023-05-06,cs murara,snel,0.213472
+2023-05-06,hgr beni,enk,0.0
+2023-05-06,hgr katwa,enk,0.0
+2023-05-06,ngangi 3,virunga,0.0
+2023-05-07,cclk,nuru,0.0
+2023-05-07,ch matanda,enk,0.0
+2023-05-07,cs murara,snel,0.0
+2023-05-07,csr kiziba,nuru,0.0
+2023-05-07,heal africa,snel,0.0
+2023-05-07,hgr kitatumba,enk,0.0
+2023-05-07,hgr lubero,virunga,0.0
+2023-05-07,hgr panzi,snel,0.0
+2023-05-07,hopital provincial,snel,0.0
+2023-05-08,csr kiziba,nuru,0.0
+2023-05-08,heal africa,snel,0.016111
+2023-05-08,hgr kirotshe,snel,0.0
+2023-05-08,hgr lubero,virunga,0.0
+2023-05-08,hgr panzi,snel,0.0
+2023-05-09,ch cbca bethesda ndosho,virunga,0.0
+2023-05-09,cs murara,snel,0.0
+2023-05-09,csr bakhita,nuru,0.0
+2023-05-09,csr kiziba,nuru,0.0
+2023-05-09,hgr kitatumba,enk,0.0
+2023-05-10,ch cbca bethesda ndosho,virunga,0.0
+2023-05-10,ch matanda,enk,0.0
+2023-05-10,csr bakhita,nuru,0.0
+2023-05-10,csr kiziba,nuru,0.0
+2023-05-10,hgr beni,enk,0.0
+2023-05-10,hgr lubero,virunga,0.0
+2023-05-11,cclk,nuru,0.0
+2023-05-11,hgr katwa,enk,0.399023
+2023-05-11,hgr panzi,snel,0.0
+2023-05-12,cclk,nuru,0.0
+2023-05-12,ch cbca bethesda ndosho,virunga,0.0
+2023-05-12,ch matanda,enk,0.109722
+2023-05-12,csr bakhita,nuru,0.0
+2023-05-12,hgr beni,enk,0.0
+2023-05-12,hgr katwa,enk,0.0
+2023-05-12,hgr panzi,snel,0.0
+2023-05-12,hopital provincial,snel,0.0
+2023-05-13,cs murara,snel,0.0
+2023-05-13,csr bakhita,nuru,0.0
+2023-05-13,heal africa,snel,0.0
+2023-05-13,hgr kirotshe,snel,0.0
+2023-05-13,hgr lubero,virunga,0.0
+2023-05-13,hgr panzi,snel,0.0
+2023-05-13,ngangi 3,virunga,0.0
+2023-05-14,ch matanda,enk,1.953056
+2023-05-14,hgr beni,enk,0.0
+2023-05-14,hgr katwa,enk,0.518611
+2023-05-14,hopital provincial,snel,0.0
+2023-05-14,ngangi 3,virunga,0.0
+2023-05-15,cclk,nuru,0.0
+2023-05-15,ch matanda,enk,0.0
+2023-05-15,heal africa,snel,0.0
+2023-05-15,hgr beni,enk,0.0
+2023-05-15,hgr kirotshe,snel,0.0
+2023-05-16,cs murara,snel,0.0
+2023-05-16,csr bakhita,nuru,0.0
+2023-05-16,csr kiziba,nuru,0.0
+2023-05-16,hgr beni,enk,0.0
+2023-05-16,hgr kitatumba,enk,0.372222
+2023-05-17,hgr beni,enk,0.0
+2023-05-17,hgr kirotshe,snel,0.0
+2023-05-17,hgr kitatumba,enk,0.0
+2023-05-17,ngangi 3,virunga,0.0
+2023-05-18,ch matanda,enk,0.0
+2023-05-18,cs murara,snel,2.886667
+2023-05-18,csr bakhita,nuru,0.0
+2023-05-18,hgr katwa,enk,0.0
+2023-05-18,ngangi 3,virunga,0.0
+2023-05-19,cclk,nuru,0.0
+2023-05-19,hgr kirotshe,snel,0.0
+2023-05-19,hopital provincial,snel,0.0
+2023-05-20,ch cbca bethesda ndosho,virunga,0.0
+2023-05-20,ch matanda,enk,1.129722
+2023-05-20,csr bakhita,nuru,0.0
+2023-05-20,hgr beni,enk,0.0
+2023-05-21,cclk,nuru,0.0
+2023-05-21,hgr katwa,enk,0.0
+2023-05-21,hgr kirotshe,snel,0.0
+2023-05-21,hgr panzi,snel,0.0
+2023-05-22,csr bakhita,nuru,0.0
+2023-05-22,heal africa,snel,0.096667
+2023-05-22,hgr kitatumba,enk,0.223333
+2023-05-22,hgr panzi,snel,0.0
+2023-05-22,hopital provincial,snel,0.0
+2023-05-23,csr bakhita,nuru,0.0
+2023-05-23,csr kiziba,nuru,0.0
+2023-05-23,heal africa,snel,0.024444
+2023-05-23,hgr beni,enk,0.0
+2023-05-23,hgr katwa,enk,0.056389
+2023-05-23,hgr kirotshe,snel,0.0
+2023-05-23,hgr kitatumba,enk,0.0
+2023-05-23,hgr lubero,virunga,0.0
+2023-05-23,hopital provincial,snel,0.0
+2023-05-23,ngangi 3,virunga,0.0
+2023-05-24,csr kiziba,nuru,0.0
+2023-05-24,heal africa,snel,0.080694
+2023-05-24,hgr katwa,enk,0.0
+2023-05-24,hgr panzi,snel,0.0
+2023-05-25,ch cbca bethesda ndosho,virunga,0.0
+2023-05-25,ch matanda,enk,0.0
+2023-05-25,csr bakhita,nuru,0.0
+2023-05-25,csr kiziba,nuru,0.0
+2023-05-25,heal africa,snel,0.0
+2023-05-25,hgr kirotshe,snel,0.0
+2023-05-26,cclk,nuru,0.0
+2023-05-26,ch matanda,enk,0.0
+2023-05-26,cs murara,snel,0.0
+2023-05-26,hgr kirotshe,snel,0.0
+2023-05-26,ngangi 3,virunga,17.125
+2023-05-27,cclk,nuru,0.0
+2023-05-27,csr kiziba,nuru,0.0
+2023-05-27,hgr beni,enk,0.0
+2023-05-27,hgr katwa,enk,0.762222
+2023-05-27,hgr panzi,snel,0.0
+2023-05-28,ch matanda,enk,0.0
+2023-05-28,csr bakhita,nuru,0.0
+2023-05-28,heal africa,snel,0.0
+2023-05-28,ngangi 3,virunga,11.20794
+2023-05-29,cclk,nuru,0.0
+2023-05-29,ch cbca bethesda ndosho,virunga,0.088611
+2023-05-29,ch matanda,enk,2.143056
+2023-05-29,cs murara,snel,0.0
+2023-05-29,csr bakhita,nuru,0.0
+2023-05-29,csr kiziba,nuru,0.035556
+2023-05-29,heal africa,snel,0.0
+2023-05-29,hgr lubero,virunga,0.0
+2023-05-29,ngangi 3,virunga,15.929583
+2023-05-30,ch matanda,enk,0.0
+2023-05-30,cs murara,snel,0.0
+2023-05-30,hgr kirotshe,snel,0.0
+2023-05-30,hgr lubero,virunga,0.0
+2023-05-30,hgr panzi,snel,0.0
+2023-05-30,hopital provincial,snel,0.0
+2023-05-30,ngangi 3,virunga,7.333333
+2023-05-31,cclk,nuru,0.0
+2023-05-31,ch cbca bethesda ndosho,virunga,0.0
+2023-05-31,ch matanda,enk,0.346389
+2023-05-31,cs murara,snel,0.037639
+2023-05-31,csr bakhita,nuru,0.0
+2023-05-31,csr kiziba,nuru,0.0
+2023-05-31,heal africa,snel,0.0
+2023-05-31,hgr lubero,virunga,0.0
+2023-05-31,ngangi 3,virunga,8.663889
+2023-06-01,cclk,nuru,0.0
+2023-06-01,cs murara,snel,3.354722
+2023-06-01,csr bakhita,nuru,0.0
+2023-06-01,hgr beni,enk,0.0
+2023-06-01,hgr kirotshe,snel,0.0
+2023-06-01,hgr kitatumba,enk,0.106389
+2023-06-01,ngangi 3,virunga,24.0
+2023-06-02,cclk,nuru,0.0
+2023-06-02,ch cbca bethesda ndosho,virunga,0.0
+2023-06-02,ch matanda,enk,0.92
+2023-06-02,cs murara,snel,0.0
+2023-06-02,csr kiziba,nuru,0.0
+2023-06-02,hgr kirotshe,snel,0.0
+2023-06-02,hgr kitatumba,enk,0.128185
+2023-06-02,hgr panzi,snel,0.0
+2023-06-02,hopital provincial,snel,0.057222
+2023-06-02,ngangi 3,virunga,15.304722
+2023-06-03,cclk,nuru,0.0
+2023-06-03,ch cbca bethesda ndosho,virunga,0.309444
+2023-06-03,ch matanda,enk,0.0
+2023-06-03,cs murara,snel,1.032222
+2023-06-03,csr kiziba,nuru,0.0
+2023-06-03,heal africa,snel,0.158056
+2023-06-03,hgr lubero,virunga,0.0
+2023-06-04,ch matanda,enk,0.0
+2023-06-04,cs murara,snel,0.0
+2023-06-04,csr bakhita,nuru,0.0
+2023-06-04,heal africa,snel,0.170278
+2023-06-04,hgr katwa,enk,0.624167
+2023-06-04,hgr kirotshe,snel,0.0
+2023-06-04,hgr panzi,snel,0.0
+2023-06-05,ch cbca bethesda ndosho,virunga,0.0
+2023-06-05,hgr panzi,snel,0.0
+2023-06-05,hopital provincial,snel,0.0
+2023-06-06,ch cbca bethesda ndosho,virunga,0.0
+2023-06-06,ch matanda,enk,0.049444
+2023-06-06,csr bakhita,nuru,0.0
+2023-06-06,csr kiziba,nuru,0.0
+2023-06-06,hgr beni,enk,0.0
+2023-06-06,hgr lubero,virunga,0.0
+2023-06-06,hopital provincial,snel,0.0
+2023-06-07,cclk,nuru,0.0
+2023-06-07,ch cbca bethesda ndosho,virunga,0.0
+2023-06-07,ch matanda,enk,0.189444
+2023-06-07,csr kiziba,nuru,0.0
+2023-06-07,heal africa,snel,0.129614
+2023-06-08,cclk,nuru,0.0
+2023-06-08,csr bakhita,nuru,0.0
+2023-06-08,csr kiziba,nuru,0.0
+2023-06-08,hgr beni,enk,0.0
+2023-06-08,hgr katwa,enk,0.470278
+2023-06-08,hgr lubero,virunga,0.0
+2023-06-09,cclk,nuru,0.0
+2023-06-09,heal africa,snel,0.009722
+2023-06-09,hgr kirotshe,snel,0.0
+2023-06-09,hgr lubero,virunga,0.0
+2023-06-09,hgr panzi,snel,0.0
+2023-06-10,cclk,nuru,0.0
+2023-06-10,ch cbca bethesda ndosho,virunga,0.0
+2023-06-10,csr bakhita,nuru,0.0
+2023-06-10,csr kiziba,nuru,0.0
+2023-06-10,heal africa,snel,0.0
+2023-06-10,ngangi 3,virunga,14.132361
+2023-06-11,cs murara,snel,0.0
+2023-06-11,csr bakhita,nuru,7.799167
+2023-06-11,hgr kirotshe,snel,0.0
+2023-06-12,cclk,nuru,0.0
+2023-06-12,ch cbca bethesda ndosho,virunga,0.0
+2023-06-12,hgr katwa,enk,1.175556
+2023-06-12,hgr kirotshe,snel,0.0
+2023-06-12,hgr panzi,snel,0.0
+2023-06-12,ngangi 3,virunga,9.177361
+2023-06-13,ch cbca bethesda ndosho,virunga,0.0
+2023-06-13,ch matanda,enk,0.439444
+2023-06-13,cs murara,snel,0.0
+2023-06-13,heal africa,snel,0.0
+2023-06-13,hgr beni,enk,0.0
+2023-06-13,hgr kirotshe,snel,0.0
+2023-06-13,hgr panzi,snel,0.0
+2023-06-13,ngangi 3,virunga,12.062639
+2023-06-14,cclk,nuru,0.0
+2023-06-14,cs murara,snel,0.0
+2023-06-14,heal africa,snel,0.108611
+2023-06-14,hgr katwa,enk,0.095
+2023-06-14,hgr kitatumba,enk,0.0
+2023-06-14,hgr panzi,snel,0.0
+2023-06-15,cclk,nuru,0.0
+2023-06-15,csr bakhita,nuru,0.0
+2023-06-15,hgr beni,enk,0.006504
+2023-06-15,hgr lubero,virunga,0.0
+2023-06-15,hgr panzi,snel,0.0
+2023-06-16,ch cbca bethesda ndosho,virunga,0.072778
+2023-06-16,csr kiziba,nuru,0.930556
+2023-06-16,hgr lubero,virunga,0.0
+2023-06-17,cclk,nuru,0.0
+2023-06-17,ch matanda,enk,0.353787
+2023-06-17,hgr katwa,enk,0.098056
+2023-06-18,hgr beni,enk,0.0
+2023-06-18,hgr katwa,enk,0.0
+2023-06-18,hgr kirotshe,snel,0.0
+2023-06-18,hgr panzi,snel,0.0
+2023-06-18,ngangi 3,virunga,0.235
+2023-06-19,ch cbca bethesda ndosho,virunga,0.0
+2023-06-19,cs murara,snel,0.990278
+2023-06-19,ngangi 3,virunga,11.587917
+2023-06-20,cs murara,snel,3.18375
+2023-06-20,csr bakhita,nuru,0.0
+2023-06-20,csr kiziba,nuru,0.0
+2023-06-20,heal africa,snel,0.0
+2023-06-20,hgr beni,enk,0.115556
+2023-06-20,hgr katwa,enk,0.067222
+2023-06-20,hgr kitatumba,enk,0.302778
+2023-06-20,hgr panzi,snel,0.0
+2023-06-20,ngangi 3,virunga,24.0
+2023-06-21,ch cbca bethesda ndosho,virunga,0.0
+2023-06-21,hgr katwa,enk,0.035556
+2023-06-21,hgr lubero,virunga,0.0
+2023-06-21,ngangi 3,virunga,19.038056
+2023-06-22,ch cbca bethesda ndosho,virunga,0.0
+2023-06-22,hgr katwa,enk,0.0
+2023-06-22,hgr kitatumba,enk,0.0
+2023-06-22,hgr lubero,virunga,0.0
+2023-06-22,hgr panzi,snel,0.0
+2023-06-22,ngangi 3,virunga,19.294306
+2023-06-23,cs murara,snel,0.115
+2023-06-23,heal africa,snel,0.0
+2023-06-23,hgr kitatumba,enk,0.0
+2023-06-23,hopital provincial,snel,0.0
+2023-06-24,ch cbca bethesda ndosho,virunga,0.0
+2023-06-24,ch matanda,enk,0.0
+2023-06-24,csr bakhita,nuru,0.0
+2023-06-24,heal africa,snel,0.0
+2023-06-24,hgr lubero,virunga,0.0
+2023-06-24,hgr panzi,snel,0.0
+2023-06-24,ngangi 3,virunga,11.667222
+2023-06-25,cs murara,snel,5.958056
+2023-06-25,csr bakhita,nuru,0.0
+2023-06-25,hgr panzi,snel,0.0
+2023-06-26,cs murara,snel,0.0
+2023-06-26,hgr beni,enk,0.278333
+2023-06-26,hgr lubero,virunga,0.0
+2023-06-26,ngangi 3,virunga,20.218472
+2023-06-27,ch matanda,enk,0.0
+2023-06-27,hgr kirotshe,snel,0.0
+2023-06-27,ngangi 3,virunga,23.359167
+2023-06-28,cclk,nuru,0.0
+2023-06-28,ch cbca bethesda ndosho,virunga,0.0
+2023-06-28,cs murara,snel,0.047917
+2023-06-28,hgr lubero,virunga,0.0
+2023-06-29,ch cbca bethesda ndosho,virunga,0.0
+2023-06-29,ch matanda,enk,0.0
+2023-06-29,cs murara,snel,0.2125
+2023-06-29,hgr beni,enk,0.0
+2023-06-29,hgr kirotshe,snel,0.0
+2023-06-30,ch matanda,enk,0.0
+2023-06-30,cs murara,snel,0.0
+2023-06-30,csr bakhita,nuru,0.0
+2023-06-30,heal africa,snel,0.081944
+2023-06-30,hgr beni,enk,0.211937
+2023-06-30,hgr katwa,enk,0.1425
+2023-06-30,hgr kirotshe,snel,0.0
+2023-06-30,hgr panzi,snel,0.0
+2023-07-01,cclk,nuru,0.0
+2023-07-01,cs murara,snel,2.173889
+2023-07-01,heal africa,snel,0.0
+2023-07-01,hgr katwa,enk,0.0
+2023-07-01,hgr panzi,snel,0.0
+2023-07-01,ngangi 3,virunga,10.344167
+2023-07-02,ch matanda,enk,0.0
+2023-07-02,csr bakhita,nuru,0.0
+2023-07-02,heal africa,snel,0.0
+2023-07-02,hgr katwa,enk,0.0
+2023-07-02,hgr kitatumba,enk,0.0
+2023-07-03,cclk,nuru,0.0
+2023-07-03,ch cbca bethesda ndosho,virunga,0.0
+2023-07-03,cs murara,snel,0.0
+2023-07-03,hgr panzi,snel,0.0
+2023-07-04,hgr beni,enk,0.130556
+2023-07-04,hgr panzi,snel,0.0
+2023-07-04,hopital provincial,snel,0.0
+2023-07-04,ngangi 3,virunga,21.567083
+2023-07-05,ch cbca bethesda ndosho,virunga,0.0
+2023-07-05,heal africa,snel,0.0
+2023-07-05,hgr beni,enk,0.063333
+2023-07-05,hgr kirotshe,snel,0.0
+2023-07-05,hgr panzi,snel,0.0
+2023-07-05,hopital provincial,snel,0.0
+2023-07-06,cs murara,snel,0.0
+2023-07-06,heal africa,snel,0.0
+2023-07-06,hgr beni,enk,0.055833
+2023-07-06,hgr katwa,enk,0.1775
+2023-07-06,hgr kirotshe,snel,0.0
+2023-07-06,hopital provincial,snel,0.0
+2023-07-06,ngangi 3,virunga,0.0
+2023-07-07,ch matanda,enk,0.0
+2023-07-07,cs murara,snel,0.732222
+2023-07-07,hopital provincial,snel,0.0
+2023-07-08,ch matanda,enk,0.0
+2023-07-08,heal africa,snel,0.161667
+2023-07-08,hgr beni,enk,0.106944
+2023-07-08,hgr kirotshe,snel,0.0
+2023-07-08,hgr lubero,virunga,0.0
+2023-07-09,ch cbca bethesda ndosho,virunga,0.0
+2023-07-09,cs murara,snel,0.0
+2023-07-09,csr bakhita,nuru,0.0
+2023-07-09,hgr beni,enk,0.028889
+2023-07-09,hgr katwa,enk,0.0
+2023-07-09,hgr kitatumba,enk,0.0
+2023-07-09,hgr lubero,virunga,0.0
+2023-07-09,hgr panzi,snel,0.0
+2023-07-09,ngangi 3,virunga,24.0
+2023-07-10,cclk,nuru,0.0
+2023-07-10,ch matanda,enk,0.0
+2023-07-10,cs murara,snel,0.0
+2023-07-10,hgr kirotshe,snel,0.0
+2023-07-10,hgr kitatumba,enk,0.0
+2023-07-10,hgr panzi,snel,0.0
+2023-07-10,hopital provincial,snel,0.0
+2023-07-10,ngangi 3,virunga,24.0
+2023-07-11,hgr lubero,virunga,0.0
+2023-07-12,ch cbca bethesda ndosho,virunga,0.0
+2023-07-12,ch matanda,enk,0.0
+2023-07-12,heal africa,snel,0.0
+2023-07-12,hgr kirotshe,snel,0.0
+2023-07-12,hgr lubero,virunga,0.4625
+2023-07-12,hopital provincial,snel,0.0
+2023-07-12,ngangi 3,virunga,7.410972
+2023-07-13,ch matanda,enk,0.0
+2023-07-13,cs murara,snel,6.917083
+2023-07-13,csr bakhita,nuru,0.0
+2023-07-13,hgr kirotshe,snel,0.0
+2023-07-13,hgr lubero,virunga,0.0
+2023-07-13,hopital provincial,snel,0.0
+2023-07-13,ngangi 3,virunga,8.340139
+2023-07-14,cclk,nuru,0.0
+2023-07-14,ch matanda,enk,0.0
+2023-07-14,csr bakhita,nuru,0.0
+2023-07-14,hgr kitatumba,enk,0.0
+2023-07-14,hopital provincial,snel,0.033684
+2023-07-14,ngangi 3,virunga,24.0
+2023-07-15,cclk,nuru,0.0
+2023-07-15,ch cbca bethesda ndosho,virunga,0.0
+2023-07-15,ch matanda,enk,0.0
+2023-07-15,hgr katwa,enk,0.305
+2023-07-15,hopital provincial,snel,0.0
+2023-07-16,hgr kirotshe,snel,0.0
+2023-07-16,ngangi 3,virunga,2.429861
+2023-07-17,ch cbca bethesda ndosho,virunga,0.0
+2023-07-17,ch matanda,enk,0.0
+2023-07-17,csr bakhita,nuru,0.0
+2023-07-17,hgr kirotshe,snel,0.0
+2023-07-17,hgr lubero,virunga,0.0
+2023-07-17,ngangi 3,virunga,7.038889
+2023-07-18,ch cbca bethesda ndosho,virunga,0.0
+2023-07-18,ch matanda,enk,0.0
+2023-07-18,csr bakhita,nuru,0.0
+2023-07-18,heal africa,snel,0.064722
+2023-07-18,hgr kirotshe,snel,0.0
+2023-07-18,hgr kitatumba,enk,0.0
+2023-07-19,cclk,nuru,0.0
+2023-07-19,hgr katwa,enk,0.104444
+2023-07-19,hgr kitatumba,enk,0.0
+2023-07-19,ngangi 3,virunga,9.210833
+2023-07-20,cclk,nuru,0.0
+2023-07-20,ch matanda,enk,0.0
+2023-07-20,cs murara,snel,0.41
+2023-07-20,hgr katwa,enk,0.187222
+2023-07-20,hopital provincial,snel,0.0
+2023-07-21,hgr kitatumba,enk,0.435833
+2023-07-22,heal africa,snel,0.0
+2023-07-22,hgr beni,enk,0.053611
+2023-07-23,ch cbca bethesda ndosho,virunga,0.0
+2023-07-23,csr bakhita,nuru,0.0
+2023-07-23,heal africa,snel,0.137778
+2023-07-23,hgr lubero,virunga,1.426667
+2023-07-24,cclk,nuru,0.0
+2023-07-24,ch cbca bethesda ndosho,virunga,0.0
+2023-07-24,heal africa,snel,0.148333
+2023-07-24,hgr beni,enk,0.0
+2023-07-24,hgr lubero,virunga,0.0
+2023-07-24,hopital provincial,snel,0.181806
+2023-07-24,ngangi 3,virunga,16.763056
+2023-07-25,hgr lubero,virunga,0.0
+2023-07-25,hopital provincial,snel,0.0
+2023-07-26,cclk,nuru,0.0
+2023-07-26,heal africa,snel,0.0
+2023-07-26,hgr kirotshe,snel,0.0
+2023-07-26,hgr lubero,virunga,0.0
+2023-07-27,ch matanda,enk,0.0
+2023-07-27,csr bakhita,nuru,0.0
+2023-07-27,heal africa,snel,0.0
+2023-07-27,hgr katwa,enk,0.033611
+2023-07-27,hgr kitatumba,enk,0.0
+2023-07-28,hgr katwa,enk,0.083611
+2023-07-28,hgr kirotshe,snel,0.0
+2023-07-28,hgr kitatumba,enk,0.086667
+2023-07-28,hgr lubero,virunga,0.0
+2023-07-28,hopital provincial,snel,0.079444
+2023-07-28,ngangi 3,virunga,20.089722
+2023-07-29,ch matanda,enk,0.062222
+2023-07-29,cs murara,snel,13.837778
+2023-07-29,hgr kirotshe,snel,0.0
+2023-07-29,ngangi 3,virunga,24.0
+2023-07-30,ch matanda,enk,0.101667
+2023-07-30,csr bakhita,nuru,0.0
+2023-07-30,hgr beni,enk,0.0
+2023-07-30,hgr kirotshe,snel,0.0
+2023-07-30,hopital provincial,snel,0.0
+2023-07-30,ngangi 3,virunga,24.0
+2023-07-31,ch matanda,enk,0.0
+2023-07-31,csr bakhita,nuru,0.0
+2023-07-31,hgr beni,enk,0.0
+2023-08-01,ch cbca bethesda ndosho,virunga,0.0
+2023-08-01,heal africa,snel,0.0
+2023-08-01,hopital provincial,snel,0.0
+2023-08-01,ngangi 3,virunga,6.264583
+2023-08-02,cclk,nuru,0.0
+2023-08-02,ch cbca bethesda ndosho,virunga,0.090043
+2023-08-02,csr bakhita,nuru,0.0
+2023-08-02,hgr beni,enk,0.0
+2023-08-02,hgr lubero,virunga,0.0
+2023-08-02,hopital provincial,snel,0.0
+2023-08-03,cclk,nuru,0.0
+2023-08-03,csr bakhita,nuru,0.0
+2023-08-03,heal africa,snel,0.0
+2023-08-03,hgr beni,enk,0.0
+2023-08-03,hgr kirotshe,snel,0.0
+2023-08-03,hgr kitatumba,enk,0.144722
+2023-08-04,cs murara,snel,0.378889
+2023-08-04,csr bakhita,nuru,0.0
+2023-08-04,hgr kitatumba,enk,0.0
+2023-08-04,hgr lubero,virunga,0.0
+2023-08-04,hopital provincial,snel,0.0
+2023-08-04,ngangi 3,virunga,15.778472
+2023-08-05,cclk,nuru,0.0
+2023-08-05,hgr beni,enk,0.0
+2023-08-05,hgr kirotshe,snel,0.0
+2023-08-06,hgr beni,enk,0.0
+2023-08-06,hgr katwa,enk,0.341742
+2023-08-06,hgr lubero,virunga,0.0
+2023-08-07,ch matanda,enk,0.283056
+2023-08-07,heal africa,snel,0.0
+2023-08-07,hgr katwa,enk,0.47
+2023-08-07,hgr kirotshe,snel,0.0
+2023-08-07,hgr lubero,virunga,0.0
+2023-08-08,cclk,nuru,0.0
+2023-08-08,cs murara,snel,0.0
+2023-08-08,heal africa,snel,0.032778
+2023-08-08,hgr katwa,enk,0.0
+2023-08-08,hgr lubero,virunga,0.0
+2023-08-09,cclk,nuru,0.0
+2023-08-09,ch cbca bethesda ndosho,virunga,0.0
+2023-08-09,ch matanda,enk,0.0
+2023-08-09,cs murara,snel,0.0
+2023-08-09,csr bakhita,nuru,4.992222
+2023-08-09,heal africa,snel,0.0
+2023-08-09,hgr kitatumba,enk,0.0
+2023-08-09,hopital provincial,snel,0.0
+2023-08-10,cclk,nuru,0.0
+2023-08-10,ch matanda,enk,0.0
+2023-08-10,csr bakhita,nuru,0.0
+2023-08-10,heal africa,snel,0.0
+2023-08-10,hgr kirotshe,snel,0.0
+2023-08-10,hopital provincial,snel,0.0
+2023-08-11,ch matanda,enk,0.0
+2023-08-11,heal africa,snel,0.0
+2023-08-11,hgr lubero,virunga,0.0
+2023-08-11,hopital provincial,snel,0.0
+2023-08-11,ngangi 3,virunga,8.198889
+2023-08-12,ch cbca bethesda ndosho,virunga,0.0
+2023-08-12,ch matanda,enk,0.110556
+2023-08-12,cs murara,snel,0.225278
+2023-08-12,hgr katwa,enk,0.033611
+2023-08-12,hgr kitatumba,enk,0.110556
+2023-08-12,hopital provincial,snel,0.0
+2023-08-12,ngangi 3,virunga,8.470278
+2023-08-13,cclk,nuru,0.0
+2023-08-13,heal africa,snel,0.087222
+2023-08-13,hgr katwa,enk,0.0
+2023-08-13,hgr lubero,virunga,0.0
+2023-08-13,ngangi 3,virunga,9.666389
+2023-08-14,cclk,nuru,0.0
+2023-08-14,ch cbca bethesda ndosho,virunga,0.0
+2023-08-14,cs murara,snel,2.050694
+2023-08-14,hgr kirotshe,snel,0.0
+2023-08-14,ngangi 3,virunga,20.802083
+2023-08-15,ch cbca bethesda ndosho,virunga,0.064167
+2023-08-15,hgr katwa,enk,0.0
+2023-08-15,hgr kirotshe,snel,0.0
+2023-08-15,hgr kitatumba,enk,0.0
+2023-08-15,hgr lubero,virunga,0.0
+2023-08-15,hgr panzi,snel,0.0
+2023-08-15,ngangi 3,virunga,12.990972
+2023-08-16,ch cbca bethesda ndosho,virunga,0.0
+2023-08-16,ch matanda,enk,0.583056
+2023-08-16,csr bakhita,nuru,0.0
+2023-08-16,hgr katwa,enk,0.093056
+2023-08-16,hgr kirotshe,snel,0.0
+2023-08-16,hopital provincial,snel,0.005417
+2023-08-16,ngangi 3,virunga,0.0
+2023-08-17,cclk,nuru,0.0
+2023-08-17,ch matanda,enk,0.221111
+2023-08-17,csr bakhita,nuru,0.114167
+2023-08-17,heal africa,snel,0.0375
+2023-08-17,hgr katwa,enk,0.250833
+2023-08-17,hgr kirotshe,snel,0.0
+2023-08-17,ngangi 3,virunga,0.0
+2023-08-18,cclk,nuru,0.0
+2023-08-18,hgr katwa,enk,0.0
+2023-08-18,hgr kirotshe,snel,0.0
+2023-08-18,hgr panzi,snel,0.0
+2023-08-19,hgr katwa,enk,0.0
+2023-08-19,hgr kitatumba,enk,0.0
+2023-08-19,hgr panzi,snel,0.0
+2023-08-19,hopital provincial,snel,0.0
+2023-08-20,ch matanda,enk,0.0
+2023-08-20,heal africa,snel,0.0
+2023-08-20,hgr kirotshe,snel,0.0
+2023-08-20,hgr kitatumba,enk,0.0
+2023-08-20,hgr lubero,virunga,0.0
+2023-08-21,cclk,nuru,0.0
+2023-08-21,ch cbca bethesda ndosho,virunga,0.162222
+2023-08-21,hgr katwa,enk,0.0
+2023-08-21,hgr kitatumba,enk,0.0
+2023-08-21,hopital provincial,snel,0.0
+2023-08-22,ch matanda,enk,0.0
+2023-08-22,hgr katwa,enk,0.0
+2023-08-22,hgr kitatumba,enk,0.0
+2023-08-22,hgr lubero,virunga,0.0
+2023-08-23,csr bakhita,nuru,0.0
+2023-08-23,heal africa,snel,0.0
+2023-08-23,hgr kitatumba,enk,0.0
+2023-08-23,hopital provincial,snel,0.0
+2023-08-24,cclk,nuru,0.0
+2023-08-24,ch cbca bethesda ndosho,virunga,0.069722
+2023-08-24,ch matanda,enk,0.127778
+2023-08-24,csr bakhita,nuru,0.0
+2023-08-24,hgr beni,enk,0.013889
+2023-08-24,hgr katwa,enk,0.051944
+2023-08-24,hgr kirotshe,snel,0.0
+2023-08-24,hopital provincial,snel,0.0
+2023-08-25,cs murara,snel,0.0
+2023-08-25,csr bakhita,nuru,0.0
+2023-08-25,hgr lubero,virunga,0.0
+2023-08-25,ngangi 3,virunga,11.673171
+2023-08-26,cs murara,snel,0.799583
+2023-08-26,csr bakhita,nuru,0.0
+2023-08-26,hgr beni,enk,0.044444
+2023-08-26,hgr katwa,enk,0.136667
+2023-08-26,hgr kirotshe,snel,0.0
+2023-08-26,ngangi 3,virunga,24.0
+2023-08-27,hgr beni,enk,0.044444
+2023-08-27,hgr lubero,virunga,0.0
+2023-08-27,hopital provincial,snel,0.0
+2023-08-27,ngangi 3,virunga,24.0
+2023-08-28,ch matanda,enk,0.0
+2023-08-28,heal africa,snel,0.125833
+2023-08-28,hgr beni,enk,0.0
+2023-08-28,hopital provincial,snel,0.0
+2023-08-28,ngangi 3,virunga,17.024918
+2023-08-29,csr bakhita,nuru,0.993056
+2023-08-29,hgr lubero,virunga,0.0
+2023-08-29,ngangi 3,virunga,17.474444
+2023-08-30,cclk,nuru,0.0
+2023-08-30,ch cbca bethesda ndosho,virunga,0.140278
+2023-08-30,csr bakhita,nuru,0.0
+2023-08-30,hgr beni,enk,0.0
+2023-08-30,hgr kitatumba,enk,0.0
+2023-08-30,hopital provincial,snel,0.0
+2023-08-30,ngangi 3,virunga,18.341567
+2023-08-31,ch matanda,enk,0.0
+2023-08-31,csr bakhita,nuru,0.0
+2023-08-31,heal africa,snel,0.0
+2023-08-31,hgr katwa,enk,0.055
+2023-08-31,hgr kitatumba,enk,0.0
+2023-09-01,cclk,nuru,0.0
+2023-09-01,cs murara,snel,0.694817
+2023-09-01,heal africa,snel,0.284104
+2023-09-01,hgr katwa,enk,0.257778
+2023-09-01,hgr kitatumba,enk,0.228056
+2023-09-01,hgr lubero,virunga,0.0
+2023-09-01,ngangi 3,virunga,10.175139
+2023-09-02,ch matanda,enk,0.0
+2023-09-02,cs murara,snel,0.111667
+2023-09-02,csr bakhita,nuru,0.0
+2023-09-02,hgr beni,enk,0.0
+2023-09-02,hgr katwa,enk,0.0
+2023-09-02,hgr kitatumba,enk,0.0
+2023-09-02,ngangi 3,virunga,9.427639
+2023-09-03,cclk,nuru,0.0
+2023-09-03,csr bakhita,nuru,0.0
+2023-09-03,hgr katwa,enk,0.075
+2023-09-03,hgr kirotshe,snel,0.0
+2023-09-03,hgr lubero,virunga,0.0
+2023-09-03,ngangi 3,virunga,0.623611
+2023-09-04,ch cbca bethesda ndosho,virunga,0.0
+2023-09-04,ch matanda,enk,0.088056
+2023-09-04,heal africa,snel,0.076806
+2023-09-04,hgr lubero,virunga,0.0
+2023-09-04,ngangi 3,virunga,10.437778
+2023-09-05,ch matanda,enk,0.0
+2023-09-05,csr bakhita,nuru,0.0
+2023-09-05,hgr katwa,enk,0.0
+2023-09-05,hgr kirotshe,snel,0.0
+2023-09-06,cclk,nuru,0.0
+2023-09-06,ch matanda,enk,0.0
+2023-09-06,cs murara,snel,0.0
+2023-09-06,csr bakhita,nuru,3.000278
+2023-09-06,hgr beni,enk,0.0
+2023-09-06,hgr kitatumba,enk,0.0
+2023-09-07,cclk,nuru,0.0
+2023-09-07,ch cbca bethesda ndosho,virunga,0.0
+2023-09-07,csr bakhita,nuru,6.267778
+2023-09-07,hgr lubero,virunga,0.0
+2023-09-08,ch cbca bethesda ndosho,virunga,0.085556
+2023-09-08,hopital provincial,snel,0.0
+2023-09-08,ngangi 3,virunga,14.199722
+2023-09-09,cclk,nuru,0.0
+2023-09-09,cs murara,snel,0.199722
+2023-09-09,csr bakhita,nuru,0.0
+2023-09-09,hgr katwa,enk,0.0
+2023-09-09,hgr lubero,virunga,0.215972
+2023-09-10,hgr beni,enk,0.0
+2023-09-10,hgr kirotshe,snel,0.0
+2023-09-10,hopital provincial,snel,0.0
+2023-09-11,ch cbca bethesda ndosho,virunga,0.344306
+2023-09-11,ch matanda,enk,0.0
+2023-09-11,cs murara,snel,0.0
+2023-09-11,hgr kitatumba,enk,0.0
+2023-09-11,hopital provincial,snel,0.0
+2023-09-11,ngangi 3,virunga,15.600833
+2023-09-12,cclk,nuru,0.0
+2023-09-12,ch cbca bethesda ndosho,virunga,0.040278
+2023-09-12,csr bakhita,nuru,21.199167
+2023-09-12,ngangi 3,virunga,8.52902
+2023-09-13,ch matanda,enk,0.116667
+2023-09-13,csr bakhita,nuru,24.0
+2023-09-13,heal africa,snel,0.044167
+2023-09-13,hgr katwa,enk,0.064167
+2023-09-13,hgr lubero,virunga,0.082222
+2023-09-13,hopital provincial,snel,0.021528
+2023-09-13,ngangi 3,virunga,9.507361
+2023-09-14,ch cbca bethesda ndosho,virunga,0.162222
+2023-09-14,ch matanda,enk,0.095
+2023-09-14,cs murara,snel,0.031944
+2023-09-14,heal africa,snel,0.0
+2023-09-14,hopital provincial,snel,0.0
+2023-09-15,ch cbca bethesda ndosho,virunga,0.0
+2023-09-15,cs murara,snel,0.009722
+2023-09-15,hgr katwa,enk,0.0475
+2023-09-15,hgr kirotshe,snel,0.0
+2023-09-15,hgr lubero,virunga,0.096944
+2023-09-15,ngangi 3,virunga,6.059722
+2023-09-16,cs murara,snel,0.203611
+2023-09-16,hgr katwa,enk,0.195278
+2023-09-16,hgr kirotshe,snel,0.0
+2023-09-17,hgr beni,enk,0.014722
+2023-09-17,hgr katwa,enk,0.064444
+2023-09-17,hgr kirotshe,snel,0.0
+2023-09-17,hgr kitatumba,enk,0.970833
+2023-09-17,ngangi 3,virunga,0.0
+2023-09-18,csr bakhita,nuru,0.0
+2023-09-18,hgr kirotshe,snel,0.0
+2023-09-18,hgr panzi,snel,0.0
+2023-09-19,cs murara,snel,0.044722
+2023-09-19,hgr beni,enk,0.111111
+2023-09-19,hgr kitatumba,enk,0.0
+2023-09-19,hgr panzi,snel,0.0
+2023-09-20,cclk,nuru,0.0
+2023-09-20,ch matanda,enk,0.0
+2023-09-20,hgr beni,enk,0.0
+2023-09-20,hgr kitatumba,enk,0.0
+2023-09-21,cclk,nuru,0.0
+2023-09-21,ch matanda,enk,0.0
+2023-09-21,hgr beni,enk,0.0
+2023-09-21,hgr katwa,enk,0.0
+2023-09-21,hgr kirotshe,snel,0.0
+2023-09-22,cclk,nuru,0.0
+2023-09-22,ch matanda,enk,0.0
+2023-09-22,cs murara,snel,1.048333
+2023-09-22,csr bakhita,nuru,0.0
+2023-09-22,hgr lubero,virunga,0.202222
+2023-09-22,hgr panzi,snel,0.0
+2023-09-23,ch cbca bethesda ndosho,virunga,0.139722
+2023-09-23,ch matanda,enk,0.317778
+2023-09-23,csr bakhita,nuru,0.0
+2023-09-23,heal africa,snel,0.114306
+2023-09-24,ch matanda,enk,0.0
+2023-09-24,hgr beni,enk,0.0
+2023-09-24,hgr katwa,enk,0.0
+2023-09-24,hgr kirotshe,snel,0.0
+2023-09-24,hgr lubero,virunga,0.068611
+2023-09-25,ch matanda,enk,0.0
+2023-09-25,csr bakhita,nuru,0.0
+2023-09-25,heal africa,snel,0.038889
+2023-09-25,ngangi 3,virunga,6.504944
+2023-09-26,ch cbca bethesda ndosho,virunga,0.0
+2023-09-26,cs murara,snel,0.0
+2023-09-26,heal africa,snel,0.0
+2023-09-26,hgr kirotshe,snel,0.0
+2023-09-26,hopital provincial,snel,0.0
+2023-09-26,ngangi 3,virunga,0.0
+2023-09-27,csr bakhita,nuru,0.0
+2023-09-27,hgr beni,enk,0.089722
+2023-09-27,hgr katwa,enk,0.172778
+2023-09-27,hgr kirotshe,snel,0.0
+2023-09-27,hgr kitatumba,enk,0.069167
+2023-09-27,ngangi 3,virunga,1.432222
+2023-09-28,cclk,nuru,0.0
+2023-09-28,csr bakhita,nuru,0.0
+2023-09-28,hgr beni,enk,0.163889
+2023-09-28,hgr kirotshe,snel,0.0
+2023-09-28,ngangi 3,virunga,0.0
+2023-09-29,cclk,nuru,0.0
+2023-09-29,ch cbca bethesda ndosho,virunga,0.0
+2023-09-29,ch matanda,enk,0.202778
+2023-09-29,cs murara,snel,0.853056
+2023-09-29,hgr katwa,enk,0.026667
+2023-09-29,hgr kitatumba,enk,0.202778
+2023-09-29,ngangi 3,virunga,0.071944
+2023-09-30,cclk,nuru,0.0
+2023-09-30,ch cbca bethesda ndosho,virunga,0.0
+2023-09-30,ch matanda,enk,0.0
+2023-09-30,csr bakhita,nuru,0.0
+2023-09-30,heal africa,snel,0.0
+2023-09-30,hgr lubero,virunga,0.355556
+2023-09-30,hopital provincial,snel,0.0
+2023-10-01,ch cbca bethesda ndosho,virunga,0.0
+2023-10-01,cs murara,snel,2.970833
+2023-10-01,hgr katwa,enk,0.0
+2023-10-01,hgr kitatumba,enk,0.0
+2023-10-01,ngangi 3,virunga,0.0
+2023-10-02,csr bakhita,nuru,0.0
+2023-10-02,ngangi 3,virunga,0.0
+2023-10-03,cclk,nuru,0.0
+2023-10-03,ch matanda,enk,0.0
+2023-10-03,heal africa,snel,0.0
+2023-10-04,cclk,nuru,0.0
+2023-10-04,ch matanda,enk,0.0
+2023-10-04,hgr katwa,enk,0.0
+2023-10-04,hopital provincial,snel,0.0
+2023-10-05,ch cbca bethesda ndosho,virunga,0.0
+2023-10-05,hgr beni,enk,0.017778
+2023-10-05,hgr kirotshe,snel,0.0
+2023-10-05,hgr kitatumba,enk,0.276667
+2023-10-05,hopital provincial,snel,0.0
+2023-10-05,ngangi 3,virunga,0.0
+2023-10-06,hgr katwa,enk,0.0
+2023-10-06,hgr kirotshe,snel,0.0
+2023-10-06,hgr kitatumba,enk,0.0
+2023-10-06,hgr lubero,virunga,0.0
+2023-10-07,ch cbca bethesda ndosho,virunga,0.107222
+2023-10-07,cs murara,snel,0.0
+2023-10-07,csr bakhita,nuru,0.0
+2023-10-07,heal africa,snel,0.0
+2023-10-07,hgr katwa,enk,0.0
+2023-10-07,hgr kirotshe,snel,0.0
+2023-10-07,hgr lubero,virunga,0.0
+2023-10-07,hopital provincial,snel,0.0
+2023-10-07,ngangi 3,virunga,0.0
+2023-10-08,csr bakhita,nuru,0.0
+2023-10-08,hgr kirotshe,snel,0.0
+2023-10-08,hgr kitatumba,enk,0.0
+2023-10-08,hopital provincial,snel,0.0
+2023-10-09,cclk,nuru,0.0
+2023-10-09,ch matanda,enk,0.0
+2023-10-09,cs murara,snel,0.065694
+2023-10-09,heal africa,snel,0.054444
+2023-10-09,hgr kirotshe,snel,0.0
+2023-10-09,hgr lubero,virunga,0.0
+2023-10-09,hopital provincial,snel,0.018333
+2023-10-09,ngangi 3,virunga,8.920694
+2023-10-10,cclk,nuru,0.0
+2023-10-10,cs murara,snel,0.0
+2023-10-10,hgr beni,enk,0.0
+2023-10-10,hgr kirotshe,snel,0.0
+2023-10-10,ngangi 3,virunga,13.633056
+2023-10-11,ch cbca bethesda ndosho,virunga,0.0
+2023-10-11,heal africa,snel,0.0
+2023-10-11,hgr beni,enk,0.0
+2023-10-11,hgr katwa,enk,0.022222
+2023-10-11,hgr kirotshe,snel,0.0
+2023-10-11,hgr lubero,virunga,0.0
+2023-10-12,ch cbca bethesda ndosho,virunga,0.0
+2023-10-12,csr bakhita,nuru,0.0
+2023-10-12,heal africa,snel,0.035
+2023-10-12,hgr kirotshe,snel,0.0
+2023-10-12,hgr lubero,virunga,0.0
+2023-10-12,hopital provincial,snel,0.029167
+2023-10-13,cs murara,snel,0.191806
+2023-10-13,hgr kitatumba,enk,0.143611
+2023-10-13,ngangi 3,virunga,8.924028
+2023-10-14,cs murara,snel,0.0
+2023-10-14,heal africa,snel,0.0
+2023-10-14,hgr beni,enk,0.0
+2023-10-14,hgr kitatumba,enk,0.0
+2023-10-14,hopital provincial,snel,0.0
+2023-10-15,cclk,nuru,0.0
+2023-10-15,ch cbca bethesda ndosho,virunga,0.0
+2023-10-15,cs murara,snel,0.195278
+2023-10-16,ch matanda,enk,0.0
+2023-10-16,cs murara,snel,0.282778
+2023-10-16,csr bakhita,nuru,0.0
+2023-10-16,hgr katwa,enk,0.0
+2023-10-16,hgr lubero,virunga,0.0
+2023-10-17,hgr kirotshe,snel,0.0
+2023-10-17,hgr lubero,virunga,0.0
+2023-10-18,csr bakhita,nuru,0.0
+2023-10-18,hgr beni,enk,0.0
+2023-10-18,hopital provincial,snel,0.081667
+2023-10-19,cclk,nuru,0.0
+2023-10-19,ch cbca bethesda ndosho,virunga,0.0
+2023-10-19,cs murara,snel,0.321667
+2023-10-19,csr bakhita,nuru,0.0
+2023-10-19,hgr kitatumba,enk,0.0
+2023-10-19,ngangi 3,virunga,0.0
+2023-10-20,ch cbca bethesda ndosho,virunga,0.0
+2023-10-20,ch matanda,enk,0.0
+2023-10-20,csr bakhita,nuru,0.0
+2023-10-20,heal africa,snel,0.102778
+2023-10-20,hgr beni,enk,0.0
+2023-10-21,ch cbca bethesda ndosho,virunga,0.0
+2023-10-21,hgr beni,enk,0.0
+2023-10-21,hgr kirotshe,snel,0.0
+2023-10-21,hgr lubero,virunga,0.0
+2023-10-21,hopital provincial,snel,0.035972
+2023-10-22,ch cbca bethesda ndosho,virunga,0.084583
+2023-10-22,ch matanda,enk,0.0
+2023-10-22,hgr beni,enk,0.0
+2023-10-22,hgr kirotshe,snel,0.0
+2023-10-22,hgr lubero,virunga,0.0
+2023-10-23,ch matanda,enk,0.0
+2023-10-23,heal africa,snel,0.0
+2023-10-23,hgr beni,enk,0.0
+2023-10-23,hgr kitatumba,enk,0.0
+2023-10-23,hopital provincial,snel,0.0
+2023-10-23,ngangi 3,virunga,0.0
+2023-10-24,heal africa,snel,0.08
+2023-10-24,ngangi 3,virunga,0.588611
+2023-10-25,hgr katwa,enk,0.0
+2023-10-25,hgr kirotshe,snel,0.0
+2023-10-25,ngangi 3,virunga,0.044167
+2023-10-26,ch matanda,enk,0.0
+2023-10-26,hgr kirotshe,snel,0.0
+2023-10-26,hopital provincial,snel,0.0
+2023-10-26,ngangi 3,virunga,0.233611
+2023-10-27,cclk,nuru,0.0
+2023-10-27,cs murara,snel,0.0
+2023-10-27,hgr beni,enk,0.0
+2023-10-27,hgr katwa,enk,0.027222
+2023-10-27,hgr kitatumba,enk,0.327222
+2023-10-27,hopital provincial,snel,0.0
+2023-10-28,cs murara,snel,0.244444
+2023-10-28,hgr beni,enk,0.0
+2023-10-28,hgr kirotshe,snel,0.0
+2023-10-28,hgr kitatumba,enk,0.0
+2023-10-29,csr bakhita,nuru,0.0
+2023-10-29,hgr kitatumba,enk,0.0
+2023-10-30,ch matanda,enk,0.0
+2023-10-30,cs murara,snel,0.262778
+2023-10-30,csr bakhita,nuru,0.0
+2023-10-30,hgr kirotshe,snel,0.0
+2023-10-30,hgr lubero,virunga,0.0
+2023-10-30,hopital provincial,snel,0.0
+2023-10-31,cclk,nuru,0.0
+2023-10-31,ch cbca bethesda ndosho,virunga,0.0
+2023-10-31,csr bakhita,nuru,0.0
+2023-10-31,heal africa,snel,0.051389
+2023-10-31,hgr beni,enk,0.0
+2023-11-01,ch cbca bethesda ndosho,virunga,0.0
+2023-11-01,csr bakhita,nuru,0.0
+2023-11-01,heal africa,snel,0.102778
+2023-11-01,hgr kirotshe,snel,0.0
+2023-11-01,hgr lubero,virunga,0.0
+2023-11-01,ngangi 3,virunga,0.0
+2023-11-02,ch matanda,enk,0.0
+2023-11-02,csr bakhita,nuru,0.0
+2023-11-02,heal africa,snel,0.0
+2023-11-02,hgr beni,enk,0.0
+2023-11-02,hgr kitatumba,enk,0.0
+2023-11-02,hopital provincial,snel,0.0
+2023-11-03,ch cbca bethesda ndosho,virunga,0.0
+2023-11-03,cs murara,snel,0.283611
+2023-11-03,hgr katwa,enk,0.0
+2023-11-03,hgr kirotshe,snel,0.0
+2023-11-03,hgr kitatumba,enk,0.0
+2023-11-03,hopital provincial,snel,0.0
+2023-11-04,ch matanda,enk,0.0
+2023-11-04,csr bakhita,nuru,0.0
+2023-11-04,heal africa,snel,0.163889
+2023-11-04,hgr kirotshe,snel,0.0
+2023-11-04,hgr lubero,virunga,0.0
+2023-11-05,cclk,nuru,0.0
+2023-11-05,ch matanda,enk,0.0
+2023-11-05,hgr beni,enk,0.0
+2023-11-05,hgr kirotshe,snel,0.0
+2023-11-05,hgr kitatumba,enk,0.0
+2023-11-06,ch cbca bethesda ndosho,virunga,0.047361
+2023-11-06,heal africa,snel,0.0
+2023-11-06,hgr kitatumba,enk,0.0
+2023-11-06,hopital provincial,snel,0.0
+2023-11-07,cclk,nuru,0.0
+2023-11-07,ch cbca bethesda ndosho,virunga,0.114028
+2023-11-07,ch matanda,enk,0.0
+2023-11-07,hgr kirotshe,snel,0.0
+2023-11-07,hgr lubero,virunga,0.0
+2023-11-08,cclk,nuru,0.0
+2023-11-08,heal africa,snel,0.359583
+2023-11-08,hgr beni,enk,0.0
+2023-11-08,hgr kitatumba,enk,0.201667
+2023-11-08,hopital provincial,snel,0.0
+2023-11-09,cclk,nuru,0.0
+2023-11-09,ch cbca bethesda ndosho,virunga,0.0
+2023-11-09,ch matanda,enk,0.102222
+2023-11-09,cs murara,snel,0.0
+2023-11-09,hgr katwa,enk,0.028889
+2023-11-09,hgr kitatumba,enk,0.102222
+2023-11-09,hgr lubero,virunga,0.0
+2023-11-09,hopital provincial,snel,0.0
+2023-11-10,cclk,nuru,0.0
+2023-11-10,ch cbca bethesda ndosho,virunga,0.0
+2023-11-10,ch matanda,enk,0.0
+2023-11-10,cs murara,snel,0.0
+2023-11-10,csr bakhita,nuru,0.0
+2023-11-10,heal africa,snel,0.0
+2023-11-10,hgr beni,enk,0.0
+2023-11-10,hgr kitatumba,enk,0.0
+2023-11-11,ch cbca bethesda ndosho,virunga,0.0
+2023-11-11,hgr kirotshe,snel,0.0
+2023-11-11,hgr lubero,virunga,0.0
+2023-11-11,hopital provincial,snel,0.0
+2023-11-12,ch cbca bethesda ndosho,virunga,0.0
+2023-11-12,cs murara,snel,0.0
+2023-11-12,hgr kitatumba,enk,0.13
+2023-11-12,hgr lubero,virunga,0.0
+2023-11-12,hopital provincial,snel,0.0
+2023-11-13,ch cbca bethesda ndosho,virunga,0.0
+2023-11-13,csr bakhita,nuru,0.0
+2023-11-13,csr kiziba,nuru,0.769722
+2023-11-13,heal africa,snel,0.022539
+2023-11-13,hgr beni,enk,0.0
+2023-11-13,hgr katwa,enk,0.276389
+2023-11-13,hopital provincial,snel,0.0
+2023-11-13,ngangi 3,virunga,0.0
+2023-11-14,cs murara,snel,0.0
+2023-11-14,csr bakhita,nuru,0.0
+2023-11-14,csr kiziba,nuru,0.703611
+2023-11-14,heal africa,snel,0.122222
+2023-11-14,hgr kitatumba,enk,0.0
+2023-11-14,hgr lubero,virunga,0.0
+2023-11-14,hopital provincial,snel,0.0
+2023-11-15,ch cbca bethesda ndosho,virunga,0.068056
+2023-11-15,ch matanda,enk,0.0
+2023-11-15,hgr beni,enk,0.0
+2023-11-15,hgr lubero,virunga,0.040556
+2023-11-15,hopital provincial,snel,0.0
+2023-11-15,ngangi 3,virunga,0.070556
+2023-11-16,csr bakhita,nuru,0.0
+2023-11-16,heal africa,snel,0.1075
+2023-11-16,hgr beni,enk,0.0
+2023-11-16,hgr kirotshe,snel,0.0
+2023-11-16,ngangi 3,virunga,0.199444
+2023-11-17,cclk,nuru,0.0
+2023-11-17,cs murara,snel,2.243889
+2023-11-17,heal africa,snel,0.0
+2023-11-17,hgr katwa,enk,0.0
+2023-11-17,hgr kitatumba,enk,0.0
+2023-11-17,hgr lubero,virunga,0.0
+2023-11-18,ch cbca bethesda ndosho,virunga,0.0
+2023-11-18,ch matanda,enk,0.0
+2023-11-18,csr bakhita,nuru,0.0
+2023-11-18,csr kiziba,nuru,0.0
+2023-11-18,hgr kirotshe,snel,0.0
+2023-11-18,hgr lubero,virunga,0.0
+2023-11-19,cs murara,snel,0.045833
+2023-11-19,hgr beni,enk,0.0
+2023-11-19,hgr kitatumba,enk,0.0
+2023-11-19,hgr lubero,virunga,0.0
+2023-11-19,ngangi 3,virunga,0.0
+2023-11-20,cclk,nuru,0.0
+2023-11-20,ch matanda,enk,0.0
+2023-11-20,csr kiziba,nuru,0.0
+2023-11-20,heal africa,snel,0.062997
+2023-11-20,hgr kirotshe,snel,0.0
+2023-11-21,ch cbca bethesda ndosho,virunga,0.193889
+2023-11-21,hgr katwa,enk,0.0
+2023-11-21,hgr lubero,virunga,0.0
+2023-11-22,heal africa,snel,0.036667
+2023-11-22,hgr katwa,enk,0.0
+2023-11-22,hgr kitatumba,enk,0.0
+2023-11-22,hgr lubero,virunga,0.0
+2023-11-23,ch cbca bethesda ndosho,virunga,0.0
+2023-11-23,ch matanda,enk,0.0
+2023-11-23,csr bakhita,nuru,0.0
+2023-11-23,hgr beni,enk,0.0
+2023-11-23,hgr katwa,enk,0.0
+2023-11-23,hopital provincial,snel,0.0
+2023-11-24,cclk,nuru,0.0
+2023-11-24,ch matanda,enk,0.106944
+2023-11-24,cs murara,snel,0.0
+2023-11-24,csr bakhita,nuru,0.0
+2023-11-24,csr kiziba,nuru,0.0
+2023-11-24,hgr beni,enk,0.016389
+2023-11-25,cclk,nuru,0.0
+2023-11-25,ch cbca bethesda ndosho,virunga,0.013056
+2023-11-25,csr bakhita,nuru,0.0
+2023-11-25,csr kiziba,nuru,0.0
+2023-11-25,hgr kitatumba,enk,0.0
+2023-11-26,ch cbca bethesda ndosho,virunga,0.0
+2023-11-26,ch matanda,enk,0.0
+2023-11-26,heal africa,snel,0.0
+2023-11-26,hgr katwa,enk,0.148056
+2023-11-26,hopital provincial,snel,0.0
+2023-11-26,ngangi 3,virunga,0.0
+2023-11-27,cclk,nuru,0.0
+2023-11-27,ch cbca bethesda ndosho,virunga,0.0
+2023-11-27,cs murara,snel,0.0
+2023-11-27,csr kiziba,nuru,0.0
+2023-11-27,hgr beni,enk,0.0
+2023-11-27,hopital provincial,snel,0.0
+2023-11-28,cclk,nuru,0.0
+2023-11-28,ch cbca bethesda ndosho,virunga,0.248333
+2023-11-28,csr kiziba,nuru,0.0
+2023-11-28,heal africa,snel,0.133611
+2023-11-28,hgr lubero,virunga,0.0
+2023-11-29,ch matanda,enk,0.142778
+2023-11-29,csr kiziba,nuru,0.0
+2023-11-29,hgr beni,enk,0.641389
+2023-11-29,hgr kirotshe,snel,0.0
+2023-11-29,hgr kitatumba,enk,0.142778
+2023-11-30,ch matanda,enk,0.0
+2023-11-30,hgr beni,enk,0.0
+2023-11-30,hgr katwa,enk,0.0
+2023-11-30,hgr kitatumba,enk,0.0
+2023-11-30,ngangi 3,virunga,4.719167
+2023-12-01,cs murara,snel,0.156111
+2023-12-01,csr bakhita,nuru,0.0
+2023-12-01,csr kiziba,nuru,0.0
+2023-12-01,heal africa,snel,0.0
+2023-12-01,hgr beni,enk,0.207222
+2023-12-01,hgr kirotshe,snel,0.0
+2023-12-01,hopital provincial,snel,0.0
+2023-12-02,ch cbca bethesda ndosho,virunga,0.235417
+2023-12-02,cs murara,snel,2.542917
+2023-12-02,heal africa,snel,0.059167
+2023-12-02,hgr beni,enk,0.0
+2023-12-02,hgr kitatumba,enk,0.0
+2023-12-02,ngangi 3,virunga,4.023333
+2023-12-03,ch cbca bethesda ndosho,virunga,0.0
+2023-12-03,ch matanda,enk,0.0
+2023-12-03,heal africa,snel,0.038333
+2023-12-03,hgr kitatumba,enk,0.0
+2023-12-03,hgr lubero,virunga,0.0
+2023-12-03,hopital provincial,snel,0.0
+2023-12-04,cclk,nuru,0.0
+2023-12-04,cs murara,snel,0.005139
+2023-12-04,hgr kitatumba,enk,0.0
+2023-12-04,hgr lubero,virunga,0.0
+2023-12-04,hopital provincial,snel,0.0
+2023-12-05,cclk,nuru,0.0
+2023-12-05,hgr katwa,enk,0.0
+2023-12-06,cclk,nuru,0.0
+2023-12-06,csr bakhita,nuru,0.0
+2023-12-06,csr kiziba,nuru,0.0
+2023-12-06,hgr beni,enk,0.033333
+2023-12-06,hgr katwa,enk,0.041389
+2023-12-06,hgr kirotshe,snel,0.0
+2023-12-07,cclk,nuru,0.0
+2023-12-07,cs murara,snel,19.505532
+2023-12-07,csr bakhita,nuru,0.0
+2023-12-07,hgr beni,enk,0.0
+2023-12-07,hgr lubero,virunga,0.0
+2023-12-07,ngangi 3,virunga,12.801389
+2023-12-08,cs murara,snel,16.894477
+2023-12-08,heal africa,snel,0.0
+2023-12-08,hgr katwa,enk,0.0
+2023-12-08,hgr lubero,virunga,0.0
+2023-12-08,hopital provincial,snel,0.0
+2023-12-09,cclk,nuru,0.0
+2023-12-09,ch cbca bethesda ndosho,virunga,0.0
+2023-12-09,cs murara,snel,0.078056
+2023-12-09,csr bakhita,nuru,0.0
+2023-12-09,csr kiziba,nuru,0.0
+2023-12-09,heal africa,snel,0.113611
+2023-12-09,hopital provincial,snel,0.046806
+2023-12-09,ngangi 3,virunga,24.0
+2023-12-10,csr bakhita,nuru,0.0
+2023-12-10,ngangi 3,virunga,0.0
+2023-12-11,ch matanda,enk,0.0
+2023-12-11,heal africa,snel,0.0
+2023-12-11,hgr beni,enk,0.0
+2023-12-11,ngangi 3,virunga,4.808056
+2023-12-12,cclk,nuru,0.0
+2023-12-12,ch cbca bethesda ndosho,virunga,0.029444
+2023-12-12,hgr beni,enk,0.0
+2023-12-12,hgr kitatumba,enk,0.0
+2023-12-12,hgr lubero,virunga,0.0
+2023-12-12,hopital provincial,snel,0.0
+2023-12-13,cclk,nuru,0.0
+2023-12-13,hgr beni,enk,0.0
+2023-12-13,hgr katwa,enk,0.0
+2023-12-13,hgr kirotshe,snel,0.0
+2023-12-13,hgr lubero,virunga,0.0
+2023-12-14,csr bakhita,nuru,0.0
+2023-12-14,csr kiziba,nuru,0.0
+2023-12-14,hgr beni,enk,0.0
+2023-12-14,hgr kitatumba,enk,0.0
+2023-12-15,cclk,nuru,0.0
+2023-12-15,ch cbca bethesda ndosho,virunga,0.0
+2023-12-15,cs murara,snel,0.0
+2023-12-15,csr bakhita,nuru,0.0
+2023-12-15,csr kiziba,nuru,0.0
+2023-12-15,hgr beni,enk,0.0
+2023-12-15,hgr kirotshe,snel,0.0
+2023-12-15,hgr kitatumba,enk,0.102778
+2023-12-15,ngangi 3,virunga,6.256111
+2023-12-16,cclk,nuru,0.0
+2023-12-16,ch cbca bethesda ndosho,virunga,0.140972
+2023-12-16,ch matanda,enk,0.0
+2023-12-16,csr kiziba,nuru,0.0
+2023-12-16,hgr katwa,enk,0.0
+2023-12-16,hgr kitatumba,enk,0.0
+2023-12-16,hgr lubero,virunga,0.0
+2023-12-17,ch cbca bethesda ndosho,virunga,0.331111
+2023-12-17,csr kiziba,nuru,0.0
+2023-12-17,heal africa,snel,0.0
+2023-12-17,hgr kirotshe,snel,0.0
+2023-12-17,ngangi 3,virunga,0.180833
+2023-12-18,cclk,nuru,0.0
+2023-12-18,heal africa,snel,0.094444
+2023-12-18,hgr kirotshe,snel,0.0
+2023-12-18,hgr kitatumba,enk,0.0
+2023-12-19,ch matanda,enk,0.13617
+2023-12-19,hgr beni,enk,0.097222
+2023-12-19,hgr kitatumba,enk,0.133333
+2023-12-19,ngangi 3,virunga,0.0
+2023-12-20,cclk,nuru,0.0
+2023-12-20,ch cbca bethesda ndosho,virunga,0.082639
+2023-12-20,csr kiziba,nuru,0.0
+2023-12-20,hgr kitatumba,enk,0.0
+2023-12-20,ngangi 3,virunga,0.175278
+2023-12-21,cclk,nuru,0.0
+2023-12-21,cs murara,snel,0.256111
+2023-12-21,csr bakhita,nuru,0.0
+2023-12-21,heal africa,snel,0.058333
+2023-12-21,hgr beni,enk,0.041111
+2023-12-21,hgr katwa,enk,0.0
+2023-12-21,hgr kitatumba,enk,0.0
+2023-12-22,ch cbca bethesda ndosho,virunga,0.090972
+2023-12-22,csr bakhita,nuru,0.0
+2023-12-22,hgr beni,enk,0.020556
+2023-12-22,hgr katwa,enk,0.023889
+2023-12-22,hgr kirotshe,snel,0.0
+2023-12-22,ngangi 3,virunga,0.045833
+2023-12-23,ch matanda,enk,0.356944
+2023-12-23,cs murara,snel,0.230694
+2023-12-23,hgr kitatumba,enk,0.356944
+2023-12-23,hopital provincial,snel,0.032778
+2023-12-24,cclk,nuru,0.0
+2023-12-24,ch matanda,enk,0.0
+2023-12-24,heal africa,snel,0.0
+2023-12-24,hgr beni,enk,0.0
+2023-12-24,hopital provincial,snel,0.0
+2023-12-25,ch cbca bethesda ndosho,virunga,0.210556
+2023-12-25,ch matanda,enk,0.0
+2023-12-25,cs murara,snel,0.345833
+2023-12-25,csr bakhita,nuru,0.0
+2023-12-25,hgr kirotshe,snel,0.0
+2023-12-25,hgr kitatumba,enk,0.0
+2023-12-26,csr bakhita,nuru,1.433056
+2023-12-26,csr kiziba,nuru,0.0
+2023-12-26,heal africa,snel,0.047222
+2023-12-26,hgr kirotshe,snel,0.0
+2023-12-26,hgr kitatumba,enk,0.0
+2023-12-26,hopital provincial,snel,0.039722
+2023-12-27,cclk,nuru,0.0
+2023-12-27,ch cbca bethesda ndosho,virunga,0.111111
+2023-12-27,hgr beni,enk,0.0
+2023-12-27,hgr lubero,virunga,0.0
+2023-12-27,hopital provincial,snel,0.033889
+2023-12-28,cs murara,snel,1.942222
+2023-12-28,csr kiziba,nuru,0.0
+2023-12-28,hgr beni,enk,0.0
+2023-12-28,hgr katwa,enk,0.121667
+2023-12-28,hgr kirotshe,snel,0.0
+2023-12-28,hopital provincial,snel,0.197361
+2023-12-29,cclk,nuru,0.0
+2023-12-29,ch matanda,enk,0.0
+2023-12-29,csr kiziba,nuru,0.0
+2023-12-29,heal africa,snel,0.030278
+2023-12-29,hgr beni,enk,0.0
+2023-12-29,hgr kirotshe,snel,0.0
+2023-12-29,hgr kitatumba,enk,0.0
+2023-12-30,cclk,nuru,0.0
+2023-12-30,csr bakhita,nuru,0.0
+2023-12-30,hgr katwa,enk,0.054444
+2023-12-30,hgr kitatumba,enk,0.137778
+2023-12-30,ngangi 3,virunga,16.014583
+2023-12-31,cclk,nuru,0.0
+2023-12-31,hgr kirotshe,snel,0.0
+2023-12-31,hgr lubero,virunga,0.0
+2023-12-31,hopital provincial,snel,0.0
