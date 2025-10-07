@@ -3,7 +3,7 @@
 ```markdown
 # QA-RBF Mini-Grid Dashboard
 
-**Live Demo**: [https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app/](https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app/)
+**Live Demo**: [https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app/]
 
 A comprehensive **Results-Based Financing (RBF) dashboard** for analyzing mini-grid electrical reliability and calculating performance-based payments. This dashboard implements a **3-stage payment model** combining connection milestones with adaptive performance benchmarking using percentile-based thresholds.
 
