@@ -1,7 +1,7 @@
 
 
 ```markdown
-# QA-RBF Mini-Grid Dashboard
+# QA-RBF Mini-Grid Dashboard[![Streamlit App](https://img.shields.io/badge/Streamlit-App-brightgreen?logo=streamlit)](https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app/)
 
 **Live Demo**: [Launch Dashboard](https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app/) – Interactive RBF payouts, filters, and trends for North Kivu mini-grids.
 
