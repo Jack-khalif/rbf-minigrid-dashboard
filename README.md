@@ -2,8 +2,9 @@
 
 ```markdown
 # QA-RBF Mini-Grid Dashboard
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-brightgreen?logo=streamlit)](https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app/)
 
-**Live Demo**: [https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app/]
+**Live Demo**: [Launch Dashboard](https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app/) – Interactive RBF payouts, filters, and trends for North Kivu mini-grids.
 
 A comprehensive **Results-Based Financing (RBF) dashboard** for analyzing mini-grid electrical reliability and calculating performance-based payments. This dashboard implements a **3-stage payment model** combining connection milestones with adaptive performance benchmarking using percentile-based thresholds.
 
