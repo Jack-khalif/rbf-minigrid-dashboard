@@ -1,5 +1,5 @@
 """
-QA-RBF Mini-Grid Dashboard - 3-Stage Payment Model
+RBF Mini-Grid Dashboard - 3-Stage Payment Model
 Combines staged payments (connections, quality, sustained) 
 with percentile-based performance assessment and actual connection counts
 """
@@ -13,7 +13,7 @@ from datetime import datetime
 import numpy as np
 
 # -- App configuration --
-st.set_page_config(page_title="QA-RBF Mini-Grid Dashboard", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="RBF Mini-Grid Dashboard", layout="wide", initial_sidebar_state="expanded")
 
 # --- Load & preprocess data ---
 @st.cache_data
@@ -353,21 +353,25 @@ if not agg_copy.empty:
     if selected_site == 'All':
         sites_count = len(agg_copy)
         total_connections = agg_copy['total_connections'].sum()
-        avg_saidi = f"{agg_copy['SAIDI_mean'].mean():.2f}"
         total_all_stages = f"${agg_copy['total_payout'].sum():,.0f}"
+        best_site = agg_copy.loc[agg_copy['SAIDI_mean'].idxmin(), 'site_id'] if sites_count > 0 else "n/a"
+        worst_site = agg_copy.loc[agg_copy['SAIDI_mean'].idxmax(), 'site_id'] if sites_count > 0 else "n/a"
         
         col1.markdown(card_html("Sites Analyzed", sites_count, "In current filter"), unsafe_allow_html=True)
         col2.markdown(card_html("Total Connections", total_connections, "Across all sites"), unsafe_allow_html=True)
-        col3.markdown(card_html("Avg SAIDI", avg_saidi, "Hours/month"), unsafe_allow_html=True)
-        col4.markdown(card_html("Total Payouts", total_all_stages, "All 3 stages"), unsafe_allow_html=True)
+        col3.markdown(card_html("Total Payouts", total_all_stages, "All 3 stages combined"), unsafe_allow_html=True)
+        col4.markdown(card_html("Best / Worst Sites", f"{best_site} / {worst_site}", "Lowest / highest SAIDI"), unsafe_allow_html=True)
     else:
         site_stats = agg_copy[agg_copy['site_id'] == selected_site]
         if not site_stats.empty:
             site_row = site_stats.iloc[0]
+            avg_saidi_network = agg_copy['SAIDI_mean'].mean() if len(agg_copy) > 1 else site_row['SAIDI_mean']
+            comparison = "above network avg" if site_row['SAIDI_mean'] > avg_saidi_network else "below network avg"
+            
             col1.markdown(card_html("Site ID", selected_site, site_row['minigrid_name']), unsafe_allow_html=True)
             col2.markdown(card_html("Connections", f"{site_row['total_connections']}", site_row['connection_status']), unsafe_allow_html=True)
-            col3.markdown(card_html("Performance Zone", site_row['performance_zone'], f"{site_row['performance_multiplier']:.2f}x multiplier"), unsafe_allow_html=True)
-            col4.markdown(card_html("Total Payout", f"${site_row['total_payout']:,.0f}", "All stages combined"), unsafe_allow_html=True)
+            col3.markdown(card_html("SAIDI Performance", f"{site_row['SAIDI_mean']:.2f}h", comparison), unsafe_allow_html=True)
+            col4.markdown(card_html("Total Payout", f"${site_row['total_payout']:,.0f}", f"{site_row['performance_zone']}"), unsafe_allow_html=True)
 
 st.markdown("---")
 
@@ -385,6 +389,20 @@ else:
 
 # --- Visualizations ---
 if not agg_copy.empty:
+    
+    # Sunburst chart - The beautiful visualization is back!
+    st.subheader("Distribution of Sites per Minigrid by Payout Value")
+    site_dist = agg_copy.groupby(['minigrid_name', 'site_id']).size().reset_index(name='count')
+    site_dist = site_dist.merge(agg_copy[['site_id', 'total_payout']], on='site_id', how='left')
+    
+    if not site_dist.empty:
+        fig_sb = px.sunburst(site_dist, path=['minigrid_name', 'site_id'], values='total_payout', 
+                            color='minigrid_name', color_discrete_sequence=px.colors.qualitative.Pastel,
+                            title="Payout Distribution Across Minigrids and Sites")
+        fig_sb.update_layout(margin=dict(t=50, l=0, r=0, b=0), title_x=0.5)
+        st.plotly_chart(fig_sb, use_container_width=True)
+    else:
+        st.warning("No sites in selected filters for sunburst visualization")
     
     # Connection vs Payment Analysis
     st.subheader("Connection Impact Analysis")
@@ -417,13 +435,15 @@ if not agg_copy.empty:
                                xaxis_tickangle=45)
         st.plotly_chart(fig_stages, use_container_width=True)
     
-    # Performance zone and connection analysis
+    # Performance vs Connection Analysis
     st.subheader("Performance vs Connection Analysis")
     
     fig_bubble = px.scatter(agg_copy, x='SAIDI_mean', y='total_connections', 
                            color='performance_zone', size='total_payout',
                            hover_data=['site_id', 'performance_multiplier'],
-                           title='SAIDI Performance vs Connections (Bubble size = Total Payout)')
+                           title='SAIDI Performance vs Connections (Bubble size = Total Payout)',
+                           labels={'SAIDI_mean': 'Average SAIDI (hours/month)',
+                                  'total_connections': 'Total Connections'})
     st.plotly_chart(fig_bubble, use_container_width=True)
     
     # Multi-metric site drilldown
