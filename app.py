@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import datetime
 import numpy as np
-
+st.set_page_config(page_title="QA-RBF Mini-Grid Dashboard", layout="wide", initial_sidebar_state="expanded")
 @st.cache_data
 def load_and_preprocess_data():
     try:
@@ -83,35 +83,68 @@ def if_then_condition(condition, df):
         return f"Eligible: {eligible} sites (+10% growth bonus)"
     return "Condition not implemented yet."
 
-st.set_page_config(page_title="QA-RBF Mini-Grid Dashboard", layout="wide", initial_sidebar_state="expanded")
-st.markdown(
-    """
-    <style>
-    .stApp { 
-        background-color: #1E293B;  /* Deep blue-gray */
-    }
+st.markdown("""
+<style>
+/* --- APP BACKGROUND --- */
+.stApp {
+    background-color: #EAF0F6;
+}
 
-    .header, .sub, section.main h1, section.main h2, section.main h3, 
-    section.main h4, section.main h5, section.main h6, 
-    section.main p, section.main span, section.main div, section.main label {
-        color: #F9FAFB !important;  /* White text for contrast */
-    }
+/* --- HEADERS --- */
+.header { 
+    color: #0A2540;  
+    font-size: 28px; 
+    font-weight: 700; 
+}
 
-    .card { 
-        background: linear-gradient(135deg, #FFFFFF 0%, #E2E8F0 100%);
-        border-radius: 14px; 
-        padding: 16px; 
-        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); 
-        border: none;
-    }
+.sub { 
+    color: #1E3A8A;  
+    margin-bottom: 8px;
+    font-weight: 500;
+}
 
-    .card-title { color: #1E3A8A; font-weight: 600; font-size: 14px; }
-    .card-value { font-size: 22px; font-weight: 700; color: #0B3D91; }
-    .small { color: #334155; font-size: 12px; }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+/* --- CARD STYLE --- */
+.card { 
+    background: #FFFFFF; 
+    border-radius: 14px; 
+    padding: 16px; 
+    box-shadow: 0 6px 18px rgba(0,0,0,0.07); 
+    border: 1px solid #E2E8F0;
+}
+
+.card-title { 
+    color: #1E3A8A;  
+    font-weight: 600; 
+    font-size: 14px; 
+    margin-bottom: 6px; 
+}
+
+.card-value { 
+    font-size: 20px; 
+    font-weight: 700; 
+    color: #0B3D91;  
+}
+
+.small { 
+    color: #475569;  
+    font-size: 12px; 
+}
+
+/* --- GLOBAL TEXT OVERRIDE --- */
+section.main h1, 
+section.main h2, 
+section.main h3, 
+section.main h4, 
+section.main h5, 
+section.main h6, 
+section.main p, 
+section.main span, 
+section.main div, 
+section.main label {
+    color: #0A2540 !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 
 
