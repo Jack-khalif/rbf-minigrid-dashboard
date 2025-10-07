@@ -121,7 +121,7 @@ section.main p, section.main span, section.main div, section.main label {color: 
 """, unsafe_allow_html=True)
 
 # --- Main Header ---
-st.markdown('<div class="header">QA-RBF Mini-Grid Dashboard: 3-Stage Payment Model</div>', unsafe_allow_html=True)
+st.markdown('<div class="header">RBF Mini-Grid Dashboard</div>', unsafe_allow_html=True)
 st.markdown('<div class="small">Results-Based Financing: Connection-Based + Performance-Based Payments</div>', unsafe_allow_html=True)
 
 # --- Sidebar Configuration ---
