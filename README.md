@@ -417,4 +417,3 @@ Each step includes error handling and fallback options to ensure dashboard stabi
 *This dashboard represents a cutting-edge approach to results-based financing in the mini-grid sector, combining rigorous performance monitoring with transparent financial incentives to drive sustainable electrification outcomes.*
 ```
 
-Now you can copy this entire markdown content and paste it into your README.md file!
