@@ -1,4 +1,4 @@
 streamlit==1.38.0
-pandas==2.2.2
-plotly==5.22.0  # Covers px/go; use latest stable
+pandas==2.2.3
+plotly==5.22.0
 numpy==1.26.4
