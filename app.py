@@ -85,35 +85,34 @@ def if_then_condition(condition, df):
 
 st.markdown("""
 <style>
-/* --- APP BACKGROUND --- */
 .stApp {
-    background-color: #EAF0F6;
+    background-color: #0F172A;
 }
 
 /* --- HEADERS --- */
 .header { 
-    color: #0A2540;  
+    color: #E2E8F0;  
     font-size: 28px; 
     font-weight: 700; 
 }
 
 .sub { 
-    color: #1E3A8A;  
+    color: #93C5FD;  
     margin-bottom: 8px;
     font-weight: 500;
 }
 
 /* --- CARD STYLE --- */
 .card { 
-    background: #FFFFFF; 
+    background: #1E293B; 
     border-radius: 14px; 
     padding: 16px; 
-    box-shadow: 0 6px 18px rgba(0,0,0,0.07); 
-    border: 1px solid #E2E8F0;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4); 
+    border: 1px solid #334155;
 }
 
 .card-title { 
-    color: #1E3A8A;  
+    color: #93C5FD;  
     font-weight: 600; 
     font-size: 14px; 
     margin-bottom: 6px; 
@@ -122,15 +121,15 @@ st.markdown("""
 .card-value { 
     font-size: 20px; 
     font-weight: 700; 
-    color: #0B3D91;  
+    color: #F8FAFC;  
 }
 
 .small { 
-    color: #475569;  
+    color: #CBD5E1;  
     font-size: 12px; 
 }
 
-/* --- GLOBAL TEXT OVERRIDE --- */
+/* --- TEXT OVERRIDE --- */
 section.main h1, 
 section.main h2, 
 section.main h3, 
@@ -141,10 +140,11 @@ section.main p,
 section.main span, 
 section.main div, 
 section.main label {
-    color: #0A2540 !important;
+    color: #F8FAFC !important;
 }
 </style>
 """, unsafe_allow_html=True)
+
 
 
 
