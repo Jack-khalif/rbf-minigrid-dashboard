@@ -20,7 +20,7 @@ The **QA-RBF Mini-Grid Dashboard** revolutionizes how mini-grid projects are fin
 |  **One-size-fits-all Approaches** | Context-sensitive performance zones |
 
 ---
-
+### **Proposed model**
 The QA-RBF Mini-Grid Dashboard is a data-driven platform that connects funding to real mini-grid performance. It ensures that financial disbursements reflect service quality and reliability through a structured three-stage payment model.  
 
 Stage 1 (30%): Based on connection milestones  
@@ -39,21 +39,32 @@ Undervoltage – Power quality monitoring (20%)
 
 The dashboard automatically computes payments, visualizes results, and allows users to explore site performance, payout breakdowns, and historical trends. Data is processed from CSV files using Pandas and NumPy, and visualized through Plotly inside a Streamlit web interface.  
 
----
+## **Dashboard Screenshots**
 
-Visual Overview  
+###  **Main Dashboard Overview**
+*[Upload your main dashboard screenshot here]*
 
-System Performance Dashboard  
-![System Dashboard](images/dashboard_overview.png)  
+![Main Dashboard](images/main-dashboard.png)
 
-SAIDI and SAIFI Trends Visualization  
-![Trends Graph](images/saidi_saifi_trends.png)  
+###  **Performance Analytics**
+*[Upload your performance visualizations here]*
 
-Performance Zone Distribution  
-![Zone Distribution](images/performance_zones.png)  
+![Performance Analytics](images/performance-analytics.png)
 
-Payment Breakdown per Stage  
-![Payment Breakdown](images/payment_breakdown.png)  
+###  **Sunburst Visualization**
+*[Upload your sunburst chart screenshot here]*
+
+![Sunburst Chart](images/sunburst-chart.png)
+
+### **Site Drilldown Analysis**
+*[Upload your site drilldown screenshot here]*
+
+![Site Analysis](images/site-drilldown.png)
+
+###  **Performance vs Payouts**
+*[Upload your performance vs payouts charts here]*
+
+![Performance Payouts](images/performance-payouts.png)
 
 ---
 
