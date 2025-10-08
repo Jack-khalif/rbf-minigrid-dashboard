@@ -53,9 +53,10 @@ The dashboard automatically computes payments, visualizes results, and allows us
   <img src="images/saidi.png" alt="SAIDI Performance" width="45%">
   <img src="images/undervoltage.png" alt="Undervoltage Performance" width="45%">
 
-  <img src="images/connection_completion.png" alt="Connection Completion" width="65%">
 
 </div>
+
+![Connection Completion](images/connection_completion.png)
 
 ### **Sunburst Visualization**
 
