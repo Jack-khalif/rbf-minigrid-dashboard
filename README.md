@@ -67,7 +67,7 @@ The dashboard automatically computes payments, visualizes results, and allows us
 ### **Site Drilldown Analysis**
 
 
-![Site Analysis](images/site_drilldown.png)
+![Site Analysis](images/site-drilldown.png)
 
 ###  **Performance vs Payouts**
 
