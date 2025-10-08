@@ -134,7 +134,6 @@ total_project_cost = st.sidebar.number_input("Total Project Cost ($)",
                                              max_value=500000, 
                                              value=100000, 
                                              step=10000)
-
 # Connection parameters
 st.sidebar.subheader("Connection Milestones")
 connection_completion_pct = st.sidebar.slider("Stage 1 Completion Percentage (%)", 
@@ -144,12 +143,6 @@ connection_completion_pct = st.sidebar.slider("Stage 1 Completion Percentage (%)
                                             step=5,
                                             help="Percentage of target connections required for Stage 1 payment")
 
-connection_payment_per_unit = st.sidebar.number_input("Payment per Connection ($)", 
-                                                     min_value=100, 
-                                                     max_value=1000, 
-                                                     value=300, 
-                                                     step=50)
-
 # Payment stage breakdown
 stage_1_pct = st.sidebar.slider("Stage 1: Connection Milestone (%)", 20, 40, 30)
 stage_2_pct = st.sidebar.slider("Stage 2: Quality Assessment (%)", 40, 60, 50)
@@ -158,12 +151,13 @@ stage_3_pct = 100 - stage_1_pct - stage_2_pct
 st.sidebar.info(f"""
 Payment Structure:
 - Stage 1 ({stage_1_pct}%): Paid when {connection_completion_pct}% of target connections achieved
-- Stage 2 ({stage_2_pct}%): Quality assessment after 3 months
+  **Capped at 30% of total project cost**
+- Stage 2 ({stage_2_pct}%): Quality assessment after 3 months  
 - Stage 3 ({stage_3_pct}%): Sustained performance after 6 months
 
-Connection Model: ${connection_payment_per_unit} per connection + percentage-based milestone
+**No bonuses for exceeding connection targets - fixed milestone payment only**
+**Maximum Stage 1 payout: ${total_project_cost * 0.30:,.0f}**
 """)
-
 
 # Date and location filters
 st.sidebar.markdown("---")
@@ -278,7 +272,7 @@ def calculate_performance_multiplier(saidi, saifi, undervoltage, thresholds):
 
 def calculate_connection_based_payout(row, total_cost, stage_1_pct, stage_2_pct, stage_3_pct, 
                                      completion_percentage, payment_per_connection):
-    """Calculate payout using percentage-based connection milestones"""
+    """Calculate payout using percentage-based connection milestones with Stage 1 cap - NO BONUSES"""
     
     actual_connections = row['total_connections']
     target_connections = row['target_connections']
@@ -286,26 +280,45 @@ def calculate_connection_based_payout(row, total_cost, stage_1_pct, stage_2_pct,
     # Calculate required connections for Stage 1 milestone
     required_connections = target_connections * (completion_percentage / 100)
     completion_ratio = actual_connections / target_connections if target_connections > 0 else 0
+    actual_completion_pct = completion_ratio * 100
     
-    # Stage 1: Percentage-based milestone payment
+    # Stage 1: Simple percentage-based payment with 30% cap
     base_stage_1 = total_cost * stage_1_pct / 100
+    stage_1_cap = total_cost * 0.30  # 30% maximum cap for Stage 1
     
-    if actual_connections >= required_connections:
-        # Full Stage 1 payment + bonus for connections above target
-        additional_connections = max(0, actual_connections - target_connections)
-        stage_1_amount = base_stage_1 + (additional_connections * payment_per_connection)
-        connection_status = f"Met ({completion_ratio*100:.1f}% complete)"
+    if actual_completion_pct >= completion_percentage:
+        # Full Stage 1 payment (no bonuses for exceeding target)
+        stage_1_amount = min(base_stage_1, stage_1_cap)
+        connection_status = f"Met ({actual_completion_pct:.1f}% complete)"
     else:
         # Prorated payment based on actual completion percentage
-        actual_completion_pct = (actual_connections / target_connections) * 100 if target_connections > 0 else 0
-        if actual_completion_pct >= completion_percentage:
-            stage_1_amount = base_stage_1
-            connection_status = f"Met ({actual_completion_pct:.1f}% complete)"
-        else:
-            # Prorated payment
-            proration_factor = actual_completion_pct / completion_percentage if completion_percentage > 0 else 0
-            stage_1_amount = base_stage_1 * proration_factor
-            connection_status = f"Below Target ({actual_completion_pct:.1f}% complete)"
+        proration_factor = actual_completion_pct / completion_percentage if completion_percentage > 0 else 0
+        stage_1_amount = min(base_stage_1 * proration_factor, stage_1_cap)
+        connection_status = f"Below Target ({actual_completion_pct:.1f}% complete)"
+    
+    # Stage 2 & 3: Performance-based (unchanged)
+    performance_multiplier = calculate_performance_multiplier(
+        row['SAIDI_mean'], row['SAIFI_mean'], row['undervoltage_mean'], percentile_thresholds)
+    
+    stage_2_base = total_cost * stage_2_pct / 100
+    stage_2_amount = stage_2_base * performance_multiplier
+    
+    stage_3_base = total_cost * stage_3_pct / 100
+    stage_3_amount = stage_3_base * performance_multiplier
+    
+    total_payout = stage_1_amount + stage_2_amount + stage_3_amount
+    
+    return {
+        'stage_1_payout': stage_1_amount,
+        'stage_2_payout': stage_2_amount,
+        'stage_3_payout': stage_3_amount,
+        'total_payout': total_payout,
+        'performance_multiplier': performance_multiplier,
+        'connection_status': connection_status,
+        'completion_percentage': actual_completion_pct,
+        'required_connections': required_connections
+    }
+
     
     # Stage 2 & 3: Performance-based (unchanged)
     performance_multiplier = calculate_performance_multiplier(
@@ -354,7 +367,7 @@ if not agg_filtered.empty:
     
     payout_results = agg_copy.apply(lambda row: calculate_connection_based_payout(
         row, total_project_cost, stage_1_pct, stage_2_pct, stage_3_pct, 
-        connection_completion_pct, connection_payment_per_unit), axis=1)  # Changed parameter name
+        connection_completion_pct, 0), axis=1)  # Pass 0 for unused payment_per_connection
     
     for key in ['stage_1_payout', 'stage_2_payout', 'stage_3_payout', 'total_payout', 
                 'performance_multiplier', 'connection_status', 'completion_percentage', 'required_connections']:
