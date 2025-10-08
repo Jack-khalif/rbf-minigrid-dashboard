@@ -5,6 +5,21 @@ Live Demo: https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app
 Built with Streamlit, Python 3.8+, and licensed under MIT  
 
 ---
+##  Project Overview
+
+The **QA-RBF Mini-Grid Dashboard** revolutionizes how mini-grid projects are financed and monitored in developing regions. By implementing a sophisticated **3-Stage Payment Model** combined with **adaptive percentile-based benchmarking**, this dashboard ensures that funding flows are directly tied to both infrastructure deployment and sustained service quality.
+
+### Key Problems Solved
+
+| Challenge | Solution |
+|-----------|----------|
+|  **Lack of Performance Accountability** | 3-stage payments tied to connections + service quality |
+|  **Inflexible Benchmarking** | Adaptive percentile thresholds that evolve with data |
+| **Complex Payment Calculations** | Automated multi-stage payout computation |
+|  **Limited Stakeholder Transparency** | Interactive visualizations for all stakeholders |
+|  **One-size-fits-all Approaches** | Context-sensitive performance zones |
+
+---
 
 The QA-RBF Mini-Grid Dashboard is a data-driven platform that connects funding to real mini-grid performance. It ensures that financial disbursements reflect service quality and reliability through a structured three-stage payment model.  
 
