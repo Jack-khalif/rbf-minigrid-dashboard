@@ -1,209 +1,136 @@
+QA-RBF Mini-Grid Dashboard  
+Results-Based Financing for Mini-Grid Excellence  
 
-
-````markdown
-# **QA-RBF Mini-Grid Dashboard**
-### *Results-Based Financing for Mini-Grid Excellence*
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Available-success?style=for-the-badge)](https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app/)
-[![Streamlit](https://img.shields.io/badge/Built_with-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-
-**[Live Dashboard](https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app/)** •
-**[Documentation](#features)** •
-**[Quick Start](#installation--setup)** •
-**[Contributing](#contributing)**
+Live Demo: https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app  
+Built with Streamlit, Python 3.8+, and licensed under MIT  
 
 ---
 
-### *Transforming Mini-Grid Performance Data into Smart Financial Incentives*
+The QA-RBF Mini-Grid Dashboard is a data-driven platform that connects funding to real mini-grid performance. It ensures that financial disbursements reflect service quality and reliability through a structured three-stage payment model.  
+
+Stage 1 (30%): Based on connection milestones  
+Stage 2 (50%): Evaluated after a three-month quality assessment  
+Stage 3 (20%): Verified after six months of sustained performance  
+
+The system uses adaptive percentile-based benchmarking to rank sites dynamically:  
+Bonus Zone – Above 95th percentile  
+Standard Zone – Between 90th and 95th percentile  
+Penalty Zone – Below 90th percentile  
+
+Performance is measured using three key metrics:  
+SAIDI – System Average Interruption Duration Index (50%)  
+SAIFI – System Average Interruption Frequency Index (30%)  
+Undervoltage – Power quality monitoring (20%)  
+
+The dashboard automatically computes payments, visualizes results, and allows users to explore site performance, payout breakdowns, and historical trends. Data is processed from CSV files using Pandas and NumPy, and visualized through Plotly inside a Streamlit web interface.  
 
 ---
 
-## **Overview**
+Visual Overview  
 
-The **QA-RBF Mini-Grid Dashboard** redefines how mini-grid projects are financed and evaluated in developing regions.  
-It introduces a **3-Stage Payment Model** linked to measurable reliability and quality metrics, ensuring that **funding aligns with actual performance** and not just infrastructure rollout.
+System Performance Dashboard  
+![System Dashboard](images/dashboard_overview.png)  
 
-### **Key Problems Solved**
+SAIDI and SAIFI Trends Visualization  
+![Trends Graph](images/saidi_saifi_trends.png)  
 
-| Challenge | Solution |
-|------------|-----------|
-| Lack of performance accountability | 3-stage payments linked to connections and quality |
-| Inflexible benchmarking | Adaptive percentile thresholds that evolve with data |
-| Complex calculations | Automated payout computation across all stages |
-| Limited transparency | Interactive visual insights for all stakeholders |
-| One-size-fits-all models | Context-aware performance zones |
+Performance Zone Distribution  
+![Zone Distribution](images/performance_zones.png)  
 
----
-
-## **Features**
-
-### **Three-Stage Payment Model**
-- **Stage 1 (30%)** – Payments based on connection milestones  
-- **Stage 2 (50%)** – Quality assessment after 3 months  
-- **Stage 3 (20%)** – Sustained performance verification after 6 months  
-
-### **Adaptive Performance Benchmarking**
-- Dynamic thresholds updated with sector-wide data  
-- Performance zones: Bonus (>95th percentile), Standard (90-95th), Penalty (<90th)  
-- Manual overrides for justified exceptions  
-
-### **Multi-Metric Performance Analysis**
-- **SAIDI** – System Average Interruption Duration Index (50%)  
-- **SAIFI** – System Average Interruption Frequency Index (30%)  
-- **Undervoltage** – Power quality metric (20%)  
+Payment Breakdown per Stage  
+![Payment Breakdown](images/payment_breakdown.png)  
 
 ---
 
-## **Dashboard Previews**
+Technology Stack  
 
-**Main Dashboard Overview**  
-![Main Dashboard](images/main-dashboard.png)
-
-**Performance Analytics**  
-![Performance Analytics](images/performance-analytics.png)
-
-**Sunburst Visualization**  
-![Sunburst Chart](images/sunburst-chart.png)
-
-**Site Drilldown Analysis**  
-![Site Analysis](images/site-drilldown.png)
-
-**Performance vs Payouts**  
-![Performance Payouts](images/performance-payouts.png)
+Frontend: Streamlit – Interactive web app interface  
+Visualization: Plotly – Data visualization and charts  
+Backend: Python – Logic and computation  
+Data Processing: Pandas – Data manipulation  
+Math Engine: NumPy – Numerical operations  
 
 ---
 
-## **System Architecture**
+Performance Metrics  
 
-```mermaid
-graph TD
-    A[CSV Data Files] --> B[Data Preprocessing]
-    B --> C[Percentile Calculation]
-    C --> D[Performance Scoring]
-    D --> E[3-Stage Payout Calculation]
-    E --> F[Interactive Visualizations]
-    F --> G[Export & Reporting]
-    H[User Controls] --> C
-    H --> D
-    H --> E
-````
+Financial  
+- Total project payouts across all stages  
+- Stage-wise payment breakdown  
+- Comparison between connection-based and performance-based allocations  
 
----
+Technical  
+- SAIDI averages and reliability trends  
+- Distribution across performance zones  
+- Connection completion rates  
 
-## **Technology Stack**
-
-| Layer           | Tool      | Purpose                       |
-| --------------- | --------- | ----------------------------- |
-| Frontend        | Streamlit | Interactive web app interface |
-| Visualization   | Plotly    | Data visualization & charts   |
-| Backend         | Python    | Logic & computation           |
-| Data Processing | Pandas    | Data manipulation             |
-| Math Engine     | NumPy     | Numerical operations          |
+Comparative  
+- Best and worst performing sites  
+- Network-wide performance trends  
+- Site-to-site benchmarking  
 
 ---
 
-## **Performance Metrics**
+Data Requirements  
 
-### **Financial**
+Required Files:  
+DRC_minigrid_undervoltage_2023.csv – day, site_id, minigrid_name, undervoltage_duration  
+DRC_minigrid_saifi_2023.csv – day, site_id, minigrid_name, SAIFI  
+DRC_minigrid_saidi_2023.csv – day, site_id, minigrid_name, SAIDI  
 
-* Total project payouts (all stages)
-* Stage-wise payment breakdown
-* Performance vs connection-based allocations
-
-### **Technical**
-
-* SAIDI averages and reliability trends
-* Performance zone distributions
-* Connection completion rates
-
-### **Comparative**
-
-* Best/worst sites by reliability
-* Network-wide performance trends
-* Site-to-site benchmarking
+File Specifications:  
+- Date format: YYYY-MM-DD  
+- Consistent site identifiers across files  
+- Numeric values in standard units  
+- Complete time coverage preferred  
 
 ---
 
-## **Data Requirements**
+Configuration Examples  
 
-| File                                 | Required Columns                                   | Description           |
-| ------------------------------------ | -------------------------------------------------- | --------------------- |
-| `DRC_minigrid_undervoltage_2023.csv` | day, site_id, minigrid_name, undervoltage_duration | Power quality data    |
-| `DRC_minigrid_saifi_2023.csv`        | day, site_id, minigrid_name, SAIFI                 | Outage frequency data |
-| `DRC_minigrid_saidi_2023.csv`        | day, site_id, minigrid_name, SAIDI                 | Outage duration data  |
+Payment Structure  
+stage_1_pct = 30  
+stage_2_pct = 50  
+stage_3_pct = 20  
 
-**Specifications**
+Performance Thresholds  
+p_standard_low = 0.90  
+p_standard_high = 0.95  
 
-* Date format – `YYYY-MM-DD`
-* Consistent site identifiers
-* Numeric metrics in standard units
-* Complete temporal coverage preferred
-
----
-
-## **Configuration Examples**
-
-**Payment Structure**
-
-```python
-stage_1_pct = 30
-stage_2_pct = 50
-stage_3_pct = 20
-```
-
-**Performance Thresholds**
-
-```python
-p_standard_low = 0.90
-p_standard_high = 0.95
-```
-
-**Connection Model**
-
-```python
-connection_completion_pct = 70
-stage_1_cap = 0.30
-```
+Connection Model  
+connection_completion_pct = 70  
+stage_1_cap = 0.30  
 
 ---
 
-## **Future Roadmap**
+Future Roadmap  
 
-### **Real-Time Integration**
+Real-Time Integration  
+- Live data streams from monitoring systems  
+- Automated updates via API  
+- Continuous data ingestion  
 
-* [ ] Live data streams from monitoring systems
-* [ ] Automated updates via API
-* [ ] Continuous data ingestion
+Advanced Analytics  
+- Performance forecasting using machine learning  
+- Anomaly detection in reliability patterns  
+- Predictive payout modeling  
 
-### **Advanced Analytics**
+Accessibility  
+- Mobile-responsive design  
+- Offline field-use support  
+- Progressive Web App features  
 
-* [ ] Performance forecasting using ML
-* [ ] Anomaly detection
-* [ ] Predictive payout modeling
-
-### **Accessibility**
-
-* [ ] Mobile-responsive UI
-* [ ] Offline field-use mode
-* [ ] Progressive Web App (PWA) features
-
-### **Enterprise**
-
-* [ ] Role-based access control
-* [ ] Approval workflows
-* [ ] Enhanced audit trail
+Enterprise  
+- Role-based access control  
+- Multi-step approval workflows  
+- Enhanced audit trail  
 
 ---
 
-### **Quick Links**
-
-* [Live Dashboard](https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app/)
-* [License (MIT)](LICENSE)
-* [Contribute](#contributing)
-* [Report Issues](../../issues)
+Quick Links  
+Live Dashboard: https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app  
+License: MIT  
+Contribute: See contributing section  
+Report Issues: Via GitHub issues  
 
 ---
-
-
