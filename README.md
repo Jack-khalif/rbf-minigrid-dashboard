@@ -1,5 +1,5 @@
-##  ** QA-RBF Mini-Grid Dashboard  **  
-##  ** Results-Based Financing for Mini-Grid Excellence  ** 
+##   QA-RBF Mini-Grid Dashboard  
+### Results-Based Financing for Mini-Grid Excellence  
 
 Live Demo: https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app  
 
@@ -7,7 +7,7 @@ Live Demo: https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app
 ---
 ##  Project Overview
 
-The **QA-RBF Mini-Grid Dashboard** revolutionizes how mini-grid projects are financed and monitored in developing regions. By implementing a sophisticated **3-Stage Payment Model** combined with **adaptive percentile-based benchmarking**, this dashboard ensures that funding flows are directly tied to both infrastructure deployment and sustained service quality.
+The **RBF Mini-Grid Dashboard** revolutionizes how mini-grid projects are financed and monitored in developing regions. By implementing a sophisticated **3-Stage Payment Model** combined with **adaptive percentile-based benchmarking**, this dashboard ensures that funding flows are directly tied to both infrastructure deployment and sustained service quality.
 
 ### Key Problems Solved
 
@@ -21,7 +21,7 @@ The **QA-RBF Mini-Grid Dashboard** revolutionizes how mini-grid projects are fin
 
 ---
 ### **Proposed model**
-The QA-RBF Mini-Grid Dashboard is a data-driven platform that connects funding to real mini-grid performance. It ensures that financial disbursements reflect service quality and reliability through a structured three-stage payment model.  
+The RBF Mini-Grid model is a data-driven platform that connects funding to real mini-grid performance. It ensures that financial disbursements reflect service quality and reliability through a structured three-stage payment model.  
 
 Stage 1 (30%): Based on connection milestones  
 Stage 2 (50%): Evaluated after a three-month quality assessment  
