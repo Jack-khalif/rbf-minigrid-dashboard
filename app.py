@@ -435,100 +435,184 @@ if not agg_copy.empty:
                                xaxis_tickangle=45)
         st.plotly_chart(fig_stages, use_container_width=True)
     
-    # Performance vs Connection Analysis
-    st.subheader("Performance vs Connection Analysis")
+# Performance Metrics vs Total Payouts Analysis
+st.subheader("Performance Metrics vs Total Payouts Analysis")
+
+# Create three columns for the three metrics
+col_perf1, col_perf2, col_perf3 = st.columns(3)
+
+with col_perf1:
+    # SAIDI vs Total Payouts
+    fig_saidi_payout = px.scatter(agg_copy, x='SAIDI_mean', y='total_payout', 
+                                 color='performance_zone', size='total_connections',
+                                 hover_data=['site_id', 'performance_multiplier'],
+                                 title='SAIDI vs Total Payout',
+                                 labels={'SAIDI_mean': 'Average SAIDI (h/month)',
+                                        'total_payout': 'Total Payout ($)'},
+                                 color_discrete_map={
+                                     'Bonus Zone': '#10B981',      # Green
+                                     'Standard Zone': '#3B82F6',   # Blue  
+                                     'Acceptable Zone': '#F59E0B', # Orange
+                                     'Penalty Zone': '#EF4444'     # Red
+                                 })
     
-    fig_bubble = px.scatter(agg_copy, x='SAIDI_mean', y='total_connections', 
-                           color='performance_zone', size='total_payout',
-                           hover_data=['site_id', 'performance_multiplier'],
-                           title='SAIDI Performance vs Connections (Bubble size = Total Payout)',
-                           labels={'SAIDI_mean': 'Average SAIDI (hours/month)',
-                                  'total_connections': 'Total Connections'})
-    st.plotly_chart(fig_bubble, use_container_width=True)
+    # Add threshold lines for SAIDI zones
+    fig_saidi_payout.add_vline(x=saidi_bonus, line_dash="dash", line_color="green", 
+                              annotation_text="Bonus", annotation_position="top")
+    fig_saidi_payout.add_vline(x=saidi_standard, line_dash="dash", line_color="blue",
+                              annotation_text="Standard", annotation_position="top")
+    fig_saidi_payout.add_vline(x=saidi_penalty, line_dash="dash", line_color="orange",
+                              annotation_text="Penalty", annotation_position="top")
     
-    # Multi-metric site drilldown
-    st.subheader("Site Drilldown Analysis - All Performance Metrics")
-    drill_site = st.selectbox("Select site for detailed analysis", 
-                             options=['Choose a site...'] + agg_copy['site_id'].tolist())
+    fig_saidi_payout.update_layout(height=400, showlegend=False)
+    st.plotly_chart(fig_saidi_payout, use_container_width=True)
+
+with col_perf2:
+    # SAIFI vs Total Payouts
+    fig_saifi_payout = px.scatter(agg_copy, x='SAIFI_mean', y='total_payout', 
+                                 color='performance_zone', size='total_connections',
+                                 hover_data=['site_id', 'performance_multiplier'],
+                                 title='SAIFI vs Total Payout',
+                                 labels={'SAIFI_mean': 'Average SAIFI (#/month)',
+                                        'total_payout': 'Total Payout ($)'},
+                                 color_discrete_map={
+                                     'Bonus Zone': '#10B981',      # Green
+                                     'Standard Zone': '#3B82F6',   # Blue  
+                                     'Acceptable Zone': '#F59E0B', # Orange
+                                     'Penalty Zone': '#EF4444'     # Red
+                                 })
     
-    if drill_site != 'Choose a site...':
-        site_df = filtered[filtered['site_id'] == drill_site]
-        if not site_df.empty:
-            # Get site info
-            site_info = agg_copy[agg_copy['site_id'] == drill_site].iloc[0]
+    # Add threshold lines for SAIFI zones
+    fig_saifi_payout.add_vline(x=percentile_thresholds['saifi_bonus'], line_dash="dash", line_color="green",
+                              annotation_text="Bonus", annotation_position="top")
+    fig_saifi_payout.add_vline(x=percentile_thresholds['saifi_standard'], line_dash="dash", line_color="blue",
+                              annotation_text="Standard", annotation_position="top")
+    fig_saifi_payout.add_vline(x=percentile_thresholds['saifi_penalty'], line_dash="dash", line_color="orange",
+                              annotation_text="Penalty", annotation_position="top")
+    
+    fig_saifi_payout.update_layout(height=400, showlegend=False)
+    st.plotly_chart(fig_saifi_payout, use_container_width=True)
+
+with col_perf3:
+    # Undervoltage vs Total Payouts  
+    fig_underv_payout = px.scatter(agg_copy, x='undervoltage_mean', y='total_payout', 
+                                  color='performance_zone', size='total_connections',
+                                  hover_data=['site_id', 'performance_multiplier'],
+                                  title='Undervoltage vs Total Payout',
+                                  labels={'undervoltage_mean': 'Average Undervoltage (h/month)',
+                                         'total_payout': 'Total Payout ($)'},
+                                  color_discrete_map={
+                                      'Bonus Zone': '#10B981',      # Green
+                                      'Standard Zone': '#3B82F6',   # Blue  
+                                      'Acceptable Zone': '#F59E0B', # Orange
+                                      'Penalty Zone': '#EF4444'     # Red
+                                  })
+    
+    # Add threshold lines for Undervoltage zones
+    fig_underv_payout.add_vline(x=percentile_thresholds['und_bonus'], line_dash="dash", line_color="green",
+                               annotation_text="Bonus", annotation_position="top")
+    fig_underv_payout.add_vline(x=percentile_thresholds['und_standard'], line_dash="dash", line_color="blue",
+                               annotation_text="Standard", annotation_position="top")
+    fig_underv_payout.add_vline(x=percentile_thresholds['und_penalty'], line_dash="dash", line_color="orange",
+                               annotation_text="Penalty", annotation_position="top")
+    
+    fig_underv_payout.update_layout(height=400, showlegend=True)
+    st.plotly_chart(fig_underv_payout, use_container_width=True)
+
+# Add explanation text
+st.markdown("""
+**Performance Zone Analysis:**
+- **Bonus Zone** (Green): Sites performing in top 2% - receive 20% bonus on Stages 2 & 3
+- **Standard Zone** (Blue): Sites performing in 95th-98th percentile - receive full payment
+- **Acceptable Zone** (Orange): Sites performing in 90th-95th percentile - receive 10% penalty
+- **Penalty Zone** (Red): Sites performing below 90th percentile - receive 30% penalty
+
+*Bubble size represents total connections. Vertical dashed lines show performance zone boundaries.*
+""")
+
+# Multi-metric site drilldown
+st.subheader("Site Drilldown Analysis - All Performance Metrics")
+drill_site = st.selectbox("Select site for detailed analysis", 
+                         options=['Choose a site...'] + agg_copy['site_id'].tolist())
+
+if drill_site != 'Choose a site...':
+    site_df = filtered[filtered['site_id'] == drill_site]
+    if not site_df.empty:
+        # Get site info
+        site_info = agg_copy[agg_copy['site_id'] == drill_site].iloc[0]
+        
+        # Display site summary
+        col_site1, col_site2, col_site3, col_site4 = st.columns(4)
+        col_site1.metric("Connections", f"{site_info['total_connections']}", site_info['connection_status'])
+        col_site2.metric("Avg SAIDI", f"{site_info['SAIDI_mean']:.2f}h", site_info['performance_zone'])
+        col_site3.metric("Avg SAIFI", f"{site_info['SAIFI_mean']:.2f}", f"{site_info['performance_multiplier']:.2f}x multiplier")
+        col_site4.metric("Total Payout", f"${site_info['total_payout']:,.0f}", "All stages")
+        
+        # Monthly performance tracking for all three metrics
+        site_monthly = site_df.groupby(pd.Grouper(key='day', freq='M')).agg({
+            'SAIDI': 'mean', 
+            'SAIFI': 'mean', 
+            'undervoltage_duration': 'mean'
+        }).reset_index()
+        
+        if not site_monthly.empty:
+            # Create subplot for all three metrics
+            fig_multi = make_subplots(rows=3, cols=1, 
+                                     subplot_titles=['SAIDI Performance (Hours/month)', 
+                                                   'SAIFI Performance (Outages/month)',
+                                                   'Undervoltage Duration (Hours/month)'],
+                                     vertical_spacing=0.08)
             
-            # Display site summary
-            col_site1, col_site2, col_site3, col_site4 = st.columns(4)
-            col_site1.metric("Connections", f"{site_info['total_connections']}", site_info['connection_status'])
-            col_site2.metric("Avg SAIDI", f"{site_info['SAIDI_mean']:.2f}h", site_info['performance_zone'])
-            col_site3.metric("Avg SAIFI", f"{site_info['SAIFI_mean']:.2f}", f"{site_info['performance_multiplier']:.2f}x multiplier")
-            col_site4.metric("Total Payout", f"${site_info['total_payout']:,.0f}", "All stages")
+            # SAIDI subplot with threshold zones
+            fig_multi.add_hrect(y0=0, y1=saidi_bonus, fillcolor="green", opacity=0.1, row=1, col=1)
+            fig_multi.add_hrect(y0=saidi_bonus, y1=saidi_standard, fillcolor="blue", opacity=0.1, row=1, col=1)
+            fig_multi.add_hrect(y0=saidi_standard, y1=saidi_penalty, fillcolor="orange", opacity=0.1, row=1, col=1)
+            fig_multi.add_hrect(y0=saidi_penalty, y1=data_ranges['saidi_max'], fillcolor="red", opacity=0.1, row=1, col=1)
             
-            # Monthly performance tracking for all three metrics
-            site_monthly = site_df.groupby(pd.Grouper(key='day', freq='M')).agg({
-                'SAIDI': 'mean', 
-                'SAIFI': 'mean', 
-                'undervoltage_duration': 'mean'
-            }).reset_index()
+            fig_multi.add_trace(go.Scatter(x=site_monthly['day'], y=site_monthly['SAIDI'],
+                                         mode='lines+markers', name='SAIDI', line=dict(color='#FF6B6B')),
+                               row=1, col=1)
             
-            if not site_monthly.empty:
-                # Create subplot for all three metrics
-                fig_multi = make_subplots(rows=3, cols=1, 
-                                         subplot_titles=['SAIDI Performance (Hours/month)', 
-                                                       'SAIFI Performance (Outages/month)',
-                                                       'Undervoltage Duration (Hours/month)'],
-                                         vertical_spacing=0.08)
-                
-                # SAIDI subplot with threshold zones
-                fig_multi.add_hrect(y0=0, y1=saidi_bonus, fillcolor="green", opacity=0.1, row=1, col=1)
-                fig_multi.add_hrect(y0=saidi_bonus, y1=saidi_standard, fillcolor="blue", opacity=0.1, row=1, col=1)
-                fig_multi.add_hrect(y0=saidi_standard, y1=saidi_penalty, fillcolor="orange", opacity=0.1, row=1, col=1)
-                fig_multi.add_hrect(y0=saidi_penalty, y1=data_ranges['saidi_max'], fillcolor="red", opacity=0.1, row=1, col=1)
-                
-                fig_multi.add_trace(go.Scatter(x=site_monthly['day'], y=site_monthly['SAIDI'],
-                                             mode='lines+markers', name='SAIDI', line=dict(color='#FF6B6B')),
-                                   row=1, col=1)
-                
-                # SAIFI subplot with threshold zones
-                fig_multi.add_hrect(y0=0, y1=percentile_thresholds['saifi_bonus'], fillcolor="green", opacity=0.1, row=2, col=1)
-                fig_multi.add_hrect(y0=percentile_thresholds['saifi_bonus'], y1=percentile_thresholds['saifi_standard'], fillcolor="blue", opacity=0.1, row=2, col=1)
-                fig_multi.add_hrect(y0=percentile_thresholds['saifi_standard'], y1=percentile_thresholds['saifi_penalty'], fillcolor="orange", opacity=0.1, row=2, col=1)
-                fig_multi.add_hrect(y0=percentile_thresholds['saifi_penalty'], y1=data_ranges['saifi_max'], fillcolor="red", opacity=0.1, row=2, col=1)
-                
-                fig_multi.add_trace(go.Scatter(x=site_monthly['day'], y=site_monthly['SAIFI'],
-                                             mode='lines+markers', name='SAIFI', line=dict(color='#4ECDC4')),
-                                   row=2, col=1)
-                
-                # Undervoltage subplot with threshold zones
-                fig_multi.add_hrect(y0=0, y1=percentile_thresholds['und_bonus'], fillcolor="green", opacity=0.1, row=3, col=1)
-                fig_multi.add_hrect(y0=percentile_thresholds['und_bonus'], y1=percentile_thresholds['und_standard'], fillcolor="blue", opacity=0.1, row=3, col=1)
-                fig_multi.add_hrect(y0=percentile_thresholds['und_standard'], y1=percentile_thresholds['und_penalty'], fillcolor="orange", opacity=0.1, row=3, col=1)
-                fig_multi.add_hrect(y0=percentile_thresholds['und_penalty'], y1=data_ranges['und_max'], fillcolor="red", opacity=0.1, row=3, col=1)
-                
-                fig_multi.add_trace(go.Scatter(x=site_monthly['day'], y=site_monthly['undervoltage_duration'],
-                                             mode='lines+markers', name='Undervoltage', line=dict(color='#45B7D1')),
-                                   row=3, col=1)
-                
-                fig_multi.update_layout(height=800, title=f'Site {drill_site} - Complete Performance Timeline',
-                                       showlegend=False)
-                fig_multi.update_xaxes(title_text="Month", row=3, col=1)
-                st.plotly_chart(fig_multi, use_container_width=True)
-                
-                # Performance summary table
-                st.markdown("**Recent 6-Month Performance Summary:**")
-                recent_summary = site_monthly.tail(6).round(2)
-                recent_summary.columns = ['Month', 'SAIDI (h)', 'SAIFI (#)', 'Undervoltage (h)']
-                st.dataframe(recent_summary, use_container_width=True)
-                
-                # Stage breakdown for this specific site
-                st.markdown("**Detailed Payout Breakdown:**")
-                breakdown_cols = st.columns(3)
-                breakdown_cols[0].metric("Stage 1 (Connections)", f"${site_info['stage_1_payout']:,.0f}", 
-                                        f"{site_info['total_connections']} connections")
-                breakdown_cols[1].metric("Stage 2 (Quality)", f"${site_info['stage_2_payout']:,.0f}", 
-                                        f"{site_info['performance_multiplier']:.2f}x multiplier")
-                breakdown_cols[2].metric("Stage 3 (Sustained)", f"${site_info['stage_3_payout']:,.0f}", 
-                                        f"{site_info['performance_multiplier']:.2f}x multiplier")
+            # SAIFI subplot with threshold zones
+            fig_multi.add_hrect(y0=0, y1=percentile_thresholds['saifi_bonus'], fillcolor="green", opacity=0.1, row=2, col=1)
+            fig_multi.add_hrect(y0=percentile_thresholds['saifi_bonus'], y1=percentile_thresholds['saifi_standard'], fillcolor="blue", opacity=0.1, row=2, col=1)
+            fig_multi.add_hrect(y0=percentile_thresholds['saifi_standard'], y1=percentile_thresholds['saifi_penalty'], fillcolor="orange", opacity=0.1, row=2, col=1)
+            fig_multi.add_hrect(y0=percentile_thresholds['saifi_penalty'], y1=data_ranges['saifi_max'], fillcolor="red", opacity=0.1, row=2, col=1)
+            
+            fig_multi.add_trace(go.Scatter(x=site_monthly['day'], y=site_monthly['SAIFI'],
+                                         mode='lines+markers', name='SAIFI', line=dict(color='#4ECDC4')),
+                               row=2, col=1)
+            
+            # Undervoltage subplot with threshold zones
+            fig_multi.add_hrect(y0=0, y1=percentile_thresholds['und_bonus'], fillcolor="green", opacity=0.1, row=3, col=1)
+            fig_multi.add_hrect(y0=percentile_thresholds['und_bonus'], y1=percentile_thresholds['und_standard'], fillcolor="blue", opacity=0.1, row=3, col=1)
+            fig_multi.add_hrect(y0=percentile_thresholds['und_standard'], y1=percentile_thresholds['und_penalty'], fillcolor="orange", opacity=0.1, row=3, col=1)
+            fig_multi.add_hrect(y0=percentile_thresholds['und_penalty'], y1=data_ranges['und_max'], fillcolor="red", opacity=0.1, row=3, col=1)
+            
+            fig_multi.add_trace(go.Scatter(x=site_monthly['day'], y=site_monthly['undervoltage_duration'],
+                                         mode='lines+markers', name='Undervoltage', line=dict(color='#45B7D1')),
+                               row=3, col=1)
+            
+            fig_multi.update_layout(height=800, title=f'Site {drill_site} - Complete Performance Timeline',
+                                   showlegend=False)
+            fig_multi.update_xaxes(title_text="Month", row=3, col=1)
+            st.plotly_chart(fig_multi, use_container_width=True)
+            
+            # Performance summary table
+            st.markdown("**Recent 6-Month Performance Summary:**")
+            recent_summary = site_monthly.tail(6).round(2)
+            recent_summary.columns = ['Month', 'SAIDI (h)', 'SAIFI (#)', 'Undervoltage (h)']
+            st.dataframe(recent_summary, use_container_width=True)
+            
+            # Stage breakdown for this specific site
+            st.markdown("**Detailed Payout Breakdown:**")
+            breakdown_cols = st.columns(3)
+            breakdown_cols[0].metric("Stage 1 (Connections)", f"${site_info['stage_1_payout']:,.0f}", 
+                                    f"{site_info['total_connections']} connections")
+            breakdown_cols[1].metric("Stage 2 (Quality)", f"${site_info['stage_2_payout']:,.0f}", 
+                                    f"{site_info['performance_multiplier']:.2f}x multiplier")
+            breakdown_cols[2].metric("Stage 3 (Sustained)", f"${site_info['stage_3_payout']:,.0f}", 
+                                    f"{site_info['performance_multiplier']:.2f}x multiplier")
 
 # --- Export Options ---
 st.markdown("---")
