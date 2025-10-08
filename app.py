@@ -137,11 +137,12 @@ total_project_cost = st.sidebar.number_input("Total Project Cost ($)",
 
 # Connection parameters
 st.sidebar.subheader("Connection Milestones")
-minimum_connections = st.sidebar.number_input("Minimum Connections for Stage 1", 
-                                              min_value=50, 
-                                              max_value=200, 
-                                              value=100, 
-                                              step=10)
+connection_completion_pct = st.sidebar.slider("Stage 1 Completion Percentage (%)", 
+                                            min_value=0, 
+                                            max_value=100, 
+                                            value=70, 
+                                            step=5,
+                                            help="Percentage of target connections required for Stage 1 payment")
 
 connection_payment_per_unit = st.sidebar.number_input("Payment per Connection ($)", 
                                                      min_value=100, 
@@ -156,12 +157,13 @@ stage_3_pct = 100 - stage_1_pct - stage_2_pct
 
 st.sidebar.info(f"""
 Payment Structure:
-- Stage 1 ({stage_1_pct}%): Connection-based payment
+- Stage 1 ({stage_1_pct}%): Paid when {connection_completion_pct}% of target connections achieved
 - Stage 2 ({stage_2_pct}%): Quality assessment after 3 months
 - Stage 3 ({stage_3_pct}%): Sustained performance after 6 months
 
-Connection Model: ${connection_payment_per_unit} per connection (minimum {minimum_connections})
+Connection Model: ${connection_payment_per_unit} per connection + percentage-based milestone
 """)
+
 
 # Date and location filters
 st.sidebar.markdown("---")
@@ -275,22 +277,37 @@ def calculate_performance_multiplier(saidi, saifi, undervoltage, thresholds):
 
 
 def calculate_connection_based_payout(row, total_cost, stage_1_pct, stage_2_pct, stage_3_pct, 
-                                     min_connections, payment_per_connection):
-    """Calculate payout including actual connection numbers"""
+                                     completion_percentage, payment_per_connection):
+    """Calculate payout using percentage-based connection milestones"""
     
-    connections = row['total_connections']
+    actual_connections = row['total_connections']
+    target_connections = row['target_connections']
     
-    # Stage 1: Connection-based payment
-    if connections >= min_connections:
-        # Base Stage 1 amount plus additional per connection
-        base_stage_1 = total_cost * stage_1_pct / 100
-        additional_connections = max(0, connections - min_connections)
+    # Calculate required connections for Stage 1 milestone
+    required_connections = target_connections * (completion_percentage / 100)
+    completion_ratio = actual_connections / target_connections if target_connections > 0 else 0
+    
+    # Stage 1: Percentage-based milestone payment
+    base_stage_1 = total_cost * stage_1_pct / 100
+    
+    if actual_connections >= required_connections:
+        # Full Stage 1 payment + bonus for connections above target
+        additional_connections = max(0, actual_connections - target_connections)
         stage_1_amount = base_stage_1 + (additional_connections * payment_per_connection)
+        connection_status = f"Met ({completion_ratio*100:.1f}% complete)"
     else:
-        # Prorated payment for not meeting minimum threshold
-        stage_1_amount = (total_cost * stage_1_pct / 100) * (connections / min_connections)
+        # Prorated payment based on actual completion percentage
+        actual_completion_pct = (actual_connections / target_connections) * 100 if target_connections > 0 else 0
+        if actual_completion_pct >= completion_percentage:
+            stage_1_amount = base_stage_1
+            connection_status = f"Met ({actual_completion_pct:.1f}% complete)"
+        else:
+            # Prorated payment
+            proration_factor = actual_completion_pct / completion_percentage if completion_percentage > 0 else 0
+            stage_1_amount = base_stage_1 * proration_factor
+            connection_status = f"Below Target ({actual_completion_pct:.1f}% complete)"
     
-    # Stage 2 & 3: Performance-based
+    # Stage 2 & 3: Performance-based (unchanged)
     performance_multiplier = calculate_performance_multiplier(
         row['SAIDI_mean'], row['SAIFI_mean'], row['undervoltage_mean'], percentile_thresholds)
     
@@ -308,8 +325,11 @@ def calculate_connection_based_payout(row, total_cost, stage_1_pct, stage_2_pct,
         'stage_3_payout': stage_3_amount,
         'total_payout': total_payout,
         'performance_multiplier': performance_multiplier,
-        'connection_status': 'Met' if connections >= min_connections else 'Below Minimum'
+        'connection_status': connection_status,
+        'completion_percentage': completion_ratio * 100,
+        'required_connections': required_connections
     }
+
 
 def get_performance_zone(saidi, saifi, undervoltage):
     """Determine overall performance zone - simplified 3-zone system"""
@@ -334,16 +354,17 @@ if not agg_filtered.empty:
     
     payout_results = agg_copy.apply(lambda row: calculate_connection_based_payout(
         row, total_project_cost, stage_1_pct, stage_2_pct, stage_3_pct, 
-        minimum_connections, connection_payment_per_unit), axis=1)
+        connection_completion_pct, connection_payment_per_unit), axis=1)  # Changed parameter name
     
     for key in ['stage_1_payout', 'stage_2_payout', 'stage_3_payout', 'total_payout', 
-                'performance_multiplier', 'connection_status']:
+                'performance_multiplier', 'connection_status', 'completion_percentage', 'required_connections']:
         agg_copy[key] = [result[key] for result in payout_results]
     
     agg_copy['performance_zone'] = agg_copy.apply(lambda row: get_performance_zone(
         row['SAIDI_mean'], row['SAIFI_mean'], row['undervoltage_mean']), axis=1)
 else:
     agg_copy = pd.DataFrame()
+
 
 # --- Dashboard KPI Cards ---
 col1, col2, col3, col4 = st.columns([1,1,1,1])
@@ -418,15 +439,20 @@ if not agg_copy.empty:
     col_viz1, col_viz2 = st.columns(2)
     
     with col_viz1:
-        # Connections vs Stage 1 payout
-        fig_conn = px.scatter(agg_copy, x='total_connections', y='stage_1_payout', 
-                            color='connection_status', size='total_payout',
-                            title='Connections vs Stage 1 Payout',
-                            labels={'total_connections': 'Total Connections', 
-                                   'stage_1_payout': 'Stage 1 Payout ($)'})
-        fig_conn.add_vline(x=minimum_connections, line_dash="dash", line_color="red",
-                          annotation_text=f"Minimum ({minimum_connections})")
-        st.plotly_chart(fig_conn, use_container_width=True)
+    # Connections vs Stage 1 payout with percentage completion
+        fig_conn = px.scatter(agg_copy, x='completion_percentage', y='stage_1_payout', 
+                        color='connection_status', size='total_connections',
+                        title='Connection Completion % vs Stage 1 Payout',
+                        labels={'completion_percentage': 'Completion Percentage (%)', 
+                               'stage_1_payout': 'Stage 1 Payout ($)'},
+                        hover_data=['total_connections', 'target_connections', 'required_connections'])
+
+        fig_conn.add_vline(x=connection_completion_pct, line_dash="dash", line_color="red",
+                      annotation_text=f"Required ({connection_completion_pct}%)")
+        fig_conn.add_vline(x=100, line_dash="dash", line_color="green",
+                      annotation_text="Target (100%)")
+    st.plotly_chart(fig_conn, use_container_width=True)
+
     
     with col_viz2:
         # 3-Stage payment breakdown
