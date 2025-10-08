@@ -42,29 +42,34 @@ The dashboard automatically computes payments, visualizes results, and allows us
 ## **Dashboard Screenshots**
 
 ###  **Main Dashboard Overview**
-*[Upload your main dashboard screenshot here]*
 
-![Main Dashboard](images/main-dashboard.png)
 
-###  **Performance Analytics**
-*[Upload your performance visualizations here]*
+![Main Dashboard](images/maindashboard.png)
 
-![Performance Analytics](images/performance-analytics.png)
+### **Performance Analytics**
 
-###  **Sunburst Visualization**
-*[Upload your sunburst chart screenshot here]*
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <img src="images/saifi.png" alt="SAIFI Performance" width="45%">
+  <img src="images/saidi.png" alt="SAIDI Performance" width="45%">
+  <img src="images/undervoltage.png" alt="Undervoltage Performance" width="45%">
+  <img src="images/Connection_Completion.png" alt="Connection Completion" width="45%">
+</div>
 
-![Sunburst Chart](images/sunburst-chart.png)
+### **Sunburst Visualization**
+
+
+
+![Sunburst Chart](images/sunburst_chart.png)
 
 ### **Site Drilldown Analysis**
-*[Upload your site drilldown screenshot here]*
+
 
 ![Site Analysis](images/site-drilldown.png)
 
 ###  **Performance vs Payouts**
-*[Upload your performance vs payouts charts here]*
 
-![Performance Payouts](images/performance-payouts.png)
+
+![Performance Payouts](images/perfomance_payouts.png)
 
 ---
 
