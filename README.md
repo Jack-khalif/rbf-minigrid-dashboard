@@ -46,7 +46,11 @@ The dashboard automatically computes payments, visualizes results, and allows us
 
 ![Main Dashboard](images/maindashboard.png)
 
+<<<<<<< HEAD
 ### **Performance Analytics**
+=======
+![Performance Analytics](images/performance_analytics.png)
+>>>>>>> 75a262a577dc63ed6a6a8b42d6798f28f0fc4710
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <img src="images/saifi.png" alt="SAIFI Performance" width="45%">
@@ -55,21 +59,28 @@ The dashboard automatically computes payments, visualizes results, and allows us
   <img src="images/Connection_Completion.png" alt="Connection Completion" width="45%">
 </div>
 
+<<<<<<< HEAD
 ### **Sunburst Visualization**
 
 
 
+=======
+>>>>>>> 75a262a577dc63ed6a6a8b42d6798f28f0fc4710
 ![Sunburst Chart](images/sunburst_chart.png)
 
 ### **Site Drilldown Analysis**
 
 
-![Site Analysis](images/site-drilldown.png)
+![Site Analysis](images/site_drilldown.png)
 
 ###  **Performance vs Payouts**
 
+<<<<<<< HEAD
 
 ![Performance Payouts](images/perfomance_payouts.png)
+=======
+![Performance Payouts](images/performance_payouts.png)
+>>>>>>> 75a262a577dc63ed6a6a8b42d6798f28f0fc4710
 
 ---
 
