@@ -208,6 +208,4 @@ stage_1_cap = 0.30             # Maximum 30% of total project cost
 ```
 
 
-- 🚀 **Action-oriented** with clear calls-to-action and links
 
-Just replace the image placeholders with your actual screenshots and update the GitHub links with your repository details!
