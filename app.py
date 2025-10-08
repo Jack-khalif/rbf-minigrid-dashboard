@@ -482,20 +482,24 @@ if not agg_copy.empty:
                                xaxis_tickangle=45)
         st.plotly_chart(fig_stages, use_container_width=True)
     
-## Performance Metrics vs Total Payouts Analysis
-st.subheader("Performance Metrics vs Total Payouts Analysis")
+# Performance Metrics vs Performance-Based Payouts Analysis
+st.subheader("Performance Metrics vs Performance-Based Payouts Analysis")
+
+# Calculate performance-based payout (Stage 2 + Stage 3 only)
+if not agg_copy.empty:
+    agg_copy['performance_based_payout'] = agg_copy['stage_2_payout'] + agg_copy['stage_3_payout']
 
 # Create three columns for the three metrics
 col_perf1, col_perf2, col_perf3 = st.columns(3)
 
 with col_perf1:
-    # SAIDI vs Total Payouts
-    fig_saidi_payout = px.scatter(agg_copy, x='SAIDI_mean', y='total_payout', 
+    # SAIDI vs Performance-Based Payouts (Stage 2 + 3)
+    fig_saidi_payout = px.scatter(agg_copy, x='SAIDI_mean', y='performance_based_payout', 
                                  color='performance_zone', size='total_connections',
-                                 hover_data=['site_id', 'performance_multiplier'],
-                                 title='SAIDI vs Total Payout',
+                                 hover_data=['site_id', 'performance_multiplier', 'stage_2_payout', 'stage_3_payout'],
+                                 title='SAIDI vs Performance-Based Payout',
                                  labels={'SAIDI_mean': 'Average SAIDI (h/month)',
-                                        'total_payout': 'Total Payout ($)'},
+                                        'performance_based_payout': 'Stage 2+3 Payout ($)'},
                                  color_discrete_map={
                                      'Bonus Zone': '#10B981',      # Green
                                      'Standard Zone': '#3B82F6',   # Blue  
@@ -512,13 +516,13 @@ with col_perf1:
     st.plotly_chart(fig_saidi_payout, use_container_width=True)
 
 with col_perf2:
-    # SAIFI vs Total Payouts
-    fig_saifi_payout = px.scatter(agg_copy, x='SAIFI_mean', y='total_payout', 
+    # SAIFI vs Performance-Based Payouts (Stage 2 + 3)
+    fig_saifi_payout = px.scatter(agg_copy, x='SAIFI_mean', y='performance_based_payout', 
                                  color='performance_zone', size='total_connections',
-                                 hover_data=['site_id', 'performance_multiplier'],
-                                 title='SAIFI vs Total Payout',
+                                 hover_data=['site_id', 'performance_multiplier', 'stage_2_payout', 'stage_3_payout'],
+                                 title='SAIFI vs Performance-Based Payout',
                                  labels={'SAIFI_mean': 'Average SAIFI (#/month)',
-                                        'total_payout': 'Total Payout ($)'},
+                                        'performance_based_payout': 'Stage 2+3 Payout ($)'},
                                  color_discrete_map={
                                      'Bonus Zone': '#10B981',      # Green
                                      'Standard Zone': '#3B82F6',   # Blue  
@@ -535,13 +539,13 @@ with col_perf2:
     st.plotly_chart(fig_saifi_payout, use_container_width=True)
 
 with col_perf3:
-    # Undervoltage vs Total Payouts  
-    fig_underv_payout = px.scatter(agg_copy, x='undervoltage_mean', y='total_payout', 
+    # Undervoltage vs Performance-Based Payouts (Stage 2 + 3)
+    fig_underv_payout = px.scatter(agg_copy, x='undervoltage_mean', y='performance_based_payout', 
                                   color='performance_zone', size='total_connections',
-                                  hover_data=['site_id', 'performance_multiplier'],
-                                  title='Undervoltage vs Total Payout',
+                                  hover_data=['site_id', 'performance_multiplier', 'stage_2_payout', 'stage_3_payout'],
+                                  title='Undervoltage vs Performance-Based Payout',
                                   labels={'undervoltage_mean': 'Average Undervoltage (h/month)',
-                                         'total_payout': 'Total Payout ($)'},
+                                         'performance_based_payout': 'Stage 2+3 Payout ($)'},
                                   color_discrete_map={
                                       'Bonus Zone': '#10B981',      # Green
                                       'Standard Zone': '#3B82F6',   # Blue  
@@ -559,13 +563,16 @@ with col_perf3:
 
 # Add explanation text
 st.markdown("""
-**Performance Zone Analysis:**
-- **Bonus Zone** (Green): Sites above the 95th percentile - receive bonus on Stages 2 & 3
-- **Standard Zone** (Blue): Sites performing in 90th-95th percentile - receive full payment
-- **Penalty Zone** (Red): Sites performing below 90th percentile - penalty applied with 50% minimum payout
+**Performance-Based Payout Analysis:**
+- **Y-axis shows Stage 2 + Stage 3 payouts only** (performance-based portions)
+- **Stage 1 is connection-based** and not affected by SAIDI/SAIFI/Undervoltage performance
+- **Bonus Zone** (Green): Sites above the 95th percentile - receive bonus multiplier on performance payments
+- **Standard Zone** (Blue): Sites performing in 90th-95th percentile - receive full performance payments
+- **Penalty Zone** (Red): Sites performing below 90th percentile - penalty applied with 50% minimum
 
 *Bubble size represents total connections. Vertical dashed lines show 90th and 95th percentile boundaries.*
 """)
+
 
 # Multi-metric site drilldown
 st.subheader("Site Drilldown Analysis - All Performance Metrics")
