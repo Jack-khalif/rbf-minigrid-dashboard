@@ -49,22 +49,22 @@ The dashboard automatically computes payments, visualizes results, and allows us
 ###  **Performance Analytics**
 *[Upload your performance visualizations here]*
 
-![Performance Analytics](images/performance-analytics.png)
+![Performance Analytics](images/performance_analytics.png)
 
 ###  **Sunburst Visualization**
 *[Upload your sunburst chart screenshot here]*
 
-![Sunburst Chart](images/sunburst-chart.png)
+![Sunburst Chart](images/sunburst_chart.png)
 
 ### **Site Drilldown Analysis**
 *[Upload your site drilldown screenshot here]*
 
-![Site Analysis](images/site-drilldown.png)
+![Site Analysis](images/site_drilldown.png)
 
 ###  **Performance vs Payouts**
 *[Upload your performance vs payouts charts here]*
 
-![Performance Payouts](images/performance-payouts.png)
+![Performance Payouts](images/performance_payouts.png)
 
 ---
 
