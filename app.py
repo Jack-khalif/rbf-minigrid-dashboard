@@ -452,7 +452,7 @@ with col_perf1:
                                  color_discrete_map={
                                      'Bonus Zone': '#10B981',      # Green
                                      'Standard Zone': '#3B82F6',   # Blue  
-                                     'Acceptable Zone': '#F59E0B', # Orange
+                                     
                                      'Penalty Zone': '#EF4444'     # Red
                                  })
     
@@ -461,7 +461,7 @@ with col_perf1:
                               annotation_text="Bonus", annotation_position="top")
     fig_saidi_payout.add_vline(x=saidi_standard, line_dash="dash", line_color="blue",
                               annotation_text="Standard", annotation_position="top")
-    fig_saidi_payout.add_vline(x=saidi_penalty, line_dash="dash", line_color="orange",
+    fig_saidi_payout.add_vline(x=saidi_penalty, line_dash="dash", line_color="red",
                               annotation_text="Penalty", annotation_position="top")
     
     fig_saidi_payout.update_layout(height=400, showlegend=False)
@@ -478,7 +478,7 @@ with col_perf2:
                                  color_discrete_map={
                                      'Bonus Zone': '#10B981',      # Green
                                      'Standard Zone': '#3B82F6',   # Blue  
-                                     'Acceptable Zone': '#F59E0B', # Orange
+                                     
                                      'Penalty Zone': '#EF4444'     # Red
                                  })
     
@@ -487,7 +487,7 @@ with col_perf2:
                               annotation_text="Bonus", annotation_position="top")
     fig_saifi_payout.add_vline(x=percentile_thresholds['saifi_standard'], line_dash="dash", line_color="blue",
                               annotation_text="Standard", annotation_position="top")
-    fig_saifi_payout.add_vline(x=percentile_thresholds['saifi_penalty'], line_dash="dash", line_color="orange",
+    fig_saifi_payout.add_vline(x=percentile_thresholds['saifi_penalty'], line_dash="dash", line_color="red",
                               annotation_text="Penalty", annotation_position="top")
     
     fig_saifi_payout.update_layout(height=400, showlegend=False)
@@ -504,7 +504,7 @@ with col_perf3:
                                   color_discrete_map={
                                       'Bonus Zone': '#10B981',      # Green
                                       'Standard Zone': '#3B82F6',   # Blue  
-                                      'Acceptable Zone': '#F59E0B', # Orange
+                                
                                       'Penalty Zone': '#EF4444'     # Red
                                   })
     
@@ -513,7 +513,7 @@ with col_perf3:
                                annotation_text="Bonus", annotation_position="top")
     fig_underv_payout.add_vline(x=percentile_thresholds['und_standard'], line_dash="dash", line_color="blue",
                                annotation_text="Standard", annotation_position="top")
-    fig_underv_payout.add_vline(x=percentile_thresholds['und_penalty'], line_dash="dash", line_color="orange",
+    fig_underv_payout.add_vline(x=percentile_thresholds['und_penalty'], line_dash="dash", line_color="red",
                                annotation_text="Penalty", annotation_position="top")
     
     fig_underv_payout.update_layout(height=400, showlegend=True)
@@ -522,9 +522,9 @@ with col_perf3:
 # Add explanation text
 st.markdown("""
 **Performance Zone Analysis:**
-- **Bonus Zone** (Green): Sites performing in top 2% - receive 20% bonus on Stages 2 & 3
-- **Standard Zone** (Blue): Sites performing in 95th-98th percentile - receive full payment
-- **Acceptable Zone** (Orange): Sites performing in 90th-95th percentile - receive 10% penalty
+- **Bonus Zone** (Green): Sites above the 95th percentile - receive 20% bonus on Stages 2 & 3
+- **Standard Zone** (Blue): Sites performing in 90th-95th percentile - receive full payment
+-
 - **Penalty Zone** (Red): Sites performing below 90th percentile - receive 30% penalty
 
 *Bubble size represents total connections. Vertical dashed lines show performance zone boundaries.*
@@ -566,7 +566,6 @@ if drill_site != 'Choose a site...':
             # SAIDI subplot with threshold zones
             fig_multi.add_hrect(y0=0, y1=saidi_bonus, fillcolor="green", opacity=0.1, row=1, col=1)
             fig_multi.add_hrect(y0=saidi_bonus, y1=saidi_standard, fillcolor="blue", opacity=0.1, row=1, col=1)
-            fig_multi.add_hrect(y0=saidi_standard, y1=saidi_penalty, fillcolor="orange", opacity=0.1, row=1, col=1)
             fig_multi.add_hrect(y0=saidi_penalty, y1=data_ranges['saidi_max'], fillcolor="red", opacity=0.1, row=1, col=1)
             
             fig_multi.add_trace(go.Scatter(x=site_monthly['day'], y=site_monthly['SAIDI'],
@@ -576,7 +575,6 @@ if drill_site != 'Choose a site...':
             # SAIFI subplot with threshold zones
             fig_multi.add_hrect(y0=0, y1=percentile_thresholds['saifi_bonus'], fillcolor="green", opacity=0.1, row=2, col=1)
             fig_multi.add_hrect(y0=percentile_thresholds['saifi_bonus'], y1=percentile_thresholds['saifi_standard'], fillcolor="blue", opacity=0.1, row=2, col=1)
-            fig_multi.add_hrect(y0=percentile_thresholds['saifi_standard'], y1=percentile_thresholds['saifi_penalty'], fillcolor="orange", opacity=0.1, row=2, col=1)
             fig_multi.add_hrect(y0=percentile_thresholds['saifi_penalty'], y1=data_ranges['saifi_max'], fillcolor="red", opacity=0.1, row=2, col=1)
             
             fig_multi.add_trace(go.Scatter(x=site_monthly['day'], y=site_monthly['SAIFI'],
@@ -586,7 +584,6 @@ if drill_site != 'Choose a site...':
             # Undervoltage subplot with threshold zones
             fig_multi.add_hrect(y0=0, y1=percentile_thresholds['und_bonus'], fillcolor="green", opacity=0.1, row=3, col=1)
             fig_multi.add_hrect(y0=percentile_thresholds['und_bonus'], y1=percentile_thresholds['und_standard'], fillcolor="blue", opacity=0.1, row=3, col=1)
-            fig_multi.add_hrect(y0=percentile_thresholds['und_standard'], y1=percentile_thresholds['und_penalty'], fillcolor="orange", opacity=0.1, row=3, col=1)
             fig_multi.add_hrect(y0=percentile_thresholds['und_penalty'], y1=data_ranges['und_max'], fillcolor="red", opacity=0.1, row=3, col=1)
             
             fig_multi.add_trace(go.Scatter(x=site_monthly['day'], y=site_monthly['undervoltage_duration'],
