@@ -252,25 +252,27 @@ else:
 
 # --- 3-Stage Payment Calculation with Connection-Based Logic ---
 def calculate_performance_multiplier(saidi, saifi, undervoltage, thresholds):
-    """Calculate performance multiplier for Stages 2 & 3"""
-    def get_zone_score(value, penalty_thresh, standard_thresh, bonus_thresh):
-        if value <= bonus_thresh:
+    """Calculate performance multiplier for Stages 2 & 3 - 3-zone system"""
+    def get_zone_score(value, penalty_thresh, standard_thresh):
+        if value <= standard_thresh:  # Above 95th percentile
             return 1.2  # 20% bonus
-        elif value <= standard_thresh:
+        elif value <= penalty_thresh:  # 90th-95th percentile  
             return 1.0  # Full payment
-        elif value <= penalty_thresh:
-            return 0.9  # 10% penalty
-        else:
-            return 0.7  # 30% penalty
+        else:  # Below 90th percentile
+            return 0.7  # 30% penalty (with 50% minimum cap applied later)
     
-    saidi_score = get_zone_score(saidi, saidi_penalty, saidi_standard, saidi_bonus)
+    saidi_score = get_zone_score(saidi, saidi_penalty, saidi_standard)
     saifi_score = get_zone_score(saifi, percentile_thresholds['saifi_penalty'], 
-                                percentile_thresholds['saifi_standard'], percentile_thresholds['saifi_bonus'])
+                                percentile_thresholds['saifi_standard'])
     underv_score = get_zone_score(undervoltage, percentile_thresholds['und_penalty'], 
-                                 percentile_thresholds['und_standard'], percentile_thresholds['und_bonus'])
+                                 percentile_thresholds['und_standard'])
     
+    # Weighted composite multiplier
     composite_multiplier = 0.5 * saidi_score + 0.3 * saifi_score + 0.2 * underv_score
-    return max(0.5, min(1.3, composite_multiplier))
+    
+    # Cap between 0.5 and 1.2 (50% minimum, 20% maximum bonus)
+    return max(0.5, min(1.2, composite_multiplier))
+
 
 def calculate_connection_based_payout(row, total_cost, stage_1_pct, stage_2_pct, stage_3_pct, 
                                      min_connections, payment_per_connection):
@@ -310,15 +312,21 @@ def calculate_connection_based_payout(row, total_cost, stage_1_pct, stage_2_pct,
     }
 
 def get_performance_zone(saidi, saifi, undervoltage):
-    """Determine overall performance zone"""
-    if saidi <= saidi_bonus and saifi <= percentile_thresholds['saifi_bonus']:
+    """Determine overall performance zone - simplified 3-zone system"""
+    # Check if any metric is above 95th percentile (bonus zone)
+    if (saidi <= percentile_thresholds['saidi_standard'] and 
+        saifi <= percentile_thresholds['saifi_standard'] and 
+        undervoltage <= percentile_thresholds['und_standard']):
         return "Bonus Zone"
-    elif saidi <= saidi_standard and saifi <= percentile_thresholds['saifi_standard']:
-        return "Standard Zone"
-    elif saidi <= saidi_penalty and saifi <= percentile_thresholds['saifi_penalty']:
-        return "Acceptable Zone"
-    else:
+    # Check if any metric is below 90th percentile (penalty zone)
+    elif (saidi > percentile_thresholds['saidi_penalty'] or 
+          saifi > percentile_thresholds['saifi_penalty'] or 
+          undervoltage > percentile_thresholds['und_penalty']):
         return "Penalty Zone"
+    # Everything else is standard zone (90th-95th percentile)
+    else:
+        return "Standard Zone"
+
 
 # Apply calculations
 if not agg_filtered.empty:
@@ -435,7 +443,7 @@ if not agg_copy.empty:
                                xaxis_tickangle=45)
         st.plotly_chart(fig_stages, use_container_width=True)
     
-# Performance Metrics vs Total Payouts Analysis
+## Performance Metrics vs Total Payouts Analysis
 st.subheader("Performance Metrics vs Total Payouts Analysis")
 
 # Create three columns for the three metrics
@@ -452,17 +460,14 @@ with col_perf1:
                                  color_discrete_map={
                                      'Bonus Zone': '#10B981',      # Green
                                      'Standard Zone': '#3B82F6',   # Blue  
-                                     
                                      'Penalty Zone': '#EF4444'     # Red
                                  })
     
     # Add threshold lines for SAIDI zones
-    fig_saidi_payout.add_vline(x=saidi_bonus, line_dash="dash", line_color="green", 
-                              annotation_text="Bonus", annotation_position="top")
-    fig_saidi_payout.add_vline(x=saidi_standard, line_dash="dash", line_color="blue",
-                              annotation_text="Standard", annotation_position="top")
+    fig_saidi_payout.add_vline(x=saidi_standard, line_dash="dash", line_color="green", 
+                              annotation_text="95th Percentile", annotation_position="top")
     fig_saidi_payout.add_vline(x=saidi_penalty, line_dash="dash", line_color="red",
-                              annotation_text="Penalty", annotation_position="top")
+                              annotation_text="90th Percentile", annotation_position="top")
     
     fig_saidi_payout.update_layout(height=400, showlegend=False)
     st.plotly_chart(fig_saidi_payout, use_container_width=True)
@@ -478,17 +483,14 @@ with col_perf2:
                                  color_discrete_map={
                                      'Bonus Zone': '#10B981',      # Green
                                      'Standard Zone': '#3B82F6',   # Blue  
-                                     
                                      'Penalty Zone': '#EF4444'     # Red
                                  })
     
     # Add threshold lines for SAIFI zones
-    fig_saifi_payout.add_vline(x=percentile_thresholds['saifi_bonus'], line_dash="dash", line_color="green",
-                              annotation_text="Bonus", annotation_position="top")
-    fig_saifi_payout.add_vline(x=percentile_thresholds['saifi_standard'], line_dash="dash", line_color="blue",
-                              annotation_text="Standard", annotation_position="top")
+    fig_saifi_payout.add_vline(x=percentile_thresholds['saifi_standard'], line_dash="dash", line_color="green",
+                              annotation_text="95th Percentile", annotation_position="top")
     fig_saifi_payout.add_vline(x=percentile_thresholds['saifi_penalty'], line_dash="dash", line_color="red",
-                              annotation_text="Penalty", annotation_position="top")
+                              annotation_text="90th Percentile", annotation_position="top")
     
     fig_saifi_payout.update_layout(height=400, showlegend=False)
     st.plotly_chart(fig_saifi_payout, use_container_width=True)
@@ -504,17 +506,14 @@ with col_perf3:
                                   color_discrete_map={
                                       'Bonus Zone': '#10B981',      # Green
                                       'Standard Zone': '#3B82F6',   # Blue  
-                                
                                       'Penalty Zone': '#EF4444'     # Red
                                   })
     
     # Add threshold lines for Undervoltage zones
-    fig_underv_payout.add_vline(x=percentile_thresholds['und_bonus'], line_dash="dash", line_color="green",
-                               annotation_text="Bonus", annotation_position="top")
-    fig_underv_payout.add_vline(x=percentile_thresholds['und_standard'], line_dash="dash", line_color="blue",
-                               annotation_text="Standard", annotation_position="top")
+    fig_underv_payout.add_vline(x=percentile_thresholds['und_standard'], line_dash="dash", line_color="green",
+                               annotation_text="95th Percentile", annotation_position="top")
     fig_underv_payout.add_vline(x=percentile_thresholds['und_penalty'], line_dash="dash", line_color="red",
-                               annotation_text="Penalty", annotation_position="top")
+                               annotation_text="90th Percentile", annotation_position="top")
     
     fig_underv_payout.update_layout(height=400, showlegend=True)
     st.plotly_chart(fig_underv_payout, use_container_width=True)
@@ -522,12 +521,11 @@ with col_perf3:
 # Add explanation text
 st.markdown("""
 **Performance Zone Analysis:**
-- **Bonus Zone** (Green): Sites above the 95th percentile - receive 20% bonus on Stages 2 & 3
+- **Bonus Zone** (Green): Sites above the 95th percentile - receive bonus on Stages 2 & 3
 - **Standard Zone** (Blue): Sites performing in 90th-95th percentile - receive full payment
--
-- **Penalty Zone** (Red): Sites performing below 90th percentile - receive 30% penalty
+- **Penalty Zone** (Red): Sites performing below 90th percentile - penalty applied with 50% minimum payout
 
-*Bubble size represents total connections. Vertical dashed lines show performance zone boundaries.*
+*Bubble size represents total connections. Vertical dashed lines show 90th and 95th percentile boundaries.*
 """)
 
 # Multi-metric site drilldown
