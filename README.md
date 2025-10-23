@@ -1,4 +1,4 @@
-##   QA-RBF Mini-Grid Dashboard  
+##   RBF Mini-Grid Dashboard  
 ### Results-Based Financing for Mini-Grid Excellence  
 
 Live Demo: https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app  
