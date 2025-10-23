@@ -151,11 +151,4 @@ Advanced Analytics
 
 Accessibility  
 - Mobile-responsive design  
-- Offline field-use support  
-- Progressive Web App features  
-
-Enterprise  
-- Role-based access control  
-- Multi-step approval workflows  
-- Enhanced audit trail  
-
+- Offline field-use support   
