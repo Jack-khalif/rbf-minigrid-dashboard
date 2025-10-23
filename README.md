@@ -164,7 +164,6 @@ Enterprise
 Quick Links  
 Live Dashboard: https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app  
 License: MIT  
-Contribute: See contributing section  
-Report Issues: Via GitHub issues  
+
 
 ---
