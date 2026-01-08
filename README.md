@@ -2,8 +2,6 @@
 ### Results-Based Financing for Mini-Grid Excellence  
 
 Live Demo: https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app  
-
-
 ---
 ##  Project Overview
 
