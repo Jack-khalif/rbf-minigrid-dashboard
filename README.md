@@ -41,7 +41,6 @@ The dashboard automatically computes payments, visualizes results, and allows us
 
 ###  **Main Dashboard Overview**
 
-
 ![Main Dashboard](images/maindashboard.png)
 
 ### **Performance Analytics**
