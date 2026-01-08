@@ -6,7 +6,6 @@ Live Demo: https://jack-khalif-rbf-minigrid-dashboard-app-xyjpez.streamlit.app
 ##  Project Overview
 
 The **RBF Mini-Grid Dashboard** revolutionizes how mini-grid projects are financed and monitored in developing regions. By implementing a sophisticated **3-Stage Payment Model** combined with **adaptive percentile-based benchmarking**, this dashboard ensures that funding flows are directly tied to both infrastructure deployment and sustained service quality.
-
 ### Key Problems Solved
 
 | Challenge | Solution |
