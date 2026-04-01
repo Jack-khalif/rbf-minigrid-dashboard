@@ -16,16 +16,13 @@ The **RBF Mini-Grid Dashboard** revolutionizes how mini-grid projects are financ
 ---
 ### **Proposed model**
 The RBF Mini-Grid model is a data-driven platform that connects funding to real mini-grid performance. It ensures that financial disbursements reflect service quality and reliability through a structured three-stage payment model.  
-
 Stage 1 (30%): Based on connection milestones  
 Stage 2 (50%): Evaluated after a three-month quality assessment  
 Stage 3 (20%): Verified after six months of sustained performance  
-
 The system uses adaptive percentile-based benchmarking to rank sites dynamically:  
 Bonus Zone – Above 95th percentile  
 Standard Zone – Between 90th and 95th percentile  
 Penalty Zone – Below 90th percentile  
-
 Performance is measured using three key metrics:  
 SAIDI – System Average Interruption Duration Index (50%)  
 SAIFI – System Average Interruption Frequency Index (30%)  
@@ -129,7 +126,6 @@ stage_1_cap = 0.30
 
 ---
 
-Future Roadmap  
 
 Real-Time Integration  
 - Live data streams from monitoring systems  
