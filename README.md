@@ -13,7 +13,6 @@ The **RBF Mini-Grid Dashboard** revolutionizes how mini-grid projects are financ
 | **Complex Payment Calculations** | Automated multi-stage payout computation |
 |  **Limited Stakeholder Transparency** | Interactive visualizations for all stakeholders |
 |  **One-size-fits-all Approaches** | Context-sensitive performance zones |
-
 ---
 ### **Proposed model**
 The RBF Mini-Grid model is a data-driven platform that connects funding to real mini-grid performance. It ensures that financial disbursements reflect service quality and reliability through a structured three-stage payment model.  
